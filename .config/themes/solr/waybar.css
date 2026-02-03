@@ -1,0 +1,63 @@
+@define-color foreground #4c4f69; /* text */
+@define-color background #ffefe0; /* base */
+@define-color border     #ff9898; /* crust */
+@define-color accent     #1e66f5; /* blue */
+
+
+window#waybar {
+  background: @transparent;
+  border: 2px solid rgba(255, 152, 152, 0.5);
+  border: none;
+}
+
+.modules-left,
+.modules-right {
+  background-color: rgba(255, 101, 87, 0.25); /* #605a80, translucent */
+  border: 1px solid rgba(255, 101, 87, 0);
+}
+
+.modules-center {
+  background-color: rgba(255, 101, 87, 0.25); /* #605a80, translucent */
+  border: 1px solid rgba(255, 101, 87, 0);
+
+}
+
+#comworkspaces,
+#mpris,
+#custom-clock-jp,
+#center-indicators,
+#tray-expander,
+#bluetoothstuff,
+#pulseaudio,
+#network,
+#custom-memory,
+#cpu,
+#custom-temperature,
+#power {
+  background: @background;
+  border: 2px solid rgba(255, 101, 87, 0.5);
+}
+
+#mpris.paused {
+  color: rgba(255, 101, 87, 0.92);
+}
+
+#pulseaudio.muted {
+  color: rgba(255, 101, 87, 0.92);
+}
+
+#custom-omarchy {
+  color: rgba(255, 101, 87, 0.92);
+}
+
+#custom-omarchy-update{
+  color: rgba(255, 101, 87, 0.92);
+}
+
+#workspaces {
+  color: rgba(254, 251, 208, 0.92);
+}
+
+#custom-memory.warning {
+  color: rgba (1, 1, 1, 1);
+}

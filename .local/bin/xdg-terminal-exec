@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+class=""
+
+if [[ "${1:-}" == --class=* ]]; then
+  class="${1#--class=}"
+  shift
+fi
+
+[[ "${1:-}" == "-e" ]] || {
+  echo "Usage: xdg-terminal-exec [--class=NAME] -e cmd [args...]" >&2
+  exit 2
+}
+shift
+
+exec kitty ${class:+--class "$class"} -e "$@"

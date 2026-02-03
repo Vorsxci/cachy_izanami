@@ -1,0 +1,134 @@
+# Glass pane
+shape {
+  monitor =
+  size = 1020, 760
+  rounding = 26
+  color = $lock_glass
+  border_size = 3
+  border_color = $lock_accent
+  position = 0, 0
+  halign = center
+  valign = center
+
+  shadow_passes = 3
+  shadow_size = 18
+  shadow_color = $lock_glow
+  zindex = 0
+}
+
+
+
+# Hostname under the logo
+# Host icon (accent)
+label {
+  monitor =
+  text = 󰍹
+  font_family = CaskaydiaCove Nerd Font Mono
+  font_size = 80
+  color = $lock_textalt
+  position = -85, 225
+  halign = center
+  valign = center
+  zindex = 1
+}
+
+# Hostname text
+label {
+  monitor =
+  text = cmd[update:60000] /usr/bin/hostname
+  font_family = $lock_font
+  font_size = 40
+  color = $lock_text
+  position = 55, 225
+  halign = center
+  valign = center
+  zindex = 1
+}
+
+
+# User row above password field (icon + username)
+# User icon (accent)
+label {
+  monitor =
+  text = 
+  font_family = CaskaydiaCove Nerd Font Mono
+  font_size = 100
+  color = $lock_textalt
+  position = -315, 50
+  halign = center
+  valign = center
+  zindex = 1
+}
+
+# Username text
+label {
+  monitor =
+  text = cmd[update:60000] /usr/bin/whoami
+  font_family = $lock_font
+  font_size = 60
+  color = $lock_text
+  position = -135, 50
+  halign = center
+  valign = center
+  zindex = 1
+}
+
+
+
+# Login field inside the pane
+input-field {
+  monitor =
+  size = 700, 106
+  rounding = 18
+  position = 0, -150
+  halign = center
+  valign = center
+
+  inner_color = $lock_field
+  font_color = $lock_text
+  font_family = $lock_font
+  font_size = 20
+
+  outline_thickness = 3
+  outer_color = $lock_accent
+
+  placeholder_text = Enter Password
+  dots_spacing = 0.25
+  dots_center = true
+  fade_on_empty = false
+}
+
+
+# Glass panel behind image
+shape {
+  monitor =
+  size = 425, 200
+  rounding = 18
+  color = $lock_imageback        # glass tint (adjust alpha to taste)
+  border_size = 2
+  border_color = rgba(255,255,255,0.08)   # subtle rim highlight
+  position = 0, 375
+  halign = center
+  valign = center
+
+  shadow_passes = 2
+  shadow_size = 14
+  shadow_color = rgba(0,0,0,0.35)
+  zindex = 9
+}
+
+
+# OS/Omarchy logo overlapping the pane border
+image {
+  monitor =
+  path = $lock_logo
+  size = 200
+  rounding = 18
+  border_size = 3
+  border_color = $lock_accent
+  position = 0, 375
+  halign = center
+  valign = center
+  zindex = 10
+}
+

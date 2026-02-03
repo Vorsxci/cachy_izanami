@@ -1,0 +1,20 @@
+#!/bin/bash
+
+#Launch hyprlock in safe env
+
+#Ensure that hyprland is running, and if so, make sure hyprlock is running
+#If not, run it
+
+if pgrep hyprland >/dev/null; then
+  echo "Hyprland is running"
+  if pgrep hyprlock </dev/null; then
+    echo "Starting hyprlock"
+    exec setsid hyprlock -c /home/kazuki/.config/hypr/hyprlock.conf
+  fi
+else
+  notify-send "You're screwed bud"
+fi
+echo "Run"
+#Run hyprlock anyway bc idle keybind :)
+
+#exec hyprlock -c /home/kazuki/.config/hypr/hyprlock.conf

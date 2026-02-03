@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Launch the fastfetch TUI that gives information about the current system.
+
+exec launch-tui "bash -c 'fastfetch'"

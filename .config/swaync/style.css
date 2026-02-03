@@ -1,0 +1,66 @@
+@import "../themes/current/swaync.css";
+
+/* Kill outer layer slab */
+window,
+.notification-window,
+.notification-background,
+.blank-window {
+  background: transparent;
+  box-shadow: none;
+}
+
+/* =========================
+   Notification card
+   ========================= */
+.notification {
+  border-radius: 18px;
+  padding: 22px;
+
+  background: alpha(@base, 0.95);
+
+  /* GRADIENT BORDER */
+  border: 4px solid transparent; /* required for border-image */
+  border-image: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0) 0%,
+    alpha(@grad1, 1) 18%,
+    /*alpha(@grad2, 0.60) 9%,*/
+    alpha(@grad3, 1) 36%,
+    alpha(@grad4, 1) 50%,
+    alpha(@grad5, 1) 75%,
+    rgba(0, 0, 0, 0) 100%,
+    transparent 55%,
+    transparent 100%
+  ) 1;
+
+  /* Exact same glow stack as Walker */
+  box-shadow:
+    0 18px 46px rgba(0, 0, 0, 0.50),
+    0 6px 16px rgba(0, 0, 0, 0.35),
+    0 0 0 1px alpha(@border2, 0.6),
+    0 0 12px alpha(@border, 0.35),
+    0 0 36px alpha(@border, 0.25);
+    0 -6px 16px rgba(0, 0, 0, 0.35),
+    0 -18px 46px rgba(0, 0, 0, 0.50),
+
+
+  color: @text;
+}
+
+.notification-content {
+  background: transparent;
+}
+
+.summary {
+  color: @border2;
+  font-weight: 600;
+}
+
+.body {
+  color: @text;
+}
+
+.image {
+  margin-right: 10px;
+}
+

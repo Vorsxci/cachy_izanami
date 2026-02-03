@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Launch a floating terminal with the Omarchy logo presentation, then execute the command passed in, and finally end with the omarchy-show-done presentation.
+# Used by actions such as Update System.
+set -euo pipefail
+cmd="$*"
+
+xdg-terminal-exec --class="org.cachy.editor" -e bash -lc "$*"

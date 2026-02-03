@@ -1,0 +1,37 @@
+#!/bin/bash
+
+restart_swaync() {
+  # Stop existing swaync cleanly
+  if pgrep -x swaync >/dev/null; then
+    pkill -TERM -x swaync
+
+    # Wait briefly for clean exit
+    for _ in {1..30}; do
+      pgrep -x swaync >/dev/null || break
+      sleep 0.05
+    done
+
+    # Force kill if still alive
+    pgrep -x swaync >/dev/null && pkill -KILL -x swaync
+  fi
+
+  # Start swaync detached
+  nohup swaync >/dev/null 2>&1 &
+}
+
+# Detect if we're running as root (pacman hook / system script)
+if [[ $EUID -eq 0 ]]; then
+  SCRIPT_OWNER=$(stat -c '%U' "$0")
+  USER_UID=$(id -u "$SCRIPT_OWNER")
+
+  systemd-run \
+    --uid="$SCRIPT_OWNER" \
+    --setenv=XDG_RUNTIME_DIR="/run/user/$USER_UID" \
+    --setenv=WAYLAND_DISPLAY="${WAYLAND_DISPLAY:-wayland-1}" \
+    --setenv=DISPLAY="${DISPLAY:-:0}" \
+    bash -c "$(declare -f restart_swaync); restart_swaync"
+else
+  restart_swaync
+fi
+
+

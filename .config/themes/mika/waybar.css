@@ -1,0 +1,27 @@
+@define-color background #ffffff;
+@define-color foreground #ffffff;
+
+window#waybar {
+  background: transparent;
+  background-color: transparent;
+  border: none; 
+}
+
+
+#comworkspaces,
+#mpris,
+#custom-clock-jp,
+#center-indicators,
+#tray-expander,
+#bluetoothstuff,
+#pulseaudio,
+#network,
+#custom-memory,
+#cpu,
+#custom-temperature,
+#power {
+  background: rgba(36, 30, 20, 0.85);
+  border: 1px solid rgba(243, 224, 186, 0.5);
+}
+
+

@@ -1,0 +1,37 @@
+# Theme variables: bg path, palette, logo, font
+source = ~/.config/omarchy/current/theme/hyprlock.conf
+ 
+general {
+    ignore_empty_input = true
+}
+
+# Modular layout components
+source = ~/.config/hypr/assets/hyprlock/login-window.conf
+ 
+general {
+    ignore_empty_input = true
+}
+source = ~/.config/hypr/assets/hyprlock/background.conf
+ 
+general {
+    ignore_empty_input = true
+}
+source = ~/.config/hypr/assets/hyprlock/time-date.conf
+ 
+general {
+    ignore_empty_input = true
+}
+source = ~/.config/hypr/assets/hyprlock/widgets.conf
+ 
+general {
+    ignore_empty_input = true
+}
+
+
+# ----------------------------------------
+
+
+
+auth {
+    fingerprint:enabled = true
+}

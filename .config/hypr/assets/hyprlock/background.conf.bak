@@ -1,0 +1,13 @@
+background {
+  monitor =
+  path = $lock_bg
+
+  blur_size = 8
+  blur_passes = 3
+
+  # optional: keep conservative on older builds
+  noise = 0.02
+  contrast = 1.05
+  brightness = 0.6
+}
+

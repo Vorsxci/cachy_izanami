@@ -1,0 +1,4 @@
+source = ~/.config/hypr/assets/hyprlock/widgets/weather.conf
+source = ~/.config/hypr/assets/hyprlock/widgets/nowplaying.conf
+source = ~/.config/hypr/assets/hyprlock/widgets/battery.conf
+

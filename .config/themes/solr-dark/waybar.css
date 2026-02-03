@@ -1,0 +1,76 @@
+@define-color foreground #efe9d8; /* text */
+@define-color background #2e3440; /* base */
+@define-color border     #FAC070; /* crust */
+@define-color accent     #1e66f5; /* blue */
+
+
+window#waybar {
+  background: @transparent;
+  border: 2px solid rgba(255, 152, 152, 0.5);
+  border: none;
+}
+
+.modules-left,
+.modules-right {
+  background-color: rgba(255, 101, 87, 0.25); /* #605a80, translucent */
+  border: 1px solid rgba(255, 101, 87, 0);
+}
+
+.modules-center {
+  background-color: rgba(255, 101, 87, 0.25); /* #605a80, translucent */
+  border: 1px solid rgba(255, 101, 87, 0);
+
+}
+
+#comworkspaces,
+#mpris,
+#custom-logo,
+#custom-clock-jp,
+#center-indicators,
+#tray-expander,
+#custom-weather,
+#network,
+#custom-memory,
+#cpu,
+#custom-temperature,
+#power {
+  background: @background;
+  border: 2px solid @border;
+}
+
+#tray,
+#pulseaudio,
+#bluetoothstuff {
+ 
+  border-right: 1px solid @border;
+  padding-right: 6px;
+
+}
+
+#mpris.paused {
+  color: rgba(255, 101, 87, 0.92);
+}
+
+#pulseaudio.muted {
+  color: rgba(255, 101, 87, 0.92);
+}
+
+#custom-omarchy {
+  color: rgba(255, 101, 87, 0.92);
+}
+
+#custom-omarchy-update{
+  color: rgba(255, 101, 87, 0.92);
+}
+
+#workspaces {
+  color: rgba(254, 251, 208, 0.92);
+}
+
+#custom-memory.warning {
+  color: rgba (1, 1, 1, 1);
+}
+
+#custom-logo {
+  background-image: url("/home/kazuki/.config/omarchy/themes/solr-dark/SOLR_OS_Logo.png");
+}

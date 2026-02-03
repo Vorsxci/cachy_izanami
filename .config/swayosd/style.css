@@ -1,0 +1,45 @@
+@import "../omarchy/current/theme/swayosd.css";
+
+window {
+  border-radius: 18px;
+  opacity: 0.97;
+  /*border: 2px solid @border-color;*/
+
+
+  background-color: alpha(@background-color, 0.92);
+
+    border: 4px solid transparent; /* required for border-image */
+  border-image: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0) 0%,
+    alpha(@grad1, 1) 18%,
+    /*alpha(@grad2, 0.60) 9%,*/
+    alpha(@grad3, 1) 36%,
+    alpha(@grad4, 1) 50%,
+    alpha(@grad5, 1) 75%,
+    rgba(0, 0, 0, 0) 100%,
+    transparent 55%,
+    transparent 100%
+  ) 1;
+}
+
+label {
+  font-family: 'CaskaydiaMono Nerd Font';
+  font-size: 11pt;
+
+  color: @label;
+
+
+}
+
+image {
+  color: @image;
+}
+
+progressbar {
+  border-radius: 8px;
+}
+
+progress {
+  background-color: @progress;
+}

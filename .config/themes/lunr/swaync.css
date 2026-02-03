@@ -1,0 +1,19 @@
+@define-color base     #2E3440;
+@define-color border   #B48EAD;  /* lilac glow */
+@define-color border2  #AFC5DA;  /* moonlight border */
+@define-color text     #D8DEE9;
+
+
+@define-color softyellow #FEFBD0;
+@define-color doveblue #D8DEE9;
+@define-color mutedblue #AFC5DA;
+@define-color lilac #B48EAD;
+@define-color mutedviolet #605A80;
+
+
+
+@define-color grad1 #FEFBD0;
+@define-color grad2 #D8DEE9;
+@define-color grad3 #AFC5DA;
+@define-color grad4 #B48EAD;
+@define-color grad5 #D8DEE9;

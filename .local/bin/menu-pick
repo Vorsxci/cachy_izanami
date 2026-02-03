@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+prompt="${1:-Menu}"
+width="${2:-295}"
+minheight="${3:-1}"
+maxheight="${4:-630}"
+
+# stdin: options
+# stdout: selected line
+walker --dmenu --width "$width" --minheight "$minheight" --maxheight "$maxheight" -p "${prompt}…" 2>/dev/null
+

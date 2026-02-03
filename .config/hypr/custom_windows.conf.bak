@@ -1,0 +1,11 @@
+# I'm putting custom windowrules for my custom apps/TUIs in here
+
+
+# --- Weather config popup (force floating)
+windowrulev2 = float, class:^(omarchy-weathercfg)$
+windowrulev2 = size 520 420, class:^(omarchy-weathercfg)$
+windowrulev2 = center, class:^(omarchy-weathercfg)$
+windowrulev2 = pin, class:^(omarchy-weathercfg)$
+windowrulev2 = noborder, class:^(omarchy-weathercfg)$
+
+

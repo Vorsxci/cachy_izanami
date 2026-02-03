@@ -1,0 +1,206 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+export PATH="$HOME/.local/bin:$PATH"
+
+menu() {
+  local prompt="$1"
+  local options="$2"
+  printf "%b" "$options" | menu-pick "$prompt"
+}
+
+open_url() {
+  xdg-open "$1" >/dev/null 2>&1 &
+  disown || true
+}
+
+open_terminal() {
+  xdg-terminal-exec --class="org.cachy.terminal" -e bash -lc "${1:-bash}" &
+  disown || true
+}
+
+open_editor() {
+  xdg-terminal-exec --class="org.cachy.editor" -e bash -lc "launch-editor ${1:+\"$1\"}"
+  disown || true
+}
+
+tui() {
+  # Run a command in a floating “menu TUI” terminal
+  xdg-terminal-exec --class="org.cachy.tui" -e bash -lc "$*" &
+  disown || true
+}
+
+present() {
+  # Like tui(), but intended for long-running / install output; same window rules
+  xdg-terminal-exec --class="org.cachy.present" -e bash -lc "$*" &
+  disown || true
+}
+
+main_menu() {
+  case "$(menu "Go" \
+    "󰀻  Apps
+󰧑  Learn
+󱓞  Trigger
+  Style
+󰉉  Manage
+  Setup
+  About
+  System")" in
+  *Apps*) walker -p "Launch…" ;;
+  *Learn*) learn_menu ;;
+  *Trigger*) trigger_menu ;;
+  *Style*) style_menu ;;
+  *Manage*) manage_menu ;;
+  *Setup*) setup_menu ;;
+  *About*) notify-send "Cachy Menu" "v0.1" ;;
+  *System*) system_menu ;;
+  *) exit 0 ;;
+  esac
+}
+
+learn_menu() {
+  case "$(menu "Learn" \
+    "  Hyprland Wiki
+󰣇  Arch Wiki
+󱆃  Bash cheatsheet
+  LazyVim keymaps")" in
+  *Hyprland*) open_url "https://wiki.hypr.land/" ;;
+  *Arch*) open_url "https://wiki.archlinux.org/" ;;
+  *Bash*) open_url "https://devhints.io/bash" ;;
+  *LazyVim*) open_url "https://www.lazyvim.org/keymaps" ;;
+  esac
+  exit 0
+}
+
+trigger_menu() {
+  case "$(menu "Trigger" \
+    "  Screenshot
+  Screenrecord
+󰃉  Color picker")" in
+  *Screenshot*) cmd-screenshot && notify-send "Screenshot taken" ;;
+  *Screenrecord*) cmd-screenrecord && notify-send "Screenrecording.." ;;
+  *Color*) pkill hyprpicker || hyprpicker -a ;;
+  esac
+  exit 0
+}
+
+style_menu() {
+  case "$(menu "Style" \
+    "󰸌  Themes
+      Edit Hyprland look
+󰍜  Toggle Waybar")" in
+  *Themes*) theme_menu ;;
+  *Hyprland*) open_editor "$HOME/.config/hypr/looknfeel.conf" ;;
+  *Waybar*) pkill waybar && notify-send "Waybar" "Stopped" || (
+    waybar &
+    disown && notify-send "Waybar" "Started"
+  ) ;;
+  esac
+  exit 0
+}
+
+setup_menu() {
+  case "$(menu "Setup" \
+    "  Edit Hyprland config
+󰌧  Edit Walker config
+󰍜  Edit Waybar config")" in
+  *Hyprland*) open_editor "$HOME/.config/hypr/hyprland.conf" ;;
+  *Walker*) open_editor "$HOME/.config/walker/config.toml" ;;
+  *Waybar*) open_editor "$HOME/.config/waybar/config.jsonc" ;;
+  esac
+  exit 0
+}
+
+system_menu() {
+  case "$(menu "System" \
+    "  Lock
+󰜉  Restart
+󰐥  Shutdown")" in
+  *Lock*) hyprlock ;;
+  *Restart*) cmd-reboot ;;
+  *Shutdown*) cmd-shutdown ;;
+  esac
+  exit 0
+}
+
+theme_menu() {
+  notify-send "Themes" "Theme menu coming soon"
+  style_menu
+}
+
+manage_menu() {
+  case "$(menu "Manage" \
+    "󰔎  Toggle
+  Restart
+󰣇  Install
+󰭌  Remove")" in
+  *Toggle*) manage_toggle_menu ;;
+  *Restart*) manage_restart_menu ;;
+  *Install*) manage_install_menu ;;
+  *Remove*) manage_remove_menu ;;
+  esac
+  exit 0
+}
+
+manage_toggle_menu() {
+  case "$(menu "Toggle" \
+    "󰍜  Waybar
+󰔎  Nightlight
+󱫖  Idle Lock
+󱄄  Screensaver")" in
+  *Waybar*) toggle-waybar ;;
+  *Nightlight*) toggle-nightlight ;;
+  *Idle*) toggle-idle ;;
+  esac
+  exit 0
+}
+
+manage_restart_menu() {
+  case "$(menu "Restart" \
+    "󰂯  Bluetooth
+  btop
+  Hyprctl
+  PipeWire
+󱂬  SwayNC
+󰍝  SwayOSD
+󰌧  Walker
+󰍜  Waybar
+󱚾  Wi-Fi")" in
+  *Bluetooth*) restart-bluetooth ;;
+  *btop*) restart-btop ;;
+  *Hyprctl*) restart-hyprctl ;;
+  *PipeWire*) restart-pipewire ;;
+  *SwayNC*) restart-swaync ;;
+  *SwayOSD*) restart-swayosd ;;
+  *Walker*) restart-walker ;;
+  *Waybar*) restart-waybar ;;
+  *Wi-Fi*) restart-wifi ;;
+  esac
+  exit 0
+}
+
+manage_install_menu() {
+  case "$(menu "Install" \
+    "󰣇  Package (repo)
+󰣇  Package (AUR)
+  Misc")" in
+  *repo*) present pkg-install ;;
+  *AUR*) present pkg-aur-install ;;
+  *Package*) present pkg-install ;;
+  esac
+  exit 0
+}
+
+manage_remove_menu() {
+  case "$(menu "Remove" \
+    "󰣇  Remove package
+󰣇  Remove orphan/extra
+󰣇  Remove AUR package")" in
+  *"Remove package"*) pkg-remove ;;
+  *orphan*) pkg-drop ;;
+  *AUR*) pkg-aur-remove ;;
+  esac
+  exit 0
+}
+
+main_menu

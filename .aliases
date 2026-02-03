@@ -1,0 +1,8 @@
+alias config_omarchy="cd ~/.config/omarchy/customscripts/"
+alias rm="rm -i"
+
+alias cp="cp -aL"
+alias fastshutdown="cmd-shutdown"
+alias thomas="ssh ladavis3@thomas.butler.edu"
+alias ls="eza -l"
+

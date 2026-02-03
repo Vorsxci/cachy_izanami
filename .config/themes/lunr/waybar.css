@@ -1,0 +1,72 @@
+@define-color foreground #d8dee9;
+@define-color background #2e3440;
+
+
+window#waybar {
+  background-color: transparent;
+  border: 2px solid rgba(175, 197, 218, 0.6);
+  border: none;
+}
+
+
+.modules-left,
+.modules-right {
+  background-color: rgba(96, 90, 128, 0.4); /* #605a80, translucent */
+  border: 1px solid rgba(254, 251, 208, 0);
+}
+
+.modules-center {
+  background-color: rgba(96, 90, 128, 0.4); /* #605a80, translucent */
+  border: 1px solid rgba(254, 251, 208, 0);
+
+}
+
+#comworkspaces,
+#custom-logo,
+#mpris,
+#custom-clock-jp,
+#center-indicators,
+#tray-expander,
+#custom-weather,
+#network,
+#custom-memory,
+#cpu,
+#custom-temperature,
+#power {
+  background: rgba(96,90,128,0.4);
+  background-color: @background;
+  border-color: rgba(96,90,128,1);
+  border: 2px solid rgba(96,90,128,1);
+}
+
+#tray,
+#pulseaudio,
+#bluetoothstuff {
+ 
+  border-right: 1px solid rgba(254, 251, 208, 0.92);
+  padding-right: 6px;
+
+}
+
+#mpris.paused {
+  color: rgba(254, 251, 208, 0.92);
+}
+
+#pulseaudio.muted {
+  color: rgba(254, 251, 208, 0.92);
+}
+
+#custom-omarchy {
+  color: rgba(254, 251, 208, 0.92);
+}
+
+#workspaces {
+  color: rgba(254, 251, 208, 0.92);
+}
+
+
+#custom-logo {
+  background-image: url("/home/kazuki/.config/omarchy/themes/lunr/LUNR_OS_Logo.png");
+}
+
+

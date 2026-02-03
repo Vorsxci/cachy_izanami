@@ -1,0 +1,189 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = """
+[✦](coral)\
+$os\
+$username\
+[ ⟩](fg:coral)\
+$directory\
+[ ⟩](fg:peach)\
+$git_branch\
+$git_status\
+[ ⟩](fg:salmon)\
+$c\
+$rust\
+$golang\
+$nodejs\
+$php\
+$java\
+$kotlin\
+$haskell\
+$python\
+[ ⟩](fg:sapphire)\
+$conda\
+[ ⟩](fg:cream)\
+$time\
+[✦](fg:cream)\
+$cmd_duration\
+$line_break\
+$character"""
+
+palette = 'solr'
+
+[os]
+disabled = false
+style = "fg:coral"
+
+[os.symbols]
+Windows = ""
+Ubuntu = "󰕈"
+SUSE = ""
+Raspbian = "󰐿"
+Mint = "󰣭"
+Macos = "󰀵"
+Manjaro = ""
+Linux = "󰌽"
+Gentoo = "󰣨"
+Fedora = "󰣛"
+Alpine = ""
+Amazon = ""
+Android = ""
+AOSC = ""
+Arch = "󰣇"
+Artix = "󰣇"
+CentOS = ""
+Debian = "󰣚"
+Redhat = "󱄛"
+RedHatEnterprise = "󱄛"
+
+[username]
+show_always = true
+style_user = "fg:coral"
+style_root = "fg:coral"
+format = '[ $user]($style)'
+
+[directory]
+style = "fg:orange"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = "󰝚 "
+"Pictures" = " "
+"Developer" = "󰲋 "
+
+[git_branch]
+symbol = ""
+style = "fg:peach"
+format = '[ $symbol $branch ]($style)'
+
+[git_status]
+style = "fg:peach"
+format = '[$all_status$ahead_behind ]($style)'
+
+[nodejs]
+symbol = ""
+style = "fg:salmon"
+format = '[ $symbol( $version) ]($style)'
+
+[c]
+symbol = " "
+style = "fg:salmon"
+format = '[ $symbol( $version) ]($style)'
+
+[rust]
+symbol = ""
+style = "fg:salmon"
+format = '[ $symbol( $version) ]($style)'
+
+[golang]
+symbol = ""
+style = "fg:salmon"
+format = '[ $symbol( $version) ]($style)'
+
+[php]
+symbol = ""
+style = "fg:salmon"
+format = '[ $symbol( $version) ]($style)'
+
+[java]
+symbol = " "
+style = "fg:salmon"
+format = '[ $symbol( $version) ]($style)'
+
+[kotlin]
+symbol = ""
+style = "fg:salmon"
+format = '[ $symbol( $version) ]($style)'
+
+[haskell]
+symbol = ""
+style = "fg:salmon"
+format = '[ $symbol( $version) ]($style)'
+
+[python]
+symbol = ""
+style = "fg:salmon"
+format = '[ $symbol( $version)(\(#$virtualenv\)) ]($style)'
+
+[docker_context]
+symbol = ""
+style = "fg:sapphire"
+format = '[ $symbol( $context) ]($style)'
+
+[conda]
+symbol = "  "
+style = "fg:sapphire"
+format = '[$symbol$environment ]($style)'
+ignore_base = false
+
+[time]
+disabled = false
+time_format = "%R"
+style = "fg:cream"
+format = '[  $time ]($style)'
+
+[line_break]
+disabled = true
+
+[character]
+disabled = false
+success_symbol = '[❯](bold fg:cream)'
+error_symbol = '[❯](bold fg:red)'
+vimcmd_symbol = '[❮](bold fg:cream)'
+vimcmd_replace_one_symbol = '[❮](bold fg:peach)'
+vimcmd_replace_symbol = '[❮](bold fg:peach)'
+vimcmd_visual_symbol = '[❮](bold fg:orange)'
+
+[cmd_duration]
+show_milliseconds = true
+format = " in $duration "
+style = "fg:cream"
+disabled = false
+show_notifications = false
+min_time_to_notify = 45000
+
+[palettes.solr]
+# --- SOLR anchors from your fastfetch palette ---
+salmon      = "#FF9898"  # hot salmon
+orange      = "#F4A340"  # solar orange
+peach       = "#FFCA98"  # peach
+coral       = "#FF6557"  # ember coral
+gold        = "#FFDCA0"  # soft gold
+cream       = "#FFF8D6"  # warm cream
+purple      = "#605A80"  # muted purple
+
+# --- Dark reds + grays for readability with white text ---
+red         = "#8E2B2B"  # deep red (error / emphasis)
+yellow      = "#B85E2B"  # amber (spare)
+green       = "#3B3F4A"  # slate gray (spare)
+sapphire    = "#4A4F63"  # cool slate
+lavender    = "#5A5870"  # purple-gray (spare)
+
+# Foreground text helpers
+text        = "#FFF8D6"
+text2       = "#3A3A3A"
+

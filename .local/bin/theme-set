@@ -1,0 +1,70 @@
+#!/bin/bash
+echo "[DEBUG] Walker environment: PATH=$PATH, SHELL=$SHELL, USER=$USER" >>/tmp/theme-debug.log
+
+# Normalize Walker's argument
+RAW_THEME_NAME="$1"
+THEME_NAME="$(echo "$RAW_THEME_NAME" |
+  sed -E 's/<[^>]+>//g' |
+  tr '[:upper:]' '[:lower:]' |
+  tr ' ' '-' |
+  xargs)" # lowercase + trim + replace spaces with -
+
+echo "[DEBUG] omarchy-theme-set raw='$RAW_THEME_NAME' → normalized='$THEME_NAME'" >>/tmp/theme-debug.log
+
+if [[ -z "$THEME_NAME" || "$THEME_NAME" == "cncld" ]]; then
+  echo "Usage: omarchy-theme-set <theme-name>"
+  exit 1
+fi
+
+THEMES_DIR="$HOME/.config/themes/"
+CURRENT_THEME_DIR="$HOME/.config/themes/current"
+THEME_PATH="$THEMES_DIR/$THEME_NAME"
+
+# Check if the theme entered exists
+if [[ ! -d "$THEME_PATH" ]]; then
+  echo "Theme '$THEME_NAME' does not exist in $THEMES_DIR"
+  exit 1
+fi
+
+# Update theme symlinks
+ln -nsf "$THEME_PATH" "$CURRENT_THEME_DIR"
+
+# Change background with theme
+theme-bg-next
+
+# Restart components to apply new theme
+restart-swaync
+restart-waybar
+restart-swayosd
+hyprctl reload
+pkill -SIGUSR2 btop
+#makoctl reload
+
+# Change gnome, browser, vscode themes
+theme-set-terminal
+theme-set-gnome
+theme-set-eza
+theme-set-browser
+theme-set-cursor
+theme-set-obsidian
+
+# --- Custom Hook: Sync SDDM Theme ---
+SDDM_THEME_DIR="/usr/share/sddm/themes/sddm-astronaut-theme/Themes"
+
+if [[ -f "$SDDM_THEME_DIR/${THEME_NAME}.conf" ]]; then
+  ln -nsf "$SDDM_THEME_DIR/${THEME_NAME}.conf" \
+    "$SDDM_THEME_DIR/current.conf"
+  notify-send "SDDM Theme Updated" "Now using ${THEME_NAME}.conf"
+else
+  ln -nsf "$SDDM_THEME_DIR/astronaut.conf" \
+    "$SDDM_THEME_DIR/current.conf"
+  notify-send "SDDM Theme Warning" "No ${THEME_NAME}.conf found, reverted to astronaut.conf"
+fi
+
+# Run script to sync sddm
+#$HOME/.config/omarchy/customscripts/omarchy-sddm-theme-sync.sh
+
+# Extra restarts??
+#omarchy-restart-waybar
+#hyprctl reload
+#swaync reload

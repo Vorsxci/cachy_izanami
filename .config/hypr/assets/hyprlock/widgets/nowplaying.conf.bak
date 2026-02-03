@@ -1,0 +1,44 @@
+# Glass panel behind now playing
+shape {
+  monitor =
+  size = 500, 100
+  rounding = 18
+  color = $lock_glass          # glass tint (adjust alpha to taste)
+  border_size = 2
+  border_color = rgba(255,255,255,0.08)   # subtle rim highlight
+  position = -500, -475
+  halign = center
+  valign = center
+
+  shadow_passes = 2
+  shadow_size = 14
+  shadow_color = rgba(0,0,0,0.35)
+  zindex = 0
+}
+
+# Source icon (bigger, accent)
+label {
+  monitor =
+  text = cmd[update:1000] /usr/bin/env LOCK_NOW_PART=icon /home/kazuki/.config/hypr/scripts/lock-nowplaying.sh
+  font_family = CaskaydiaCove Nerd Font Mono
+  font_size = 60
+  color = $lock_textalt
+  position = -700, -470
+  halign = center
+  valign = center
+  zindex = 1
+}
+
+# Track line (normal)
+label {
+  monitor =
+  text = cmd[update:1000] /usr/bin/env LOCK_NOW_PART=text /home/kazuki/.config/hypr/scripts/lock-nowplaying.sh
+  font_family = $lock_font
+  font_size = 30
+  color = $lock_text
+  position = -475, -475
+  halign = center
+  valign = center
+  zindex = 1
+}
+

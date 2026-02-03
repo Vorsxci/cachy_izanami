@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+exec setsid uwsm-app -- "$HOME/.local/bin/xdg-terminal-exec" \
+  --class="org.cachy.tui" -e "$1" "${@:2}"

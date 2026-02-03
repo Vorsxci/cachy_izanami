@@ -1,0 +1,95 @@
+@define-color foreground #dbdbdb; /* text */
+@define-color background #12141A; /* base */
+@define-color border     #F2D38A; /* gold rim */
+@define-color accent     #7B6C9D; /* soft violet */
+
+
+window#waybar {
+  background: transparent;
+  border: 0.5px solid alpha(@border, 0.3);
+  border-radius: 1px;
+  border: none
+}
+
+
+.modules-left,
+.modules-right {
+  background-color: rgba(18, 20, 26, 0.70); /* near-black translucent */
+  border: 1px solid rgba(34, 37, 46, 0);
+}
+
+.modules-center {
+  background-color: rgba(18, 20, 26, 0.70); /* near-black translucent */
+  border: 1px solid rgba(34, 37, 46, 0);
+
+}
+
+#comworkspaces,
+#mpris,
+#custom-logo,
+#custom-clock-jp,
+#center-indicators,
+#tray-expander,
+#custom-weather,
+#network,
+#custom-memory,
+#cpu,
+#custom-temperature,
+#power {
+  background: @background;
+  border: 1px solid @border;
+}
+
+#tray,
+#pulseaudio,
+#bluetoothstuff {
+ 
+  border-right: 1px solid @border;
+  padding-right: 6px;
+
+}
+
+#mpris.paused {
+  color: rgba(184, 188, 200, 0.72);
+}
+
+#pulseaudio.muted {
+  color: rgba(255, 101, 87, 0.92);
+}
+
+#custom-omarchy {
+  color: rgba(242, 211, 138, 0.92);
+}
+
+#custom-omarchy-update{
+  color: rgba(242, 211, 138, 0.92);
+}
+
+#workspaces {
+  color: rgba(184, 188, 200, 0.92);
+}
+
+#custom-memory.warning {
+  color: rgba(242, 211, 138, 0.92);
+}
+
+#custom-logo {
+  background-image: url("/home/kazuki/.config/omarchy/themes/eclps/ECLPS_OS_Logo.png");
+}
+
+#custom-weather.sunny {
+  color: rgba(244, 163, 64, 1.0);  /* orange */
+}
+
+#custom-weather.cloudy {
+  color: rgba(235, 235, 235, 1.0); /* white */
+}
+
+#custom-weather.rain {
+  color: rgba(120, 180, 255, 1.0); /* blue */
+}
+
+#custom-weather.snow {
+  color: rgba(200, 230, 255, 1.0); /* white-blue */
+}
+
