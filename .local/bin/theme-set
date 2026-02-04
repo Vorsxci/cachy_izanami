@@ -9,14 +9,14 @@ THEME_NAME="$(echo "$RAW_THEME_NAME" |
   tr ' ' '-' |
   xargs)" # lowercase + trim + replace spaces with -
 
-echo "[DEBUG] omarchy-theme-set raw='$RAW_THEME_NAME' → normalized='$THEME_NAME'" >>/tmp/theme-debug.log
+echo "[DEBUG] theme-set raw='$RAW_THEME_NAME' → normalized='$THEME_NAME'" >>/tmp/theme-debug.log
 
 if [[ -z "$THEME_NAME" || "$THEME_NAME" == "cncld" ]]; then
-  echo "Usage: omarchy-theme-set <theme-name>"
+  echo "Usage: theme-set <theme-name>"
   exit 1
 fi
 
-THEMES_DIR="$HOME/.config/themes/"
+THEMES_DIR="$HOME/.config/themes"
 CURRENT_THEME_DIR="$HOME/.config/themes/current"
 THEME_PATH="$THEMES_DIR/$THEME_NAME"
 
@@ -28,25 +28,31 @@ fi
 
 # Update theme symlinks
 ln -nsf "$THEME_PATH" "$CURRENT_THEME_DIR"
+#rm "$CURRENT_THEME_DIR"/preview.png
+#ln -nsf "$THEME_PATH"/preview.png "$CURRENT_THEME_DIR"
 
 # Change background with theme
 theme-bg-next
 
-# Restart components to apply new theme
-restart-swaync
-restart-waybar
-restart-swayosd
-hyprctl reload
-pkill -SIGUSR2 btop
 #makoctl reload
 
 # Change gnome, browser, vscode themes
-theme-set-terminal
+#theme-set-terminal
 theme-set-gnome
 theme-set-eza
 theme-set-browser
 theme-set-cursor
 theme-set-obsidian
+
+# Restart components to apply new theme
+restart-swaync
+restart-waybar
+restart-swayosd
+restart-kitty
+hyprctl reload
+pkill -SIGUSR2 btop
+
+#theme-bg-next
 
 # --- Custom Hook: Sync SDDM Theme ---
 SDDM_THEME_DIR="/usr/share/sddm/themes/sddm-astronaut-theme/Themes"

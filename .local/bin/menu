@@ -6,7 +6,27 @@ export PATH="$HOME/.local/bin:$PATH"
 menu() {
   local prompt="$1"
   local options="$2"
-  printf "%b" "$options" | menu-pick "$prompt"
+  local extra="${3:-}"
+  local preselect="${4:-}"
+
+  local -a args=()
+  # allow passing flags to menu-pick/walker (ex: --width 800 --minheight 400)
+  if [[ -n "$extra" ]]; then
+    # shellcheck disable=SC2206
+    args+=($extra)
+  fi
+
+  # If we have a preselect value, compute its 1-based line index and pass -c <index>
+  # (Walker dmenu compat; if your menu-pick doesn't support -c, we'll adjust)
+  if [[ -n "$preselect" ]]; then
+    local idx
+    idx="$(printf "%b" "$options" | grep -nxF "$preselect" | cut -d: -f1 | head -n1 || true)"
+    if [[ -n "$idx" ]]; then
+      args+=("-c" "$idx")
+    fi
+  fi
+
+  printf "%b" "$options" | menu-pick "$prompt" "${args[@]}"
 }
 
 open_url() {
@@ -52,7 +72,10 @@ main_menu() {
   *Style*) style_menu ;;
   *Manage*) manage_menu ;;
   *Setup*) setup_menu ;;
-  *About*) notify-send "Cachy Menu" "v0.1" ;;
+  *About*)
+    notify-send "Cachy Menu" "v0.1" && launch-or-focus-tui fastfetch &
+    sleep 5
+    ;;
   *System*) system_menu ;;
   *) exit 0 ;;
   esac
@@ -124,8 +147,27 @@ system_menu() {
 }
 
 theme_menu() {
-  notify-send "Themes" "Theme menu coming soon"
-  style_menu
+  echo "Trying..."
+  local dir="$HOME/.config/themes"
+  local themes sel
+
+  themes="$(find "$dir" -mindepth 1 -maxdepth 1 -type d -printf '%f\n' |
+    rg -v '^(current)$' |
+    sort)"
+
+  if [[ -z "$themes" ]]; then
+    notify-send "Themes" "No theme directories found in $dir"
+    return 0
+  fi
+
+  # IMPORTANT: call menu-pick via PATH, so make sure it exists.
+  sel="$(printf "%s\n" "$themes" | menu-pick "Themes" --width 800 --minheight 400 || true)"
+  [[ -n "$sel" ]] || return 0
+
+  # Apply theme and close menu immediately
+  theme-set "$sel" >/dev/null 2>&1 &
+  disown || true
+  exit 0
 }
 
 manage_menu() {
@@ -203,4 +245,25 @@ manage_remove_menu() {
   exit 0
 }
 
+jump() {
+  case "${1:-}" in
+  style) style_menu ;;
+  themes) theme_menu ;;
+  manage) manage_menu ;;
+  toggle) manage_toggle_menu ;;
+  restart) manage_restart_menu ;;
+  install) manage_install_menu ;;
+  remove) manage_remove_menu ;;
+  *) main_menu ;;
+  esac
+}
+
+# Allow calling: menu <section>
+jump "${1:-}"
+
 main_menu
+
+case "${1:-}" in
+themes) theme_menu ;;
+*) main_menu ;;
+esac

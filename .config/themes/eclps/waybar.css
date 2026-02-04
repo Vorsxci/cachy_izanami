@@ -74,7 +74,7 @@ window#waybar {
 }
 
 #custom-logo {
-  background-image: url("/home/kazuki/.config/omarchy/themes/eclps/ECLPS_OS_Logo.png");
+  background-image: url("/home/kazuki/.config/themes/eclps/ECLPS_OS_Logo.png");
 }
 
 #custom-weather.sunny {
