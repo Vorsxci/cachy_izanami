@@ -1,15 +1,15 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
 format = """
-[✦](gold)\
+[✦](moonglow)\
 $os\
 $username\
-[ ⟩](fg:gold)\
+[ ⟩](fg:moonglow)\
 $directory\
-[ ⟩](fg:silver)\
+[ ⟩](fg:purple)\
 $git_branch\
 $git_status\
-[ ⟩](fg:ash)\
+[ ⟩](fg:lilac)\
 $c\
 $rust\
 $golang\
@@ -19,20 +19,20 @@ $java\
 $kotlin\
 $haskell\
 $python\
-[ ⟩](fg:violet)\
+[ ⟩](fg:gold)\
 $conda\
-[ ⟩](fg:silver2)\
+[ ⟩](fg:moonlight)\
 $time\
-[✦](fg:gold)\
+[✦](fg:moonlight)\
 $cmd_duration\
 $line_break\
 $character"""
 
-palette = 'eclps'
+palette = 'lunr'
 
 [os]
 disabled = false
-style = "fg:gold"
+style = "fg:moonglow"
 
 [os.symbols]
 Windows = ""
@@ -58,12 +58,12 @@ RedHatEnterprise = "󱄛"
 
 [username]
 show_always = true
-style_user = "fg:gold"
-style_root = "fg:gold"
+style_user = "fg:moonglow"
+style_root = "fg:moonglow"
 format = '[ $user]($style)'
 
 [directory]
-style = "fg:gold"
+style = "fg:purple"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
@@ -77,73 +77,73 @@ truncation_symbol = "…/"
 
 [git_branch]
 symbol = ""
-style = "fg:silver"
+style = "fg:purple"
 format = '[ $symbol $branch ]($style)'
 
 [git_status]
-style = "fg:silver"
+style = "fg:purple"
 format = '[$all_status$ahead_behind ]($style)'
 
 [nodejs]
 symbol = ""
-style = "fg:ash"
+style = "fg:lilac"
 format = '[ $symbol( $version) ]($style)'
 
 [c]
 symbol = " "
-style = "fg:ash"
+style = "fg:lilac"
 format = '[ $symbol( $version) ]($style)'
 
 [rust]
 symbol = ""
-style = "fg:ash"
+style = "fg:lilac"
 format = '[ $symbol( $version) ]($style)'
 
 [golang]
 symbol = ""
-style = "fg:ash"
+style = "fg:lilac"
 format = '[ $symbol( $version) ]($style)'
 
 [php]
 symbol = ""
-style = "fg:ash"
+style = "fg:lilac"
 format = '[ $symbol( $version) ]($style)'
 
 [java]
 symbol = " "
-style = "fg:ash"
+style = "fg:lilac"
 format = '[ $symbol( $version) ]($style)'
 
 [kotlin]
 symbol = ""
-style = "fg:ash"
+style = "fg:lilac"
 format = '[ $symbol( $version) ]($style)'
 
 [haskell]
 symbol = ""
-style = "fg:ash"
+style = "fg:lilac"
 format = '[ $symbol( $version) ]($style)'
 
 [python]
 symbol = ""
-style = "fg:ash"
+style = "fg:lilac"
 format = '[ $symbol( $version)(\(#$virtualenv\)) ]($style)'
 
 [docker_context]
 symbol = ""
-style = "fg:violet"
+style = "fg:gold"
 format = '[ $symbol( $context) ]($style)'
 
 [conda]
 symbol = "  "
-style = "fg:violet"
+style = "fg:gold"
 format = '[$symbol$environment ]($style)'
 ignore_base = false
 
 [time]
 disabled = false
 time_format = "%R"
-style = "fg:silver2"
+style = "fg:moonlight"
 format = '[  $time ]($style)'
 
 [line_break]
@@ -151,36 +151,35 @@ disabled = true
 
 [character]
 disabled = false
-success_symbol = '[❯](bold fg:gold)'
+success_symbol = '[❯](bold fg:moonlight)'
 error_symbol = '[❯](bold fg:red)'
-vimcmd_symbol = '[❮](bold fg:silver2)'
-vimcmd_replace_one_symbol = '[❮](bold fg:silver)'
-vimcmd_replace_symbol = '[❮](bold fg:silver)'
-vimcmd_visual_symbol = '[❮](bold fg:gold)'
+vimcmd_symbol = '[❮](bold fg:moonlight)'
+vimcmd_replace_one_symbol = '[❮](bold fg:lilac)'
+vimcmd_replace_symbol = '[❮](bold fg:lilac)'
+vimcmd_visual_symbol = '[❮](bold fg:moonglow)'
 
 [cmd_duration]
 show_milliseconds = true
 format = " in $duration "
-style = "fg:silver2"
+style = "fg:moonlight"
 disabled = false
 show_notifications = false
 min_time_to_notify = 45000
 
-[palettes.eclps]
-# --- ECLPS core ---
-void        = "#0C0D10"  # background base
-nearblack   = "#12141A"  # chip/panel base
-obsidian    = "#181B22"  # deeper surface
-ash         = "#22252E"  # outlines / separators
-fog         = "#3A3E4B"  # inactive text
-silver      = "#B8BCC8"  # main text
-silver2     = "#E6E8EE"  # bright text / prompt / time
-gold        = "#F2D38A"  # eclipse rim (primary accent)
-violet      = "#7B6C9D"  # rare depth accent
+[palettes.lunr]
+# --- LUNR anchors from your fastfetch palette ---
+moonlight   = "#AFC5DA"  # moonlight blue
+moonglow    = "#FEFBD0"  # moon glow
+lilac       = "#B48EAD"  # lilac
+gold        = "#FFDCA0"  # soft gold
+purple      = "#605A80"  # muted purple (shadow/empty bar)
 
-# --- Semantics ---
-red         = "#FF6557"  # errors only
+# --- Extra helpers (deep + readable) ---
+red         = "#8E2B2B"  # deep red (error / emphasis)
+slate1      = "#454B57"  # graphite slate
+slate2      = "#3F4652"  # deeper slate
 
-# (Optional extras if you ever reference them)
-blue        = "#AFC5DA"
+# Optional text helpers
+text        = "#E9ECEF"
+text2       = "#3A3A3A"
 
