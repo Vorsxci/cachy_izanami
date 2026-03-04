@@ -1,6 +1,26 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
 
+require("lspconfig").clangd.setup({
+  cmd = {
+    "clangd",
+    "--query-driver=/usr/bin/g++",
+    "--log=verbose",
+  },
+})
+
+require("mdeval").setup({
+  tmp_build_dir = "/home/ladavis3/tmp/mdeval/",
+  opts = {
+    eval_options = {
+      cpp = {
+        command = { "g++", "/usr/bin/g++", "-std=c++13" },
+      },
+    },
+  },
+})
+vim.g.markdown_fenced_languages = { "python", "cpp", "json", "bash" }
+
 require("render-markdown").setup({
   -- Whether markdown should be rendered by default.
   enabled = true,
