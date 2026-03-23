@@ -1,11 +1,14 @@
 @define-color foreground #d8dee9;
 @define-color background #2e3440;
+@define-color background-active #444a57; 
+@define-color textactive #b0a9db;
 
 
 window#waybar {
-  background-color: transparent;
+  /*background-color: transparent;*/
   border: 2px solid rgba(175, 197, 218, 0.6);
   border: none;
+  min-height:36px;
 }
 
 
@@ -20,6 +23,8 @@ window#waybar {
   border: 1px solid rgba(254, 251, 208, 0);
 
 }
+
+
 
 #comworkspaces,
 #custom-logo,
@@ -37,6 +42,11 @@ window#waybar {
   background-color: @background;
   border-color: rgba(96,90,128,1);
   border: 2px solid rgba(96,90,128,1);
+
+  transition:
+    border-color 160ms ease,
+    background-color 160ms ease,
+    box-shadow 160ms ease;
 }
 
 #tray,
@@ -48,6 +58,27 @@ window#waybar {
 
 }
 
+#comworkspaces:hover,
+#mpris:hover,
+#custom-clock-jp:hover,
+#center-indicators:hover,
+#tray-expander:hover,
+#custom-weather:hover,
+#network:hover,
+#custom-memory:hover,
+#cpu:hover,
+#custom-temperature:hover,
+#power:hover {
+  border-color: rgba(254, 251, 208, 0.92);  /* moonlight yellow */
+  background: @background-active;
+  color: @textactive;
+}
+
+#custom-logo:hover {
+  border-color: rgba(254, 251, 208, 0.92);  /* moonlight yellow */
+  color: @textactive;
+}
+
 #mpris.paused {
   color: rgba(254, 251, 208, 0.92);
 }
@@ -56,7 +87,7 @@ window#waybar {
   color: rgba(254, 251, 208, 0.92);
 }
 
-#custom-omarchy {
+#custom-OS {
   color: rgba(254, 251, 208, 0.92);
 }
 

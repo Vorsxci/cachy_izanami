@@ -1,0 +1,7 @@
+3-23-26
+Changed style of waybar (Check lunr, now utilizes bar, larger font, and hover)
+Fixed Update chip and script in waybar
+
+Added some other QOL scripts to bin
+
+Other nvim fixes

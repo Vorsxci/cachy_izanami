@@ -1,12 +1,12 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
 format = """
-[✦](moonglow)\
+[✦](softyellow)\
 [󰣇](gold)\
 $username\
-[ ⟩](fg:moonglow)\
+[ ⟩](fg:softyellow)\
 $directory\
-[ ⟩](fg:purple)\
+[ ⟩](fg:hotred)\
 $git_branch\
 $git_status\
 [ ⟩](fg:lilac)\
@@ -21,18 +21,18 @@ $haskell\
 $python\
 [ ⟩](fg:gold)\
 $conda\
-[ ⟩](fg:moonlight)\
+[ ⟩](fg:scarlet)\
 $time\
-[✦](fg:moonlight)\
+[✦](fg:scarlet)\
 $cmd_duration\
 $line_break\
 $character"""
 
-palette = 'lunr'
+palette = 'kaira'
 
 [os]
 disabled = false
-style = "fg:moonglow"
+style = "fg:softyellow"
 
 [os.symbols]
 Windows = ""
@@ -58,12 +58,12 @@ RedHatEnterprise = "󱄛"
 
 [username]
 show_always = true
-style_user = "fg:moonglow"
-style_root = "fg:moonglow"
+style_user = "fg:softyellow"
+style_root = "fg:softyellow"
 format = '[ $user]($style)'
 
 [directory]
-style = "fg:purple"
+style = "fg:hotred"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
@@ -77,11 +77,11 @@ truncation_symbol = "…/"
 
 [git_branch]
 symbol = ""
-style = "fg:purple"
+style = "fg:hotred"
 format = '[ $symbol $branch ]($style)'
 
 [git_status]
-style = "fg:purple"
+style = "fg:hotred"
 format = '[$all_status$ahead_behind ]($style)'
 
 [nodejs]
@@ -143,7 +143,7 @@ ignore_base = false
 [time]
 disabled = false
 time_format = "%R"
-style = "fg:moonlight"
+style = "fg:scarlet"
 format = '[  $time ]($style)'
 
 [line_break]
@@ -151,28 +151,28 @@ disabled = true
 
 [character]
 disabled = false
-success_symbol = '[❯](bold fg:moonlight)'
+success_symbol = '[❯](bold fg:scarlet)'
 error_symbol = '[❯](bold fg:red)'
-vimcmd_symbol = '[❮](bold fg:moonlight)'
+vimcmd_symbol = '[❮](bold fg:scarlet)'
 vimcmd_replace_one_symbol = '[❮](bold fg:lilac)'
 vimcmd_replace_symbol = '[❮](bold fg:lilac)'
-vimcmd_visual_symbol = '[❮](bold fg:moonglow)'
+vimcmd_visual_symbol = '[❮](bold fg:softyellow)'
 
 [cmd_duration]
 show_milliseconds = true
 format = " in $duration "
-style = "fg:moonlight"
+style = "fg:scarlet"
 disabled = false
 show_notifications = false
 min_time_to_notify = 45000
 
-[palettes.lunr]
-# --- LUNR anchors from your fastfetch palette ---
-moonlight   = "#AFC5DA"  # moonlight blue
-moonglow    = "#FEFBD0"  # moon glow
-lilac       = "#B48EAD"  # lilac
-gold        = "#FFDCA0"  # soft gold
-purple      = "#605A80"  # muted purple (shadow/empty bar)
+[palettes.kaira]
+# --- Kaira anchors from your fastfetch palette ---
+scarlet   = "#F6E7D7" 
+softyellow    = "#fff9a5"
+lilac       = "#e693d9"
+gold        = "#FFDCA0" 
+hotred      = "#C83A5C" 
 
 # --- Extra helpers (deep + readable) ---
 red         = "#8E2B2B"  # deep red (error / emphasis)

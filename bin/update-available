@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+# Count repo updates
+updates=$(checkupdates 2>/dev/null | wc -l)
+
+# Optional: include AUR
+if command -v paru >/dev/null 2>&1; then
+  aur=$(paru -Qua 2>/dev/null | wc -l)
+  updates=$((updates + aur))
+fi
+
+# If updates exist → print something (anything)
+if [ "$updates" -gt 10 ]; then
+  echo "$updates"
+fi

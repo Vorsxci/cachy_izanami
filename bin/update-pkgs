@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -e
+
+# Update the package databases and upgrade all packages.
+# Extra args are here so you can easily keep behavior consistent/customizable.
+sudo pacman -Syu --noconfirm --needed
+
+show-done

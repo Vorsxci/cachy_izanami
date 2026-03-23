@@ -1,10 +1,11 @@
 @import "../themes/current/waybar.css";
 
 window#waybar {
-  /*background-color: @background; */ 
-  border-radius: 12px;
-  margin: 8px 10px 0 10px;   /* top right bottom left */
-  padding: 2px 6px;
+  background: alpha(@background, 0.65);
+  border: 1px solid alpha(@foreground, 0.10);
+  border-radius: 3px;
+  margin: 8px 10px 0 10px;
+  padding: 4px 8px;
 }
 
 
@@ -14,11 +15,11 @@ window#waybar {
   background-color: @background;
   color: @foreground;
 
-  border: none;
-  border-radius: 0;
+  /*border: none;*/
+  border-radius: 3;
   min-height: 0;
   font-family: 'CaskaydiaCove Nerd Font';
-  font-size: 12px;
+  font-size: 14px;
   background: transparent;
 }
 
@@ -42,11 +43,14 @@ window#waybar {
 #custom-memory,
 #cpu,
 #custom-temperature,
+#custom-logo,
 #power { 
   border-radius: 10px;
   padding: 0px 6px;
-  margin: 0 1px;
+  margin: 4px 1px;
 }
+
+
 
 
 
@@ -81,11 +85,15 @@ window#waybar {
 }
 
 
-#custom-omarchy,
+#custom-OS,
 #custom-screenrecording-indicator,
 #custom-update {
   min-width: 12px;
   margin: 0 7.5px;
+}
+
+#custom-OS {
+  font-size: 16px;
 }
 
 #tray {
@@ -189,8 +197,6 @@ tooltip {
   /*border-radius: 40px;*/
 
   /* spacing consistent with your chips */
-  padding: 2px 13px;
-  margin: 0 1px;
   
 
 
@@ -202,11 +208,6 @@ tooltip {
   background-size: 50px 28px;
 
 }
-
-
-
-
-
 
 
 

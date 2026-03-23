@@ -2,7 +2,7 @@
 
 format = """
 [✦](moonglow)\
-$os\
+[󰣇](gold)\
 $username\
 [ ⟩](fg:moonglow)\
 $directory\

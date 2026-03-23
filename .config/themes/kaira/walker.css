@@ -1,0 +1,22 @@
+@define-color selected-text #FFE89A;
+@define-color text #F6E7D7;
+@define-color base #2B0F16;
+@define-color border #fff9a5;
+@define-color foreground #F6E7D7;
+@define-color background #2B0F16;
+@define-color border2 #c83a7c;
+
+
+@define-color softyellow #fff9a5;
+@define-color peach #F6E7D7;
+@define-color scarlet #C83A5C;
+@define-color hotred #E05A78;
+@define-color darkred #6e1c2f;
+
+
+
+@define-color grad1 #fff9a5;
+@define-color grad2 #E05A78;
+@define-color grad3 #C83A5C;
+@define-color grad4 #e693d9;
+@define-color grad5 #F6E7D7;

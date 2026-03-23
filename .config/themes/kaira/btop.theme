@@ -1,0 +1,80 @@
+#Bashtop theme with nord palette (https://www.nordtheme.com)
+#by Justin Zobel <justin.zobel@gmail.com>
+
+theme[main_bg]=""
+
+# Main text color
+theme[main_fg]="#F6E7D7"
+
+# Title color for boxes
+theme[title]="#fff9a5"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#C83A5C"
+
+# Background color of selected item in processes box
+theme[selected_bg]="#C83A5C"
+
+# Foreground color of selected item in processes box
+theme[selected_fg]="#F6E7D7"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#E05A78"
+
+# Misc colors for processes box including mini cpu graphs, details memory graph and details status text
+theme[proc_misc]="#e693d9"
+
+# Cpu box outline color
+theme[cpu_box]="#C83A5C"
+
+# Memory/disks box outline color
+theme[mem_box]="#C83A5C"
+
+# Net up/down box outline color
+theme[net_box]="#C83A5C"
+
+# Processes box outline color
+theme[proc_box]="#C83A5C"
+
+# Box divider line and small boxes line color
+theme[div_line]="#C83A5C"
+
+# Temperature graph colors
+theme[temp_start]="#E05A78"
+theme[temp_mid]="#C83A5C"
+theme[temp_end]="#fff9a5"
+
+# CPU graph colors
+theme[cpu_start]="#e693d9"
+theme[cpu_mid]="#C83A5C"
+theme[cpu_end]="#fff9a5"
+
+# Mem/Disk free meter
+theme[free_start]="#e693d9"
+theme[free_mid]="#C83A5C"
+theme[free_end]="#fff9a5"
+
+# Mem/Disk cached meter
+theme[cached_start]="#E05A78"
+theme[cached_mid]="#e693d9"
+theme[cached_end]="#F6E7D7"
+
+# Mem/Disk available meter
+theme[available_start]="#e693d9"
+theme[available_mid]="#C83A5C"
+theme[available_end]="#fff9a5"
+
+# Mem/Disk used meter
+theme[used_start]="#C83A5C"
+theme[used_mid]="#E05A78"
+theme[used_end]="#F6E7D7"
+
+# Download graph colors
+theme[download_start]="#e693d9"
+theme[download_mid]="#C83A5C"
+theme[download_end]="#fff9a5"
+
+# Upload graph colors
+theme[upload_start]="#E05A78"
+theme[upload_mid]="#C83A5C"
+theme[upload_end]="#F6E7D7"

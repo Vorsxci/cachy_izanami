@@ -36,6 +36,11 @@ window#waybar {
 #power {
   background: @background;
   border: 2px solid @border;
+
+  transition:
+    border-color 160ms ease,
+    background-color 160ms ease,
+    box-shadow 160ms ease;
 }
 
 #tray,
@@ -47,6 +52,21 @@ window#waybar {
 
 }
 
+#comworkspaces:hover,
+#mpris:hover,
+#custom-logo:hover,
+#custom-clock-jp:hover,
+#center-indicators:hover,
+#tray-expander:hover,
+#custom-weather:hover,
+#network:hover,
+#custom-memory:hover,
+#cpu:hover,
+#custom-temperature:hover,
+#power:hover {
+  border-color: rgba(255, 152, 152, 0.8);  /* moonlight yellow */
+}
+
 #mpris.paused {
   color: rgba(255, 101, 87, 0.92);
 }
@@ -55,7 +75,7 @@ window#waybar {
   color: rgba(255, 101, 87, 0.92);
 }
 
-#custom-omarchy {
+#custom-OS {
   color: rgba(255, 101, 87, 0.92);
 }
 
