@@ -1,0 +1,24 @@
+#!/bin/bash
+# Launch a TUI command in a floating kitty terminal, or focus it if already open.
+# Usage: launch-or-focus-tui <command>
+
+if (($# == 0)); then
+  echo "Usage: quickshell-run <command>"
+  exit 1
+fi
+
+CLASS_ID="quickshell.run.terminal"
+COMMAND="$*"
+
+WINDOW_ADDRESS=$(hyprctl clients -j | jq -r --arg p "$CLASS_ID" \
+  '.[]|select(.class|test("\\b" + $p + "\\b";"i"))|.address' | head -n1)
+
+if [[ -n $WINDOW_ADDRESS ]]; then
+  hyprctl dispatch focuswindow "address:$WINDOW_ADDRESS"
+else
+  exec kitty \
+    --class "$CLASS_ID" \
+    --title "$CLASS_ID" \
+    --override remember_window_size=no \
+    bash -c "$COMMAND; show-done"
+fi
