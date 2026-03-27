@@ -16,6 +16,7 @@ restart-swayosd
 restart-walker
 restart-waybar
 restart-wifi
+sp-player-reload
 theme-bg-next
 theme-set
 theme-list

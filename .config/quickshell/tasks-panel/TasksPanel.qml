@@ -26,6 +26,7 @@ PanelWindow {
     WlrLayershell.margins {
         top:    screen ? Math.round((screen.height - panelH) / 2) : 200
         bottom: screen ? Math.round((screen.height - panelH) / 2) : 200
+        right: -5
     }
 
     color: "transparent"

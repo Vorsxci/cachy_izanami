@@ -5,6 +5,8 @@ import "center-panel"
 import "tasks-panel"
 import "media-panel"
 import "run-panel"
+import "dictionary-panel"
+import "tools-panel"
 
 ShellRoot {
     Bar {
@@ -22,4 +24,8 @@ ShellRoot {
     MediaPanel {}
 
     RunPanel{}
+
+    //JishoPanel{id: jishoPanel}
+
+    ToolsPanel{}
 }

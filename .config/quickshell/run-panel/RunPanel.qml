@@ -15,7 +15,8 @@ PanelWindow {
     WlrLayershell.keyboardFocus: WlrKeyboardFocus.OnDemand
     
     WlrLayershell.margins {
-        top: 300
+      top: 300
+      left: -4
     }
 
     readonly property int tabW:   10
