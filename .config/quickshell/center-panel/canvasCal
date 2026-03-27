@@ -1,0 +1,1949 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Lucas Davis Calendar (Canvas)
+X-WR-CALDESC:Calendar events for the user\, Lucas Davis
+BEGIN:VEVENT
+DTSTAMP:20260303T155100Z
+UID:event-assignment-552011
+DTSTART:20260224T180000Z
+DTEND:20260224T180000Z
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:L6 [Elementary Physics 2]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54926&month=02&year=2026#assignment_552011
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260223T201500Z
+UID:event-assignment-551142
+DTSTART:20260226T043000Z
+DTEND:20260226T043000Z
+CLASS:PUBLIC
+DESCRIPTION:[February 23 assignment.docx] (https://butler.instructure.com/c
+ ourses/53940/files/5361475?wrap=1)
+SEQUENCE:0
+SUMMARY:February 23 upload [Chemistry in Our Lives]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_53940&month=02&year=2026#assignment_551142
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
+ /dp_app.css"><p><a id="5361475" class="instructure_file_link instructure_s
+ cribd_file inline_disabled" title="Link" href="https://butler.instructure.
+ com/courses/53940/files/5361475?wrap=1" target="_blank" data-canvas-previe
+ wable="true" data-api-endpoint="https://butler.instructure.com/api/v1/cour
+ ses/53940/files/5361475" data-api-returntype="File">February 23 assignment
+ .docx</a></p><script src="https://instructure-uploads.s3.amazonaws.com/acc
+ ount_122580000000000001/attachments/3841300/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260225T152200Z
+UID:event-assignment-551399
+DTSTART;VALUE=DATE;VALUE=DATE:20260225
+CLASS:PUBLIC
+DESCRIPTION:[in class Feb 25.docx] (https://butler.instructure.com/courses/
+ 53940/files/5370683?wrap=1)
+SEQUENCE:0
+SUMMARY:Feb 25 [Chemistry in Our Lives]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_53940&month=02&year=2026#assignment_551399
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
+ /dp_app.css"><p><a id="5370683" class="instructure_file_link instructure_s
+ cribd_file inline_disabled" title="Link" href="https://butler.instructure.
+ com/courses/53940/files/5370683?wrap=1" target="_blank" data-canvas-previe
+ wable="true" data-api-endpoint="https://butler.instructure.com/api/v1/cour
+ ses/53940/files/5370683" data-api-returntype="File">in class Feb 25.docx</
+ a></p><script src="https://instructure-uploads.s3.amazonaws.com/account_12
+ 2580000000000001/attachments/3841300/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260302T055000Z
+UID:event-assignment-541306
+DTSTART;VALUE=DATE;VALUE=DATE:20260226
+CLASS:PUBLIC
+DESCRIPTION:Electric potential and conductors
+SEQUENCE:0
+SUMMARY:R7 [Elementary Physics 2]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_55826&month=02&year=2026#assignment_541306
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
+ /dp_app.css"><p>Electric potential and conductors</p><script src="https://
+ instructure-uploads.s3.amazonaws.com/account_122580000000000001/attachment
+ s/3841300/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260225T050900Z
+UID:event-assignment-541275
+DTSTART:20260227T140000Z
+DTEND:20260227T140000Z
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:Secs. 18.5\, 19.1 [Elementary Physics 2]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_55826&month=02&year=2026#assignment_541275
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260227T194600Z
+UID:event-assignment-530988
+DTSTART:20260227T160000Z
+DTEND:20260227T160000Z
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:Quiz 6 [Object-Oriented Programming an]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54110&month=02&year=2026#assignment_530988
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260304T214100Z
+UID:event-assignment-530970
+DTSTART;VALUE=DATE;VALUE=DATE:20260227
+CLASS:PUBLIC
+DESCRIPTION:Objective:  To practice objects and classes\n\nSubmit:  \n\
+ n* Your program (the .java file) and the output of a sample run of your pr
+ ogram.  \n\n* If you do extra credit\, be sure to demonstrate that in you
+ r sample run(s). \n\n* If you create your own cave layout text file\, ple
+ ase upload that too. \n\nPlease put all of these things in a single doc
+ ument and upload the document to Canvas.    Be sure to include comments 
+ in your program to explain your work.\n\nCollaboration:  You may work al
+ one or with a partner.  If you work with a partner\, only one person need
+ s to submit your work.  Please make sure both people's names are clearly 
+ indicated with your submission.\n\n \n\nDescription:\n\nYou are a mighty 
+ warrior\, and armed with your trusty bow and 3 arrows\, you enter The Cave
+ s in search of the mighty Wumpus. If you shoot the Wumpus\, you are victor
+ ious and the masses will praise you\, but if you stumble upon the Wumpus u
+ nawares\, it will eat you! Also\, beware of the webs of the giant poisonou
+ s spiders and the bottomless pits!\n\nYour senses of smell and hearing wil
+ l aid you on your quest\, for the Wumpus does not bathe and can be smelled
+  one room away. Also\, the clicking mandibles of the poisonous spiders can
+  be heard one room away\, and the foul odor of a bottomless pit can be sme
+ lled one room away.\n\n \n\nFor this project\, you will implement a progr
+ am that lets the user play Hunt The Wumpus!\n\n \n\nModeling the Caves:\
+ n\nThe layout of the cave rooms is specified in a text file that looks lik
+ e this (you may use this text file\, but it is not required):\n\n10\n1 2 6
+  10\nA wooden sign reads "Beware of the Wumpus!"\n2 1 3 7\nThere is a blac
+ k pool of water in the corner.\n3 2 4 8\nYou see a Tyrannosaurus Rex fossi
+ l embedded in the wall.\n4 3 5 9\nThere is an empty Diet Rite can here.\n5
+  4 6 10\nYou almost step on a broken cellular phone.\n6 1 5 7\nA couple of
+  evil rats stare at you from under a pile of rocks.\n7 2 6 8\nYou find a S
+ panish doubloon on the floor.\n8 3 7 9\nThe ceiling is very low and you ha
+ ve to stoop.\n9 4 8 10\nYou step on a slippery spot\, slip\, and fall on y
+ our keester.\n10 1 5 9\nYou get a strong sense of deja vu.\n\nThe first li
+ ne of the text file gives the number of rooms in the caves (your program s
+ hould handle any number of rooms). Each room is described on two lines: th
+ e first gives the room number and the room numbers of the three adjacent r
+ ooms (there are always 3)\; the second gives a string that describes the r
+ oom.\n\nPut this cave layout (or one in a similar format) into a text file
+ . Your program should have two files with a minimum of two classes: one fi
+ le/class to represent a single room\, and a second file/class\, with a ma
+ in()\, that plays the game and uses an array of room objects to hold the c
+ ave layout. \n\nYour program should pick random numbers to figure out whe
+ re to place the Wumpus\, the two spider rooms (in two different rooms)\, a
+ nd the two bottomless pits (in two different rooms). Make sure nothing end
+ s up in room #1\, as that is where the player starts\, and don't put spide
+ rs\, the wumpus\, or a pit in the same room together. (That means any cave
+  layout needs at least 6 rooms - room #1\, the wumpus lair\, and four room
+ s for obstacles.)\n\nPlaying the Game:\n\nHere is a sample game. Comments 
+ in italics are not visible to the player\, but are there to help explain
+  what is happening. The user's input appears in boldface.\n\nWelcome to **
+ Hunt The Wumpus!**\n\nYou are in room 1.\nYou have 3 arrows left.\nA woode
+ n sign reads "Beware of the Wumpus!"\nThere are tunnels to rooms 2\, 6\, a
+ nd 10.\nYou hear a faint clicking noise. (There are spiders in room 6)\n(M
+ )ove or (S)hoot?\nM\nWhich room?\n5\nDimwit! You can't get to there from h
+ ere.\nThere are tunnels to rooms 2\, 6\, and 10.\n(M)ove or (S)hoot?\nM\nW
+ hich room?\n2\n\nYou are in room 2.\nYou have 3 arrows left.\nThere is a b
+ lack pool of water in the corner.\nThere are tunnels to rooms 1\, 3\, and 
+ 7.\nYou smell a dank odor. (There is a pit in room 3)\nYou smell some nast
+ y Wumpus! (The wumpus is in room 7)\n(M)ove or (S)hoot?\nS\nWhich room?\n3
+  (The user picks the wrong room)\nYour arrow goes down the tunnel and is l
+ ost. You missed.\n\nYou are in room 2.\nYou have 2 arrows left.\nThere is 
+ a black pool of water in the corner.\nThere are tunnels to rooms 1\, 3\, a
+ nd 7.\nYou smell a dank odor.\nYou smell some nasty Wumpus!\n(M)ove or (S)
+ hoot?\nS\nWhich room?\n7\nYour arrow goes down the tunnel and finds its ma
+ rk!\nYou shot the Wumpus! ** You Win! **\n\nEnjoy your fame!\n\nAfter the 
+ caves are all set up\, the game proceeds. Have an integer (perhaps called
+  currentRoom) to keep track of which room the warrior/player is in curren
+ tly. Your program will then repeat the following loop:\n\n* Display the in
+ formation about the current room. Print the room number\, its description\
+ , and the list of adjacent rooms. Also check if any of the adjacent rooms 
+ have spiders\, a pit\, or the Wumpus and print a smell/hear message as app
+ ropriate. (If adjacent to two pits\, only print one smelly message\, and l
+ ikewise for spiders.) You should also display the number of remaining arro
+ ws.\n\n* Ask the player if they want to move or shoot.  Here's how you le
+ t the user input information:  [Program Showing how to do Command Line In
+ put ] (https://butler.instructure.com/courses/54110/pages/program-showing-
+ how-to-do-command-line-input)\n\n* If the player shoots\, have them pick w
+ hich of the adjacent rooms to shoot into. If that room contains the wumpus
+ \, the player wins and the game is over. If not\, reduce the number of arr
+ ows by one. If the player runs out of arrows\, they lose.\nDO NOT kill off
+  the spiders (there are too many) or create an "arrow bridge" over bottoml
+ ess pits (really?) - the obstacles cannot be removed or destroyed with arr
+ ows.\n\n* If the player moves\, ask for the room number and change curren
+ tRoom. If the new room contains spiders\, a pit\, or the Wumpus\, the game
+  is over.\n\nDo not let the user move or shoot into a room that is not adj
+ acent to the current room.\n\n \n\nTo Get Started:\n\n1.   Write your R
+ oom class.  What variables does each Room need to have?  Then write main
+  and see if you can create a single Room and print all of its variables.\n
+ \n2.  Now edit main so that you are creating an array of rooms.  Write c
+ ode that loops through the array and prints all of the information about e
+ ach room.  (Note\, you aren't reading anything from the layout file yet.)
+ \n\n3.  Once 1 and 2 are working\, write code in main to read in the layo
+ ut text file and then print it back to the screen so that you know you're 
+ reading it correctly.  At this point you aren't doing anything with the d
+ ata\, you are simply reading it in and then printing it out.\n\n4.  Now m
+ odify main so that it creates the rooms based on the layout file.  Use yo
+ ur code that loops through the array to print out all of the information a
+ bout each room to make sure everything is created correctly.  This might 
+ help:  [Program Showing how to get Input from a File (Strings and Ints)]
+  (https://butler.instructure.com/courses/54110/pages/program-showing-how-t
+ o-get-input-from-a-file-strings-and-ints)\n\n5.   Add code to put the Wu
+ mpus\, spiders\, and bottomless pits in appropriate rooms. For now\, just 
+ assign the Wumpus\, spiders\, and pits a room yourself. (In other words\, 
+ don't choose the rooms randomly.  That will make things harder to debug.)
+   Again\, print all of the information about all of your rooms so you can
+  make sure they are set up correctly.\n\n... Then see if you can take it f
+ rom here!\n\n \n\nExtra Credit (up to 9 points):  \n\n* On the first li
+ ne of the cave layout file\, after the number of rooms\, have your program
+  accept the number of spider rooms and bottomless pits. Thus\, if the firs
+ t line was: \n\n                     25 5 3\n\n      your c
+ ave would have 25 rooms\, with 5 of those having poisonous spiders\, and 3
+  rooms with pits. These rooms are still chosen randomly. [3 points]\n\n \
+ n\n* Add a supply room that contains arrows. If the player enters this roo
+ m\, their arrows are refilled back to 3. Note that if you implement this\,
+  the game does not end if the player runs out of arrows. [2 points]\n\n \
+ n\n* Add a room (chosen at random) with giant bats. If the player enters t
+ hat room\, the bats pick him/her up and fly to a random room before droppi
+ ng the player (unharmed). If the new random room has the wumpus\, a pit\, 
+ or spiders\, the game is over. The bats should move the player out of the 
+ room they are in. [3 points]\n\n \n\n* Skin the game - choose different w
+ ords to describe the exact same objects and functionality to change the 
+ feel of the game. For example\, instead of caves\, they are rooms on a spa
+ ce station\, with laser charges instead of arrows\, bottomless pits become
+  holes into the vacuum of space\, and the spiders are insane worker robots
+ . The wumpus is an evil space alien. You get the idea. Be sure to give me 
+ a quick translation guide in your comments for easy grading. Keep it PG-ra
+ ted please. [1 point for creativity]\n\n \n\nCredits:\n\nGregory Yob\, "H
+ unt the Wumpus"\, Creative Computing\, volume 1\, 1976\, pages 247-250. S
+ ee http://www.atariarchives.org/bcc1/showpage.php?page=247
+SEQUENCE:0
+SUMMARY:Assignment 4:  Hunt the Wumpus! [Object-Oriented Programming an]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54110&month=02&year=2026#assignment_530970
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
+ /dp_app.css"><p><strong>Objective:&nbsp\;&nbsp\;</strong>To practice objec
+ ts and classes</p>\n<p><strong>Submit:&nbsp\;&nbsp\;</strong></p>\n<ul>\n<
+ li>Your program (the .java file) and the output of a sample run of your pr
+ ogram. &nbsp\;</li>\n<li><span>If you do extra credit\, be sure to demonst
+ rate that in your sample run(s).&nbsp\; </span></li>\n<li><span>If you cre
+ ate your own cave layout text file\, please upload that too.&nbsp\; </span
+ ></li>\n</ul>\n<p>Please put all of these things in a<span>&nbsp\;</span><
+ strong>single</strong><span>&nbsp\;</span>document and upload the document
+  to Canvas.&nbsp\; &nbsp\; Be sure to include comments in your program to 
+ explain your work.</p>\n<p><strong>Collaboration:&nbsp\;&nbsp\;</strong>Yo
+ u may work alone or with a partner.&nbsp\; If you work with a partner\, on
+ ly one person needs to submit your work.&nbsp\; Please make sure both peop
+ le's names are clearly indicated with your submission.</p>\n<p>&nbsp\;</p>
+ \n<p><strong>Description:</strong></p>\n<p>You are a mighty warrior\, and 
+ armed with your trusty bow and 3 arrows\, you enter The Caves in search of
+  the mighty Wumpus. If you shoot the Wumpus\, you are victorious and the m
+ asses will praise you\, but if you stumble upon the Wumpus unawares\, it w
+ ill eat you! Also\, beware of the webs of the giant poisonous spiders and 
+ the bottomless pits!</p>\n<p>Your senses of smell and hearing will aid you
+  on your quest\, for the Wumpus does not bathe and can be smelled one room
+  away. Also\, the clicking mandibles of the poisonous spiders can be heard
+  one room away\, and the foul odor of a bottomless pit can be smelled one 
+ room away.</p>\n<p>&nbsp\;</p>\n<p>For this project\, you will implement a
+  program that lets the user play<span>&nbsp\;</span><i>Hunt The Wumpus!</i
+ ></p>\n<p>&nbsp\;</p>\n<p><strong>Modeling the Caves:</strong></p>\n<p>The
+  layout of the cave rooms is specified in a text file that looks like this
+  (you may use this text file\, but it is not required):</p>\n<blockquote>\
+ n<pre>10\n1 2 6 10\nA wooden sign reads "Beware of the Wumpus!"\n2 1 3 7\n
+ There is a black pool of water in the corner.\n3 2 4 8\nYou see a Tyrannos
+ aurus Rex fossil embedded in the wall.\n4 3 5 9\nThere is an empty Diet Ri
+ te can here.\n5 4 6 10\nYou almost step on a broken cellular phone.\n6 1 5
+  7\nA couple of evil rats stare at you from under a pile of rocks.\n7 2 6 
+ 8\nYou find a Spanish doubloon on the floor.\n8 3 7 9\nThe ceiling is very
+  low and you have to stoop.\n9 4 8 10\nYou step on a slippery spot\, slip\
+ , and fall on your keester.\n10 1 5 9\nYou get a strong sense of deja vu.\
+ n</pre>\n</blockquote>\n<p><span>The first line of the text file gives the
+  number of rooms in the caves (your program should handle any number of ro
+ oms). Each room is described on two lines: the first gives the room number
+  and the room numbers of the three adjacent rooms (there are always 3)\; t
+ he second gives a string that describes the room.</span></p>\n<p>Put this 
+ cave layout (or one in a similar format) into a text file. Your program sh
+ ould have two files with a minimum of two classes: one file/class to repre
+ sent a single room\, and a second file/class\, with a<span>&nbsp\;</span><
+ tt>main()</tt>\, that plays the game and uses an array of room objects to 
+ hold the cave layout.&nbsp\;</p>\n<p>Your program should pick random numbe
+ rs to figure out where to place the Wumpus\, the two spider rooms (in two 
+ different rooms)\, and the two bottomless pits (in two different rooms). M
+ ake sure nothing ends up in room #1\, as that is where the player starts\,
+  and don't put spiders\, the wumpus\, or a pit in the same room together. 
+ (That means any cave layout needs at least 6 rooms - room #1\, the wumpus 
+ lair\, and four rooms for obstacles.)</p>\n<p><strong>Playing the Game:</s
+ trong></p>\n<p>Here is a sample game. Comments in italics are<span>&nbsp\;
+ </span><i>not</i><span>&nbsp\;</span>visible to the player\, but are there
+  to help explain what is happening. The user's input appears in boldface.<
+ /p>\n<blockquote>\n<pre>Welcome to **Hunt The Wumpus!**\n\nYou are in room
+  1.\nYou have 3 arrows left.\nA wooden sign reads "Beware of the Wumpus!"\
+ nThere are tunnels to rooms 2\, 6\, and 10.\nYou hear a faint clicking noi
+ se. <i>(There are spiders in room 6)</i>\n(M)ove or (S)hoot?\n<strong>M</s
+ trong>\nWhich room?\n<strong>5</strong>\nDimwit!  You can't get to there f
+ rom here.\nThere are tunnels to rooms 2\, 6\, and 10.\n(M)ove or (S)hoot?\
+ n<strong>M</strong>\nWhich room?\n<strong>2</strong>\n\nYou are in room 2.
+ \nYou have 3 arrows left.\nThere is a black pool of water in the corner.\n
+ There are tunnels to rooms 1\, 3\, and 7.\nYou smell a dank odor. <i>(Ther
+ e is a pit in room 3)</i>\nYou smell some nasty Wumpus! <i>(The wumpus is 
+ in room 7)</i>\n(M)ove or (S)hoot?\n<strong>S</strong>\nWhich room?\n<stro
+ ng>3</strong> <i>(The user picks the wrong room)</i>\nYour arrow goes down
+  the tunnel and is lost.  You missed.\n\nYou are in room 2.\nYou have 2 ar
+ rows left.\nThere is a black pool of water in the corner.\nThere are tunne
+ ls to rooms 1\, 3\, and 7.\nYou smell a dank odor. \nYou smell some nasty 
+ Wumpus! \n(M)ove or (S)hoot?\n<strong>S</strong>\nWhich room?\n<strong>7</
+ strong> \nYour arrow goes down the tunnel and finds its mark!\nYou shot th
+ e Wumpus!  ** You Win! **\n\nEnjoy your fame!\n</pre>\n</blockquote>\n<p>A
+ fter the caves are all set up\, the game proceeds. Have an integer (perhap
+ s called&nbsp\;<tt>currentRoom</tt>) to keep track of which room the warri
+ or/player is in currently. Your program will then repeat the following loo
+ p:</p>\n<ol>\n<li>Display the information about the current room. Print th
+ e room number\, its description\, and the list of adjacent rooms. Also che
+ ck if any of the adjacent rooms have spiders\, a pit\, or the Wumpus and p
+ rint a smell/hear message as appropriate. (If adjacent to two pits\, only 
+ print one smelly message\, and likewise for spiders.) You should also disp
+ lay the number of remaining arrows.</li>\n<li>Ask the player if they want 
+ to move or shoot.&nbsp\; Here's how you let the user input information: &n
+ bsp\;<a title="Program Showing how to do Command Line Input " href="https:
+ //butler.instructure.com/courses/54110/pages/program-showing-how-to-do-com
+ mand-line-input" data-course-type="wikiPages" data-published="true" data-a
+ pi-endpoint="https://butler.instructure.com/api/v1/courses/54110/pages/pro
+ gram-showing-how-to-do-command-line-input" data-api-returntype="Page">Prog
+ ram Showing how to do Command Line Input </a></li>\n<li>If the player shoo
+ ts\, have them pick which of the adjacent rooms to shoot into. If that roo
+ m contains the wumpus\, the player wins and the game is over. If not\, red
+ uce the number of arrows by one. If the player runs out of arrows\, they l
+ ose.<br>DO NOT kill off the spiders (there are too many) or create an "arr
+ ow bridge" over bottomless pits (really?) - the obstacles cannot be remove
+ d or destroyed with arrows.</li>\n<li>If the player moves\, ask for the ro
+ om number and change<span>&nbsp\;</span><tt>currentRoom</tt>. If the new r
+ oom contains spiders\, a pit\, or the Wumpus\, the game is over.</li>\n</o
+ l>\n<p>Do not let the user move or shoot into a room that is not adjacent 
+ to the current room.</p>\n<p>&nbsp\;</p>\n<p><strong>To Get Started:</stro
+ ng></p>\n<p>1.&nbsp\; &nbsp\;Write your Room class.&nbsp\; What variables 
+ does each Room need to have?&nbsp\; Then write main and see if you can cre
+ ate a single Room and print all of its variables.</p>\n<p>2.&nbsp\; Now ed
+ it main so that you are creating an array of rooms.&nbsp\; Write code that
+  loops through the array and prints all of the information about each room
+ .&nbsp\; (Note\, you aren't reading anything from the layout file yet.)</p
+ >\n<p>3.&nbsp\; Once 1 and 2 are working\, write code in main to read in t
+ he layout text file and then print it back to the screen so that you know 
+ you're reading it correctly.&nbsp\; At this point you aren't doing anythin
+ g with the data\, you are simply reading it in and then printing it out.</
+ p>\n<p>4.&nbsp\; Now modify main so that it creates the rooms based on the
+  layout file.&nbsp\; Use your code that loops through the array to print o
+ ut all of the information about each room to make sure everything is creat
+ ed correctly. &nbsp\;This might help:&nbsp\;&nbsp\;<a title="Program Showi
+ ng how to get Input from a File (Strings and Ints)" href="https://butler.i
+ nstructure.com/courses/54110/pages/program-showing-how-to-get-input-from-a
+ -file-strings-and-ints" data-course-type="wikiPages" data-published="true"
+  data-api-endpoint="https://butler.instructure.com/api/v1/courses/54110/pa
+ ges/program-showing-how-to-get-input-from-a-file-strings-and-ints" data-ap
+ i-returntype="Page">Program Showing how to get Input from a File (Strings 
+ and Ints)</a></p>\n<p>5.&nbsp\; &nbsp\;Add code to put the Wumpus\, spider
+ s\, and bottomless pits in appropriate rooms. For now\, just assign the Wu
+ mpus\, spiders\, and pits a room yourself. (In other words\, don't choose 
+ the rooms randomly.&nbsp\; That will make things harder to debug.)&nbsp\; 
+ Again\, print all of the information about all of your rooms so you can ma
+ ke sure they are set up correctly.</p>\n<p>... Then see if you can take it
+  from here!</p>\n<p>&nbsp\;</p>\n<p><strong>Extra Credit (up to 9 points):
+ &nbsp\;&nbsp\;</strong></p>\n<ul>\n<li>On the first line of the cave layou
+ t file\, after the number of rooms\, have your program accept the number o
+ f spider rooms and bottomless pits. Thus\, if the first line was:&nbsp\;</
+ li>\n</ul>\n<p>&nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nb
+ sp\; &nbsp\; &nbsp\; &nbsp\;25 5 3</p>\n<p>&nbsp\; &nbsp\; &nbsp\; your ca
+ ve would have 25 rooms\, with 5 of those having poisonous spiders\, and 3 
+ rooms with pits. These rooms are still chosen randomly. [3 points]</p>\n<p
+ >&nbsp\;</p>\n<ul>\n<li>Add a supply room that contains arrows. If the pla
+ yer enters this room\, their arrows are refilled back to 3. Note that if y
+ ou implement this\, the game does not end if the player runs out of arrows
+ . [2 points]</li>\n</ul>\n<p>&nbsp\;</p>\n<ul>\n<li>Add a room (chosen at 
+ random) with giant bats. If the player enters that room\, the bats pick hi
+ m/her up and fly to a random room before dropping the player (unharmed). I
+ f the new random room has the wumpus\, a pit\, or spiders\, the game is ov
+ er. The bats should move the player out of the room they are in. [3 points
+ ]</li>\n</ul>\n<p>&nbsp\;</p>\n<ul>\n<li>Skin the game - choose different 
+ words to describe the<span>&nbsp\;</span><i>exact same objects and functio
+ nality</i><span>&nbsp\;</span>to change the feel of the game. For example\
+ , instead of caves\, they are rooms on a space station\, with laser charge
+ s instead of arrows\, bottomless pits become holes into the vacuum of spac
+ e\, and the spiders are insane worker robots. The wumpus is an evil space 
+ alien. You get the idea. Be sure to give me a quick translation guide in y
+ our comments for easy grading. Keep it PG-rated please. [1 point for creat
+ ivity]</li>\n</ul>\n<p>&nbsp\;</p>\n<p><strong>Credits:</strong></p>\n<p>G
+ regory Yob\, "Hunt the Wumpus"\,<span>&nbsp\;</span><i>Creative Computing<
+ /i>\, volume 1\, 1976\, pages 247-250. See<span>&nbsp\;</span><a href="htt
+ p://www.atariarchives.org/bcc1/showpage.php?page=247">http://www.atariarch
+ ives.org/bcc1/showpage.php?page=247</a></p><script src="https://instructur
+ e-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841300/
+ dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260317T143400Z
+UID:event-assignment-553984
+DTSTART:20260303T000000Z
+DTEND:20260303T000000Z
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:H6 [Elementary Physics 2]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54926&month=03&year=2026#assignment_553984
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260223T060300Z
+UID:event-assignment-551005
+DTSTART;VALUE=DATE;VALUE=DATE:20260302
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:CH 18 HW Sp26 [Elementary Physics 2]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_55826&month=03&year=2026#assignment_551005
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260304T182900Z
+UID:event-assignment-551801
+DTSTART;VALUE=DATE;VALUE=DATE:20260302
+CLASS:PUBLIC
+DESCRIPTION:Today we will create a sorted linked list of integers.\n\nIt wi
+ ll contain these methods:  \n\n//resets the ADT to empty\npublic void ma
+ keEmpty()\;\n\n//Returns true if the ADT is empty\, false otherwise\npubli
+ c boolean isEmpty()\;\n\n//With a linked list\, this should always return 
+ false\npublic boolean isFull()\;\n\n//returns the number of elements in th
+ e ADT\npublic int size()\;\n\n//Add x to the list in the proper position.\
+ n//Be sure to account for three cases:\n//1. Inserting into the beginning 
+ of the list\n//2. Inserting into the end of the list\n//3. Inserting into 
+ the middle of the list\npublic void insert(int x)\;\n\n//Removes the item 
+ from postion pos in the list and returns it. If pos == 0\, returns the fir
+ st value in the list.\n//Be sure to account for four cases:\n//1. Removing
+  the first item in the list\n//2. Removing the first item in the list\n//3
+ . Removing the first item in the list  \n//4. pos refers to a position th
+ at doesn't exist\npublic int delete(int pos)\;\n\n//Checks to see if the l
+ ist is empty. If it is\, print a message saying this. If it isn't\, print 
+ all of the elements in the list.\npublic void printList()\;\n\n1.  Make a
+  new folder for this assignment.    \n\n2.  Make a new class called So
+ rtedLinkedList.java.   Inside this class you will have another class whi
+ ch defines a node for your linked list\, like you did with your linked lis
+ t stack.\n\n3.  Start with your constructor.  It should print "You made 
+ a sorted linked list object!"  Compile this.  Then write main and create
+  a new SortedLinkedList.  Compile and run main to make sure your construc
+ tor works.\n\n4.  Work on your class one method at a time\, being sure to
+  test each method in main as you go.
+SEQUENCE:0
+SUMMARY:ICA 13 [Object-Oriented Programming an]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54110&month=03&year=2026#assignment_551801
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
+ /dp_app.css"><p>Today we will create a sorted linked list of integers.</p>
+ \n<p>It will contain these methods:&nbsp\;&nbsp\;</p>\n<pre class="a-b-r-L
+ a">  //resets the ADT to empty\n  public void makeEmpty()\;<br><br>  //Ret
+ urns true if the ADT is empty\, false otherwise\n  public boolean isEmpty(
+ )\;<br><br>  //With a linked list\, this should always return false\n  pub
+ lic boolean isFull()\;<br><br>  //returns the number of elements in the AD
+ T\n  public int size()\;\n</pre>\n<pre class="a-b-r-La"><br>  //Add x to t
+ he list in the proper position.<br>  //Be sure to account for three cases:
+ <br>  //1.  Inserting into the beginning of the list<br>  //2.  Inserting 
+ into the end of the list<br>  //3.  Inserting into the middle of the list\
+ n  public void insert(int x)\;<br><br>  //Removes the item from postion po
+ s in the list and returns it.  If pos == 0\, returns the first value in th
+ e list.<br>  //Be sure to account for four cases:<br>  //1. Removing the f
+ irst item in the list<br>  //2. Removing the first item in the list<br>  /
+ /3. Removing the first item in the list &nbsp\; <br>  //4. pos refers to a
+  position that doesn't exist<br>  public int delete(int pos)\;<br>  <br><b
+ r>  //Checks to see if the list is empty.  If it is\, print a message sayi
+ ng this.  If it isn't\, print all of the elements in the list.<br>  public
+  void printList()\;</pre>\n<p>1.&nbsp\; Make a new folder for this assignm
+ ent.&nbsp\; &nbsp\;&nbsp\;</p>\n<p>2.&nbsp\; Make a new class called Sorte
+ dLinkedList.java.&nbsp\; &nbsp\;Inside this class you will have another cl
+ ass which defines a node for your linked list\, like you did with your lin
+ ked list stack.</p>\n<p><span style="color: #273540\;">3.&nbsp\; Start wit
+ h your constructor.&nbsp\; It should print "You made a sorted linked list 
+ object!"&nbsp\; Compile this.&nbsp\; Then write main and create a new Sort
+ edLinkedList.&nbsp\; Compile and run main to make sure your constructor wo
+ rks.</span></p>\n<p><span style="color: #273540\;">4.&nbsp\; Work on your 
+ class one method at a time\, being sure to test each method in main as you
+  go.</span></p><script src="https://instructure-uploads.s3.amazonaws.com/a
+ ccount_122580000000000001/attachments/3841300/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260317T143300Z
+UID:event-assignment-553983
+DTSTART:20260303T180000Z
+DTEND:20260303T180000Z
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:L7 [Elementary Physics 2]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54926&month=03&year=2026#assignment_553983
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260304T182900Z
+UID:event-assignment-551915
+DTSTART;VALUE=DATE;VALUE=DATE:20260303
+CLASS:PUBLIC
+DESCRIPTION:Today we will get started on:  [Assignment 5: The La Food Rest
+ aurant Program] (https://butler.instructure.com/courses/54110/assignments/
+ 530971)\n\n1.  Make a new folder for this assignment.    \n\n2.  Writ
+ e a class called Party.  What information do we need to store about each 
+ party?  Write getters and setters for these variables.  Then write main 
+ and test your getters and setters.\n\n3.  Next work on reading input from
+  the file. \n\n* Start by reading the items in the first line of the file
+  in and printing them all out.  To get just a single String (instead of a
+  whole line at once)\, use:  inputFileScanner.next()\;\n\n* Now try to re
+ ad the items in the first three lines of the file in and then printing the
+ m all out.  \n\n* Now add a loop so that you read lines until you encoun
+ ter the Q (for quit).\n\n4.  Copy these files into your folder and compil
+ e them.  Then create a new QueueLL object. \n\n* [AbstractDataType.java]
+  (https://butler.instructure.com/courses/54110/pages/abstractdatatype-dot-
+ java)\n\n* [Queue.java] (https://butler.instructure.com/courses/54110/page
+ s/queue-dot-java)\n\n* [QueueLL.java] (https://butler.instructure.com/cour
+ ses/54110/pages/queuell-dot-java)\n\n5.   Next\, modify the code you wro
+ te in Step 3\, so that if you read a line that starts with A you create a 
+ new Party object using your setters and enqueue it.  Then try dequeue-ing
+  it and printing it using your getters.  Note: When you call dequeue\, i
+ t returns a generic Object.  You will need to cast this so that it is of 
+ type Party.  \n\n6.  Once that's working\, see if you can enqueue all th
+ e parties in the file.  \n\n 
+SEQUENCE:0
+SUMMARY:ICA 14 [Object-Oriented Programming an]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54110&month=03&year=2026#assignment_551915
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
+ /dp_app.css"><p>Today we will get started on: &nbsp\;<a title="Assignment 
+ 5:  The La Food Restaurant Program" href="https://butler.instructure.com/c
+ ourses/54110/assignments/530971" data-course-type="assignments" data-publi
+ shed="false" data-api-endpoint="https://butler.instructure.com/api/v1/cour
+ ses/54110/assignments/530971" data-api-returntype="Assignment">Assignment 
+ 5: The La Food Restaurant Program</a></p>\n<p>1.&nbsp\; Make a new folder 
+ for this assignment.&nbsp\; &nbsp\;&nbsp\;</p>\n<p>2.&nbsp\; Write a class
+  called <span style="font-family: 'courier new'\, courier\;">Party</span>.
+ &nbsp\; What information do we need to store about each party?&nbsp\; Writ
+ e getters and setters for these variables.&nbsp\; Then write <span style="
+ font-family: 'courier new'\, courier\;">main</span> and test your getters 
+ and setters.</p>\n<p>3.&nbsp\; Next work on reading input from the file.&n
+ bsp\;</p>\n<ul>\n<li>Start by reading the items in the first line of the f
+ ile in and printing them all out.&nbsp\; To get just a single String (inst
+ ead of a whole line at once)\, use: <span style="font-family: 'courier new
+ '\, courier\;">&nbsp\;inputFileScanner.next()\;</span></li>\n<li>Now try t
+ o read the items in the first three lines of the file in and then printing
+  them all out.&nbsp\;&nbsp\;</li>\n<li>Now add a loop so that you read lin
+ es until you encounter the Q (for quit).</li>\n</ul>\n<p>4.&nbsp\; Copy th
+ ese files into your folder and compile them.&nbsp\; Then create a new Queu
+ eLL object.&nbsp\;</p>\n<ul>\n<li><a title="AbstractDataType.java" href="h
+ ttps://butler.instructure.com/courses/54110/pages/abstractdatatype-dot-jav
+ a" data-course-type="wikiPages" data-published="true" data-api-endpoint="h
+ ttps://butler.instructure.com/api/v1/courses/54110/pages/abstractdatatype-
+ dot-java" data-api-returntype="Page">AbstractDataType.java</a></li>\n<li><
+ a title="Queue.java" href="https://butler.instructure.com/courses/54110/pa
+ ges/queue-dot-java" data-course-type="wikiPages" data-published="true" dat
+ a-api-endpoint="https://butler.instructure.com/api/v1/courses/54110/pages/
+ queue-dot-java" data-api-returntype="Page">Queue.java</a></li>\n<li><a tit
+ le="QueueLL.java" href="https://butler.instructure.com/courses/54110/pages
+ /queuell-dot-java" data-course-type="wikiPages" data-published="true" data
+ -api-endpoint="https://butler.instructure.com/api/v1/courses/54110/pages/q
+ ueuell-dot-java" data-api-returntype="Page">QueueLL.java</a></li>\n</ul>\n
+ <p>5.&nbsp\; &nbsp\;Next\, modify the code you wrote in Step 3\, so that i
+ f you read a line that starts with A you create a new <span style="font-fa
+ mily: 'courier new'\, courier\;">Party</span> object using your setters an
+ d enqueue it.&nbsp\; Then try dequeue-ing it and printing it using your ge
+ tters. &nbsp\;<strong>Note:&nbsp\;</strong>When you call <span style="font
+ -family: 'courier new'\, courier\;">dequeue</span>\, it returns a generic 
+ <span style="font-family: 'courier new'\, courier\;">Object</span>.&nbsp\;
+  You will need to cast this so that it is of type <span style="font-family
+ : 'courier new'\, courier\;">Party</span>. &nbsp\;</p>\n<p>6.&nbsp\; Once 
+ that's working\, see if you can enqueue all the parties in the file.&nbsp\
+ ;&nbsp\;</p>\n<p>&nbsp\;</p><script src="https://instructure-uploads.s3.am
+ azonaws.com/account_122580000000000001/attachments/3841300/dp_app.js"></sc
+ ript>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260316T191000Z
+UID:event-assignment-530989
+DTSTART:20260306T160000Z
+DTEND:20260306T160000Z
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:Quiz 7 [Object-Oriented Programming an]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54110&month=03&year=2026#assignment_530989
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260318T065700Z
+UID:event-assignment-554083
+DTSTART:20260306T160000Z
+DTEND:20260306T160000Z
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:T2 [Elementary Physics 2]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_55826&month=03&year=2026#assignment_554083
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260324T145600Z
+UID:event-assignment-554897
+DTSTART:20260309T230000Z
+DTEND:20260309T230000Z
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:H7 [Elementary Physics 2]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54926&month=03&year=2026#assignment_554897
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260323T191700Z
+UID:event-assignment-553576
+DTSTART;VALUE=DATE;VALUE=DATE:20260316
+CLASS:PUBLIC
+DESCRIPTION:[CH408 March 16.docx] (https://butler.instructure.com/courses/5
+ 3940/files/5401113?wrap=1)
+SEQUENCE:0
+SUMMARY:In Class 3-16 [Chemistry in Our Lives]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_53940&month=03&year=2026#assignment_553576
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
+ /dp_app.css"><p><a id="5401113" class="instructure_file_link instructure_s
+ cribd_file inline_disabled" title="Link" href="https://butler.instructure.
+ com/courses/53940/files/5401113?wrap=1" target="_blank" data-canvas-previe
+ wable="true" data-api-endpoint="https://butler.instructure.com/api/v1/cour
+ ses/53940/files/5401113" data-api-returntype="File">CH408 March 16.docx</a
+ ></p><script src="https://instructure-uploads.s3.amazonaws.com/account_122
+ 580000000000001/attachments/3841300/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260324T145300Z
+UID:event-assignment-554895
+DTSTART:20260317T170000Z
+DTEND:20260317T170000Z
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:L8 [Elementary Physics 2]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54926&month=03&year=2026#assignment_554895
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260318T071100Z
+UID:event-assignment-553802
+DTSTART:20260318T130000Z
+DTEND:20260318T130000Z
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:Sec. 18.6 [Elementary Physics 2]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_55826&month=03&year=2026#assignment_553802
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260319T163300Z
+UID:event-assignment-553991
+DTSTART;VALUE=DATE;VALUE=DATE:20260318
+CLASS:PUBLIC
+DESCRIPTION:1.  Create a new file called Sorts.java and then create a clas
+ s called Sorts.\n\n2.  In main\, create an array of 10 integers.  (You c
+ an just make up the numbers.)\n\n3.  In your Sorts class create a method 
+ which prints your array.  Call this method to print your original array o
+ f numbers.\n\n4.  In your Sorts class create a method called swap which t
+ akes three parameters:  (your array of numbers\, int x\, int y).  Your m
+ ethod won't return anything.\n\n     The method should swap the numbers
+  in cells x and y in the array.  Call this method from main and then call
+  your print method to be sure the numbers were swapped correctly.\n\n5.  
+ In your Sorts class\, create a method called findMax which takes two param
+ eters:  (your array of numbers\, int end) \n\n     Your method should
+  find the largest value in the array between cell 0 up to and including ce
+ ll end\, and return the index of this value.  Test your method to be sure
+  it works.\n\n6.  Now write a method called selectionSort which uses swap
+ () and findMax() to sort your numbers.\n\n   \n\n \n\n 
+SEQUENCE:0
+SUMMARY:ICA 15 [Object-Oriented Programming an]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54110&month=03&year=2026#assignment_553991
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
+ /dp_app.css"><p>1.&nbsp\; Create a new file called Sorts.java and then cre
+ ate a class called Sorts.</p>\n<p>2.&nbsp\; In main\, create an array of 1
+ 0 integers.&nbsp\; (You can just make up the numbers.)</p>\n<p>3.&nbsp\; I
+ n your Sorts class create a method which prints your array.&nbsp\; Call th
+ is method to print your original array of numbers.</p>\n<p>4.&nbsp\; In yo
+ ur Sorts class create a method called swap which takes three parameters:&n
+ bsp\; (your array of numbers\, int x\, int y).&nbsp\; Your method won't re
+ turn anything.</p>\n<p>&nbsp\; &nbsp\; &nbsp\;The method should swap the n
+ umbers in cells x and y in the array.&nbsp\; Call this method from main an
+ d then call your print method to be sure the numbers were swapped correctl
+ y.</p>\n<p>5.&nbsp\; In your Sorts class\, create a method called findMax 
+ which takes two parameters:&nbsp\; (your array of numbers\, int end)&nbsp\
+ ;</p>\n<p>&nbsp\; &nbsp\; &nbsp\;Your method should find the largest value
+  in the array between cell 0 up to and including cell end\, and return the
+  index of this value.&nbsp\; Test your method to be sure it works.</p>\n<p
+ >6.&nbsp\; Now write a method called selectionSort which uses swap() and f
+ indMax() to sort your numbers.</p>\n<p>&nbsp\; &nbsp\;</p>\n<p>&nbsp\;</p>
+ \n<p>&nbsp\;</p><script src="https://instructure-uploads.s3.amazonaws.com/
+ account_122580000000000001/attachments/3841300/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260323T145700Z
+UID:event-assignment-539701
+DTSTART;VALUE=DATE;VALUE=DATE:20260319
+CLASS:PUBLIC
+DESCRIPTION: \n\n***********\nDescription\n***********\n\nThe neighborhood
+  kids have decided to computerize their annual Halloween Trick or Treat 20
+ 18 operation and you've been hired to write a database program to help the
+ m out (your fee is a percentage of the candy). Your program should maintai
+ n information on six types of candy: Candy corn\, licorice\, jaw breakers\
+ , peanutbutter cups\, M&Ms\, and Other. Your program will treat these as i
+ ntegers from 1-6.\n\n \n\nThe user is allowed to issue any of the followi
+ ng commands\, in any order: \n\n \n\n  E.\n\nEat.              
+ \n\nAsk the user for the candy type\, and then reduce the count by one. Gi
+ ve an error message if there is no candy of that type.\n\n  T.\n\nTrick o
+ r Treat.\n\nAsk the user for the type of candy they just got\, and then in
+ crease the count by one.\n\n  I.\n\nInventory.\n\nDisplay a listing of th
+ e counts of each candy type. Display the total amount of candy.\n\n  C.\n
+ \nCandy Types.\n\nList the types of candy available (1-6).\n\n  M.\n\nCom
+ mand Menu.\n\nPrint a list of available commands.\n\n  S.\n\nSave.\n\nSav
+ e the candy database to the file candy.dat.\n\n  L.\n\nLoad.\n\nLoad the
+  candy database from the file candy.dat. This needs to work correctly onl
+ y if a Save was done earlier.\n\n  Q.\n\nQuit.\n\nStops the program.\n\n
+  \n\nSee the sample run below.\n\nTo  receive full credit the following 
+ must be present::\n\n- You must use an ARRAY to manage your candy inventor
+ y.\n\n- There must be a function for each of the menu commands except for 
+ Quit.  So there must be a function for the following:\n\n*         EA
+ T\n\n*         TRICK\n\n*         INVENTORY\n\n*         CANDY
+  TYPES\n\n*         COMMAND MENU\n\n*         SAVE\n\n*       
+   LOAD\n\n**********\nSample Run\n**********\n\nBelow is a sample of how 
+ your program might look. (It does not have to be identical.) The user's in
+ put appears in italics.\n\n \n\n    ** Welcome to the Candy Database Pr
+ ogram! **\n\n \n\n    Here is a list of commands:\n\n \n\n      E
+  - Eat a piece of candy\n\n      T - Trick or Treat: get a piece of ca
+ ndy\n\n      I - Inventory listing\n\n      C - List candy types\n
+ \n      M - Print this menu of commands\n\n      S - Save to the f
+ ile candy.dat\n\n      L - Load from the file candy.dat\n\n      Q
+  - Quit this program\n\n \n\n    Command-> C\n\n    Candy Types:\n\
+ n \n\n     1  Candy Corn\n\n     2  Licorice\n\n     3  Ja
+ w Breakers\n\n     4  Peanutbutter Cups\n\n     5  M&Ms\n\n   
+   6  Other\n\n \n\n    Command->T\n\n    Please enter the candy 
+ type (1-6):1\n\n \n\n    Command->E\n\n    Please enter the candy t
+ ype (1-6):2\n\n    Error - you don't have any of that type.\n\n \n\n 
+    Command->T\n\n    Please enter the candy type (1-6):1\n\n \n\n  
+   Command->T\n\n    Please enter the candy type (1-6):2\n\n \n\n  
+   Command->T\n\n    Please enter the candy type (1-6):3\n\n \n\n  
+   Command->E\n\n    Please enter the candy type (1-6):2\n\n \n\n  
+   Command->M\n\n    Here is a list of commands:\n\n \n\n      E 
+ - Eat a piece of candy\n\n      T - Trick or Treat: get a piece of can
+ dy\n\n      I - Inventory listing\n\n      C - List candy types\n\
+ n      M - Print this menu of commands\n\n      S - Save to the fi
+ le candy.dat\n\n      L - Load from the file candy.dat\n\n      Q 
+ - Quit this program\n\n \n\n    Command->I\n\n    Candy Inventory:\
+ n\n \n\n      Candy Corn               2\n\n      Licoric
+ e                      0\n\n      Jaw Breakers        
+     1\n\n      Peanutbutter Cups    0\n\n      M&Ms       
+                  0\n\n      Other                   
+       0\n\n \n\n      You have 3 pieces of candy.\n\n \n\n    
+ Command->S\n\n    Candy database saved to the file candy.dat.\n\n \n\n
+     Command->Q\n\n    Enjoy your trip to the dentist!\n\n \n\nHand 
+ In\n\nTurn in your .CPP program..\n\n \n\n*****\nNotes\n*****\n\n* Rememb
+ er to use comments\, both at the top of your program and in your describin
+ g what it does when needed. Remember to indent properly and align curly br
+ aces.\n\n* The array should be initialized to all zeroes in the main(). Wr
+ ite a function for each command. Your main function will consist of a loop
+  that reads user commands (until a 'Q' is entered) and then calls the appr
+ opriate function using selection statements inside the loop.\n\n* Write th
+ e program incrementally. That is\, start by having it only handle the 'M' 
+ and 'Q' commands\, and then add the commands one at a time\, debugging as 
+ you go. This way\, when you encounter an error\, you know it must have occ
+ urred in the code you just added. The 'S' and 'L' commands should be added
+  last.\n\n* Your program will be 2-5 pages long when completed\, so start 
+ early!
+SEQUENCE:0
+SUMMARY:Assignment 4 - The Candy Database Program - 50 Points [Intro to Com
+ p. Sci. and Prog.]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54995&month=03&year=2026#assignment_539701
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
+ /dp_app.css"><p>&nbsp\;</p>\n<h1>Description</h1>\n<p>The neighborhood kid
+ s have decided to computerize their annual Halloween Trick or Treat 2018 o
+ peration and you've been hired to write a database program to help them ou
+ t (your fee is a percentage of the candy). Your program should maintain in
+ formation on six types of candy: Candy corn\, licorice\, jaw breakers\, pe
+ anutbutter cups\, M&amp\;Ms\, and Other. Your program will treat these as 
+ integers from 1-6.</p>\n<p>&nbsp\;</p>\n<p>The user is allowed to issue an
+ y of the following commands\, in any order:&nbsp\;</p>\n<p>&nbsp\;</p>\n<t
+ able border="0" cellspacing="0" cellpadding="0">\n<tbody>\n<tr>\n<td valig
+ n="top">\n<p>&nbsp\; E.</p>\n</td>\n<td valign="top" width="118">\n<p><str
+ ong>Eat</strong>.&nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\;&n
+ bsp\;</p>\n</td>\n<td valign="top" width="329">\n<p>Ask the user for the c
+ andy type\, and then reduce the count by one. Give an error message if the
+ re is no candy of that type.</p>\n</td>\n</tr>\n<tr>\n<td valign="top">\n<
+ p>&nbsp\; T.</p>\n</td>\n<td valign="top" width="118">\n<p><strong>Trick o
+ r Treat</strong>.</p>\n</td>\n<td valign="top" width="329">\n<p>Ask the us
+ er for the type of candy they just got\, and then increase the count by on
+ e.</p>\n</td>\n</tr>\n<tr>\n<td valign="top">\n<p>&nbsp\; I.</p>\n</td>\n<
+ td valign="top" width="118">\n<p><strong>Inventory</strong>.</p>\n</td>\n<
+ td valign="top" width="329">\n<p>Display a listing of the counts of each c
+ andy type. Display the total amount of candy.</p>\n</td>\n</tr>\n<tr>\n<td
+  valign="top">\n<p>&nbsp\; C.</p>\n</td>\n<td valign="top" width="118">\n<
+ p><strong>Candy Types</strong>.</p>\n</td>\n<td valign="top" width="329">\
+ n<p>List the types of candy available (1-6).</p>\n</td>\n</tr>\n<tr>\n<td 
+ valign="top">\n<p>&nbsp\; M.</p>\n</td>\n<td valign="top" width="118">\n<p
+ ><strong>Command Menu</strong>.</p>\n</td>\n<td valign="top" width="329">\
+ n<p>Print a list of available commands.</p>\n</td>\n</tr>\n<tr>\n<td valig
+ n="top">\n<p>&nbsp\; S.</p>\n</td>\n<td valign="top" width="118">\n<p><str
+ ong>Save</strong>.</p>\n</td>\n<td valign="top" width="329">\n<p>Save the 
+ candy database to the file&nbsp\;candy.dat.</p>\n</td>\n</tr>\n<tr>\n<td v
+ align="top">\n<p>&nbsp\; L.</p>\n</td>\n<td valign="top" width="118">\n<p>
+ <strong>Load</strong>.</p>\n</td>\n<td valign="top" width="329">\n<p>Load 
+ the candy database from the file&nbsp\;candy.dat. This needs to work corre
+ ctly only if a Save was done earlier.</p>\n</td>\n</tr>\n<tr>\n<td valign=
+ "top">\n<p>&nbsp\; Q.</p>\n</td>\n<td valign="top" width="118">\n<p><stron
+ g>Quit</strong>.</p>\n</td>\n<td valign="top" width="329">\n<p>Stops the p
+ rogram.</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp\;</p>\n<p>See the 
+ sample run below.</p>\n<p><strong>To&nbsp\; receive full credit the follow
+ ing must be present::</strong></p>\n<p>- You must use an ARRAY to manage y
+ our candy inventory.</p>\n<p>- There must be <strong>a function for each o
+ f the menu commands</strong> except for Quit.&nbsp\; So there must be a fu
+ nction for the following:</p>\n<ul>\n<li><strong>&nbsp\; &nbsp\; &nbsp\; &
+ nbsp\; EAT</strong></li>\n<li><strong>&nbsp\; &nbsp\; &nbsp\; &nbsp\; TRIC
+ K</strong></li>\n<li><strong>&nbsp\; &nbsp\; &nbsp\; &nbsp\; INVENTORY</st
+ rong></li>\n<li><strong>&nbsp\; &nbsp\; &nbsp\; &nbsp\; CANDY TYPES</stron
+ g></li>\n<li><strong>&nbsp\; &nbsp\; &nbsp\; &nbsp\; COMMAND MENU</strong>
+ </li>\n<li><strong>&nbsp\; &nbsp\; &nbsp\; &nbsp\; SAVE</strong></li>\n<li
+ ><strong>&nbsp\; &nbsp\; &nbsp\; &nbsp\; LOAD</strong></li>\n</ul>\n<h1><s
+ pan style="text-decoration: underline\;">Sample Run</span></h1>\n<p>Below 
+ is a sample of how your program might look. (It does not have to be identi
+ cal.) The user's input appears in italics.</p>\n<p>&nbsp\;</p>\n<p><i>&nbs
+ p\; &nbsp\; ** Welcome to the Candy Database Program! **</i></p>\n<p><i>&n
+ bsp\;</i></p>\n<p><i>&nbsp\; &nbsp\;&nbsp\;Here is a list of commands:</i>
+ </p>\n<p><i>&nbsp\;</i></p>\n<p><i>&nbsp\; &nbsp\;&nbsp\;&nbsp\; E - Eat a
+  piece of candy</i></p>\n<p><i>&nbsp\; &nbsp\;&nbsp\;&nbsp\; T - Trick or 
+ Treat: get a piece of candy</i></p>\n<p><i>&nbsp\; &nbsp\;&nbsp\;&nbsp\; I
+  - Inventory listing</i></p>\n<p><i>&nbsp\; &nbsp\;&nbsp\;&nbsp\; C - List
+  candy types</i></p>\n<p><i>&nbsp\; &nbsp\;&nbsp\;&nbsp\; M - Print this m
+ enu of commands</i></p>\n<p><i>&nbsp\; &nbsp\;&nbsp\;&nbsp\; S - Save to t
+ he file candy.dat</i></p>\n<p><i>&nbsp\; &nbsp\;&nbsp\;&nbsp\; L - Load fr
+ om the file candy.dat</i></p>\n<p><i>&nbsp\; &nbsp\;&nbsp\;&nbsp\; Q - Qui
+ t this program</i></p>\n<p><i>&nbsp\;</i></p>\n<p><i>&nbsp\; &nbsp\;&nbsp\
+ ;Command-&gt\; C</i></p>\n<p><i>&nbsp\; &nbsp\;&nbsp\;Candy Types:</i></p>
+ \n<p><i>&nbsp\;</i></p>\n<p><i>&nbsp\;&nbsp\; &nbsp\;&nbsp\;1&nbsp\; Candy
+  Corn</i></p>\n<p><i>&nbsp\; &nbsp\;&nbsp\;&nbsp\;2&nbsp\; Licorice</i></p
+ >\n<p><i>&nbsp\; &nbsp\;&nbsp\;&nbsp\;3&nbsp\; Jaw Breakers</i></p>\n<p><i
+ >&nbsp\; &nbsp\;&nbsp\;&nbsp\;4&nbsp\; Peanutbutter Cups</i></p>\n<p><i>&n
+ bsp\; &nbsp\;&nbsp\;&nbsp\;5&nbsp\; M&amp\;Ms</i></p>\n<p><i>&nbsp\; &nbsp
+ \;&nbsp\;&nbsp\;6&nbsp\; Other</i></p>\n<p><i>&nbsp\;</i></p>\n<p><i>&nbsp
+ \; &nbsp\;&nbsp\;Command-&gt\;T</i></p>\n<p><i>&nbsp\; &nbsp\;&nbsp\;Pleas
+ e enter the candy type (1-6):1</i></p>\n<p><i>&nbsp\;</i></p>\n<p><i>&nbsp
+ \; &nbsp\;&nbsp\;Command-&gt\;E</i></p>\n<p><i>&nbsp\; &nbsp\;&nbsp\;Pleas
+ e enter the candy type (1-6):2</i></p>\n<p><i>&nbsp\; &nbsp\;&nbsp\;Error 
+ - you don't have any of that type.</i></p>\n<p><i>&nbsp\;</i></p>\n<p><i>&
+ nbsp\; &nbsp\;&nbsp\;Command-&gt\;T</i></p>\n<p><i>&nbsp\; &nbsp\;&nbsp\;P
+ lease enter the candy type (1-6):1</i></p>\n<p><i>&nbsp\;</i></p>\n<p><i>&
+ nbsp\; &nbsp\;&nbsp\;Command-&gt\;T</i></p>\n<p><i>&nbsp\; &nbsp\;&nbsp\;P
+ lease enter the candy type (1-6):2</i></p>\n<p><i>&nbsp\;</i></p>\n<p><i>&
+ nbsp\; &nbsp\;&nbsp\;Command-&gt\;T</i></p>\n<p><i>&nbsp\; &nbsp\;&nbsp\;P
+ lease enter the candy type (1-6):3</i></p>\n<p><i>&nbsp\;</i></p>\n<p><i>&
+ nbsp\; &nbsp\;&nbsp\;Command-&gt\;E</i></p>\n<p><i>&nbsp\; &nbsp\;&nbsp\;P
+ lease enter the candy type (1-6):2</i></p>\n<p><i>&nbsp\;</i></p>\n<p><i>&
+ nbsp\; &nbsp\;&nbsp\;Command-&gt\;M</i></p>\n<p><i>&nbsp\; &nbsp\;&nbsp\;H
+ ere is a list of commands:</i></p>\n<p><i>&nbsp\;</i></p>\n<p><i>&nbsp\; &
+ nbsp\;&nbsp\;&nbsp\; E - Eat a piece of candy</i></p>\n<p><i>&nbsp\; &nbsp
+ \;&nbsp\;&nbsp\; T - Trick or Treat: get a piece of candy</i></p>\n<p><i>&
+ nbsp\; &nbsp\;&nbsp\;&nbsp\; I - Inventory listing</i></p>\n<p><i>&nbsp\; 
+ &nbsp\;&nbsp\;&nbsp\; C - List candy types</i></p>\n<p><i>&nbsp\; &nbsp\;&
+ nbsp\;&nbsp\; M - Print this menu of commands</i></p>\n<p><i>&nbsp\; &nbsp
+ \;&nbsp\;&nbsp\; S - Save to the file candy.dat</i></p>\n<p><i>&nbsp\; &nb
+ sp\;&nbsp\;&nbsp\; L - Load from the file candy.dat</i></p>\n<p><i>&nbsp\;
+  &nbsp\;&nbsp\;&nbsp\; Q - Quit this program</i></p>\n<p><i>&nbsp\;</i></p
+ >\n<p><i>&nbsp\; &nbsp\;&nbsp\;Command-&gt\;I</i></p>\n<p><i>&nbsp\; &nbsp
+ \;&nbsp\;Candy Inventory:</i></p>\n<p><i>&nbsp\;</i></p>\n<p><i>&nbsp\;&nb
+ sp\; &nbsp\;&nbsp\; Candy Corn&nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbs
+ p\; &nbsp\; &nbsp\;2</i></p>\n<p><i>&nbsp\; &nbsp\;&nbsp\;&nbsp\; Licorice
+ &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &n
+ bsp\; &nbsp\; 0</i></p>\n<p><i>&nbsp\; &nbsp\;&nbsp\;&nbsp\; Jaw Breakers&
+ nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; 1</i></p>\n<p><i>&nbsp\; &n
+ bsp\;&nbsp\;&nbsp\; Peanutbutter Cups&nbsp\; &nbsp\; 0</i></p>\n<p><i>&nbs
+ p\;&nbsp\; &nbsp\;&nbsp\; M&amp\;Ms&nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\;
+  &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; 0</i></p>\n<p><i>
+ &nbsp\;&nbsp\; &nbsp\;&nbsp\; Other&nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\;
+  &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\;0</i></p>\
+ n<p><i>&nbsp\;</i></p>\n<p><i>&nbsp\;&nbsp\; &nbsp\;&nbsp\; You have 3 pie
+ ces of candy.</i></p>\n<p><i>&nbsp\;</i></p>\n<p><i>&nbsp\; &nbsp\;&nbsp\;
+ Command-&gt\;S</i></p>\n<p><i>&nbsp\; &nbsp\;&nbsp\;Candy database saved t
+ o the file candy.dat.</i></p>\n<p><i>&nbsp\;</i></p>\n<p><i>&nbsp\; &nbsp\
+ ;&nbsp\;Command-&gt\;Q</i></p>\n<p><i>&nbsp\; &nbsp\;&nbsp\;Enjoy your tri
+ p to the dentist!</i></p>\n<p><span style="color: inherit\; font-family: i
+ nherit\; font-size: 1.2em\;">&nbsp\;</span></p>\n<p><span style="color: in
+ herit\; font-family: inherit\; font-size: 1.2em\;">Hand In</span></p>\n<p>
+ Turn in your .CPP program..</p>\n<p>&nbsp\;</p>\n<h1>Notes</h1>\n<ul>\n<li
+ >Remember to use comments\, both at the top of your program and in your de
+ scribing what it does when needed. Remember to indent properly and align c
+ urly braces.</li>\n<li>The array should be initialized to all zeroes in th
+ e main(). Write a function for each command. Your main function will consi
+ st of a loop that reads user commands (until a 'Q' is entered) and then ca
+ lls the appropriate function using selection statements inside the loop.</
+ li>\n<li>Write the program incrementally. That is\, start by having it onl
+ y handle the 'M' and 'Q' commands\, and then add the commands one at a tim
+ e\, debugging as you go. This way\, when you encounter an error\, you know
+  it must have occurred in the code you just added. The 'S' and 'L' command
+ s should be added last.</li>\n<li>Your program will be 2-5 pages long when
+  completed\, so start early!</li>\n</ul><script src="https://instructure-u
+ ploads.s3.amazonaws.com/account_122580000000000001/attachments/3841300/dp_
+ app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260319T163300Z
+UID:event-assignment-554251
+DTSTART;VALUE=DATE;VALUE=DATE:20260319
+CLASS:PUBLIC
+DESCRIPTION:1.  In your Sorts class\, implement Bubble sort.  (Hint:  Fi
+ rst get a single pass working.)\n\n2.  If time\, implement Insertion sort
+ .\n\n   \n\n \n\n 
+SEQUENCE:0
+SUMMARY:ICA 16 [Object-Oriented Programming an]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54110&month=03&year=2026#assignment_554251
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
+ /dp_app.css"><p>1.&nbsp\; In your Sorts class\, implement Bubble sort.&nbs
+ p\; (Hint:&nbsp\; First get a single pass working.)</p>\n<p>2.&nbsp\; If t
+ ime\, implement Insertion sort.</p>\n<p>&nbsp\; &nbsp\;</p>\n<p>&nbsp\;</p
+ >\n<p>&nbsp\;</p><script src="https://instructure-uploads.s3.amazonaws.com
+ /account_122580000000000001/attachments/3841300/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260318T203900Z
+UID:event-assignment-541276
+DTSTART:20260320T130000Z
+DTEND:20260320T130000Z
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:Secs. 19.7\, 19.8 [Elementary Physics 2]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_55826&month=03&year=2026#assignment_541276
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260320T160000Z
+UID:event-assignment-530990
+DTSTART:20260320T150000Z
+DTEND:20260320T150000Z
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:Quiz 8 [Object-Oriented Programming an]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54110&month=03&year=2026#assignment_530990
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260325T195200Z
+UID:event-assignment-530971
+DTSTART;VALUE=DATE;VALUE=DATE:20260320
+CLASS:PUBLIC
+DESCRIPTION:Objective:  To practice using queues\n\nSubmit:  Your progr
+ am (the .java file) and the output of a sample run of your program.  Plea
+ se put both of these things in a single document and upload the document
+  to Canvas.  I expect you to use the Queue interface and implementation f
+ ile from class\; it should not be necessary to change them in any way unle
+ ss you do the extra credit.  If you don't change them\, you don't need to
+  turn them in.  If you do change them\, please submit them as well.  \n
+ \nCollaboration:  You may work alone or with a partner.  If you work wi
+ th a partner\, only one person needs to submit your work.  Please make su
+ re both people's names are clearly indicated with your submission.\n\n \n
+ \nDescription:\n\nThe fancy new French restaurant La Food is very popula
+ r for its authentic cuisine and high prices. This restaurant does not take
+  reservations. To help improve the efficiency of their operations\, the Ma
+ itre De has hired you to write a program that simulates people waiting for
+  tables. The goal is to determine the average amount of time people spend 
+ waiting for tables.\n\nYour program will read in a list of event descripti
+ ons from a text file\, one description per line.\n\n* Arrival: A party ha
+ s arrived to eat. Add them to the end of the list of waiting parties (a Qu
+ eue) and tell them to wait at the bar (where strong drinks are served) unt
+ il called. This event is described in the following format:\n\nA t n name
+ \n\nHere t is the time of arrival (in minutes past opening time)\, n i
+ s the number of people in the party\, and name is the name to call when 
+ the table is ready.\n\n \n\n* Table: A table has become available\; remo
+ ve the party that has been waiting the longest from your list\, and seat t
+ hem. This event is described in the following form:\n\nT t\n\nHere t is
+  the time the table became available (again\, in minutes past opening time
+ )\,\n\n \n\n* Quit: This is a sentinel event indicating the end of the i
+ nput file. It has the following form:\n\nQ\n\nWhen the events in the file 
+ have been processed\, compute and print the average waiting time per custo
+ mer. If there are still people waiting for tables\, print a summary of who
+  is still waiting.\n\n \n\nSample Data File:\n\nHere is a sample data fil
+ e. You may use this if you like\, or you can make up your own.\n\n \n\nA 
+ 3 3 Merlin\nA 8 2 Arthur Pendragon\nT 10\nA 12 2 Sir Lancelot\nT 15\nA 17 
+ 3 The Green Knight\nT 20\nQ\n\nHere is the corresponding output from the s
+ imulator program. The user's input appears in italics.\n\n \n\n*** Welcom
+ e to the La Food Restaurant Simulator ***\n\nEnter data file name: data.tx
+ t\n\nPlease wait at the bar\,\nparty Merlin of 3 people. (time=3)\nPlease 
+ wait at the bar\,\nparty Arthur Pendragon of 2 people. (time=8)\nTable for
+  Merlin! (time=10)\nPlease wait at the bar\,\nparty Sir Lancelot of 2 peop
+ le. (time=12)\nTable for Arthur Pendragon! (time=15)\nPlease wait at the b
+ ar\,\nparty The Green Knight of 3 people. (time=17)\nTable for Sir Lancelo
+ t! (time=20)\n** Simulation Terminated **\n\nThe average waiting time was:
+  7.28\nThe following parties were never seated:\nparty The Green Knight of
+  3 people\n\nHave a nice meal!\n\nExtra Credit (5 points)\n\nModify the A 
+ command to include a tip/bribe for the Maitre De. The new format would the
+ n be:\n\nA t n b name\n\nwhere b is the amount of the bribe\, in Euros\, o
+ f course. A party is then placed in line ahead of everyone who gave a less
+ er bribe. Two parties that bribe the same amount are placed in order of ar
+ rival. Modify the input file to include bribes for a sample run\, and prin
+ t the total bribe money collected as part of the final summary.\n\nNote: T
+ his is not trivial. Do not start this until the rest is working correctly.
+  You will have to change some aspects of the Queue implementation to get t
+ his to work.\n\n \n\nTo get started:\n\n1.  Make a new folder for this a
+ ssignment.    \n\n2.  Write a class called Party.  What information d
+ o we need to store about each party?  Write getters and setters for these
+  variables.  Then write main and test your getters and setters.\n\n3.  N
+ ext work on reading input from the file. \n\n* Start by reading the items
+  in the first line of the file in and printing them all out.   To get ju
+ st a single String (instead of a whole line at once)\, use:  inputFileSca
+ nner.next()\;\n\n* Now try to read the items in the first three lines of t
+ he file in and then printing them all out.  \n\n* Now add a loop so that
+  you read lines until you encounter the Q (for quit).\n\n4.  Copy these f
+ iles into your folder and compile them.  Then create a new QueueLL object
+ . \n\n* [AbstractDataType.java] (https://butler.instructure.com/courses/5
+ 4110/pages/abstractdatatype-dot-java)\n\n* [Queue.java] (https://butler.in
+ structure.com/courses/54110/pages/queue-dot-java)\n\n* [QueueLL.java] (htt
+ ps://butler.instructure.com/courses/54110/pages/queuell-dot-java)\n\n5.  
+  Next\, modify the code you wrote in Step 3\, so that if you read a line 
+ that starts with A you create a new Party object using your setters and en
+ queue it.  Then try dequeue-ing it and printing it using your getters.  
+  Note: When you call dequeue\, it returns a generic Object.  You will n
+ eed to cast this so that it is of type Party.  \n\n6.  Once that's work
+ ing\, see if you can enqueue all the parties in the file.  \n\n7.  To c
+ ompute the average waiting time\, keep track of the total number of people
+  seated\, and keep track of the total time spent waiting using something l
+ ike this:\n\ntotmins = totmins + partysize*(tos - toa)\n\nwhere tos is the
+  time of seating\, and toa is the time of arrival. Since you need to know 
+ both times\, this must be done when the party is seated.
+SEQUENCE:0
+SUMMARY:Assignment 5:  The La Food Restaurant Program [Object-Oriented Prog
+ ramming an]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54110&month=03&year=2026#assignment_530971
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
+ /dp_app.css"><p><strong>Objective:&nbsp\;&nbsp\;</strong>To practice using
+  queues</p>\n<p><strong>Submit:&nbsp\;&nbsp\;</strong>Your program (the .j
+ ava file) and the output of a sample run of your program.&nbsp\; Please pu
+ t both of these things in a<span>&nbsp\;</span><strong>single</strong><spa
+ n>&nbsp\;</span>document and upload the document to Canvas.&nbsp\; I expec
+ t you to use the Queue interface and implementation file from class\; it s
+ hould not be necessary to change them in any way unless you do the extra c
+ redit.&nbsp\; If you don't change them\, you don't need to turn them in.&n
+ bsp\; If you do change them\, please submit them as well.&nbsp\;&nbsp\;</p
+ >\n<p><strong>Collaboration:&nbsp\;&nbsp\;</strong>You may work alone or w
+ ith a partner.&nbsp\; If you work with a partner\, only one person needs t
+ o submit your work.&nbsp\; Please make sure both people's names are clearl
+ y indicated with your submission.</p>\n<p>&nbsp\;</p>\n<p><strong>Descript
+ ion:</strong></p>\n<p>The fancy new French restaurant<span>&nbsp\;</span><
+ i>La Food</i><span>&nbsp\;</span>is very popular for its authentic cuisine
+  and high prices. This restaurant does not take reservations. To help impr
+ ove the efficiency of their operations\, the Maitre De has hired you to wr
+ ite a program that simulates people waiting for tables. The goal is to det
+ ermine the average amount of time people spend waiting for tables.</p>\n<p
+ >Your program will read in a list of event descriptions from a text file\,
+  one description per line.</p>\n<ul>\n<li><i>Arrival:</i><span>&nbsp\;</sp
+ an>A party has arrived to eat. Add them to the end of the list of waiting 
+ parties (a Queue) and tell them to wait at the bar (where strong drinks ar
+ e served) until called. This event is described in the following format:\n
+ <blockquote><tt>A</tt><span>&nbsp\;</span><i>t n name</i></blockquote>\nHe
+ re<span>&nbsp\;</span><i>t</i><span>&nbsp\;</span>is the time of arrival (
+ in minutes past opening time)\,<span>&nbsp\;</span><i>n</i><span>&nbsp\;</
+ span>is the number of people in the party\, and<span>&nbsp\;</span><i>name
+ </i><span>&nbsp\;</span>is the name to call when the table is ready.\n<p>&
+ nbsp\;</p>\n</li>\n<li><i>Table:</i><span>&nbsp\;</span>A table has become
+  available\; remove the party that has been waiting the longest from your 
+ list\, and seat them. This event is described in the following form:\n<blo
+ ckquote><tt>T</tt><span>&nbsp\;</span><i>t</i></blockquote>\nHere<span>&nb
+ sp\;</span><i>t</i><span>&nbsp\;</span>is the time the table became availa
+ ble (again\, in minutes past opening time)\,\n<p>&nbsp\;</p>\n</li>\n<li><
+ i>Quit:</i><span>&nbsp\;</span>This is a sentinel event indicating the end
+  of the input file. It has the following form:\n<blockquote><tt>Q</tt></bl
+ ockquote>\n</li>\n</ul>\n<p>When the events in the file have been processe
+ d\, compute and print the average waiting time per customer. If there are 
+ still people waiting for tables\, print a summary of who is still waiting.
+ </p>\n<p>&nbsp\;</p>\n<p><strong>Sample Data File:</strong></p>\n<p>Here i
+ s a sample data file. You may use this if you like\, or you can make up yo
+ ur own.</p>\n<p>&nbsp\;</p>\n<blockquote>\n<pre>A 3 3 Merlin\nA 8 2 Arthur
+  Pendragon\nT 10\nA 12 2 Sir Lancelot\nT 15\nA 17 3 The Green Knight\nT 20
+ \nQ\n</pre>\n</blockquote>\n<p>Here is the corresponding output from the s
+ imulator program. The user's input appears in italics.</p>\n<p>&nbsp\;</p>
+ \n<blockquote>\n<pre>*** Welcome to the La Food Restaurant Simulator ***\n
+ \nEnter data file name: <i>data.txt</i>\n\nPlease wait at the bar\,\n  par
+ ty Merlin of 3 people. (time=3)\nPlease wait at the bar\,\n  party Arthur 
+ Pendragon of 2 people. (time=8)\nTable for Merlin! (time=10)\nPlease wait 
+ at the bar\,\n  party Sir Lancelot of 2 people. (time=12)\nTable for Arthu
+ r Pendragon! (time=15)\nPlease wait at the bar\,\n  party The Green Knight
+  of 3 people. (time=17)\nTable for Sir Lancelot! (time=20)\n** Simulation 
+ Terminated **\n\nThe average waiting time was: 7.28\nThe following parties
+  were never seated:\n  party The Green Knight of 3 people\n\nHave a nice m
+ eal!<br><br></pre>\n</blockquote>\n<p><strong>Extra Credit (5 points)</str
+ ong></p>\n<p>Modify the A command to include a tip/bribe for the Maitre De
+ . The new format would then be:</p>\n<p style="padding-left: 40px\;"><em> 
+ A t n b name</em></p>\n<p>where <em>b</em> is the amount of the bribe\, in
+  Euros\, of course. A party is then placed in line ahead of everyone who g
+ ave a lesser bribe. Two parties that bribe the same amount are placed in o
+ rder of arrival. Modify the input file to include bribes for a sample run\
+ , and print the total bribe money collected as part of the final summary.<
+ /p>\n<p><strong>Note:</strong> This is not trivial. Do not start this unti
+ l the rest is working correctly. You will have to change some aspects of t
+ he Queue implementation to get this to work.</p>\n<p>&nbsp\;</p>\n<p><stro
+ ng>To get started:</strong></p>\n<p>1.&nbsp\; Make a new folder for this a
+ ssignment.&nbsp\; &nbsp\;&nbsp\;</p>\n<p>2.&nbsp\; Write a class called <s
+ pan style="font-family: 'courier new'\, courier\;">Party</span>.&nbsp\; Wh
+ at information do we need to store about each party?&nbsp\; Write getters 
+ and setters for these variables.&nbsp\; Then write <span style="font-famil
+ y: 'courier new'\, courier\;">main</span> and test your getters and setter
+ s.</p>\n<p>3.&nbsp\; Next work on reading input from the file.&nbsp\;</p>\
+ n<ul>\n<li>Start by reading the items in the first line of the file in and
+  printing them all out.&nbsp\; &nbsp\;To get just a single String (instead
+  of a whole line at once)\, use: <span style="font-family: 'courier new'\,
+  courier\;">&nbsp\;inputFileScanner.next()\;</span></li>\n<li>Now try to r
+ ead the items in the first three lines of the file in and then printing th
+ em all out.&nbsp\;&nbsp\;</li>\n<li>Now add a loop so that you read lines 
+ until you encounter the Q (for quit).</li>\n</ul>\n<p>4.&nbsp\; Copy these
+  files into your folder and compile them.&nbsp\; Then create a new QueueLL
+  object.&nbsp\;</p>\n<ul>\n<li><a title="AbstractDataType.java" href="http
+ s://butler.instructure.com/courses/54110/pages/abstractdatatype-dot-java" 
+ data-course-type="wikiPages" data-published="true" data-api-endpoint="http
+ s://butler.instructure.com/api/v1/courses/54110/pages/abstractdatatype-dot
+ -java" data-api-returntype="Page">AbstractDataType.java</a></li>\n<li><a t
+ itle="Queue.java" href="https://butler.instructure.com/courses/54110/pages
+ /queue-dot-java" data-course-type="wikiPages" data-published="true" data-a
+ pi-endpoint="https://butler.instructure.com/api/v1/courses/54110/pages/que
+ ue-dot-java" data-api-returntype="Page">Queue.java</a></li>\n<li><a title=
+ "QueueLL.java" href="https://butler.instructure.com/courses/54110/pages/qu
+ euell-dot-java" data-course-type="wikiPages" data-published="true" data-ap
+ i-endpoint="https://butler.instructure.com/api/v1/courses/54110/pages/queu
+ ell-dot-java" data-api-returntype="Page">QueueLL.java</a></li>\n</ul>\n<p>
+ 5.&nbsp\; &nbsp\;Next\, modify the code you wrote in Step 3\, so that if y
+ ou read a line that starts with A you create a new <span style="font-famil
+ y: 'courier new'\, courier\;">Party</span> object using your setters and e
+ nqueue it.&nbsp\; Then try dequeue-ing it and printing it using your gette
+ rs.&nbsp\; &nbsp\;<strong>Note:&nbsp\;</strong>When you call <span style="
+ font-family: 'courier new'\, courier\;">dequeue</span>\, it returns a gene
+ ric <span style="font-family: 'courier new'\, courier\;">Object</span>.&nb
+ sp\; You will need to cast this so that it is of type <span style="font-fa
+ mily: 'courier new'\, courier\;">Party</span>.&nbsp\;&nbsp\;</p>\n<p>6.&nb
+ sp\; Once that's working\, see if you can enqueue all the parties in the f
+ ile.&nbsp\;&nbsp\;</p>\n<p>7. &nbsp\;To compute the average waiting time\,
+  keep track of the total number of people seated\, and keep track of the t
+ otal time spent waiting using something like this:</p>\n<p style="padding-
+ left: 40px\;">totmins = totmins + partysize*(tos - toa)</p>\n<p>where tos 
+ is the time of seating\, and toa is the time of arrival. Since you need to
+  know both times\, this must be done when the party is seated.</p><script 
+ src="https://instructure-uploads.s3.amazonaws.com/account_1225800000000000
+ 01/attachments/3841300/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260316T043700Z
+UID:event-assignment-541288
+DTSTART;VALUE=DATE;VALUE=DATE:20260323
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:CH 19 HW Sp 26 [Elementary Physics 2]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_55826&month=03&year=2026#assignment_541288
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260323T150600Z
+UID:event-assignment-541282
+DTSTART:20260325T130000Z
+DTEND:20260325T130000Z
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:Sec. 10.1 [Elementary Physics 2]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_55826&month=03&year=2026#assignment_541282
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260325T192800Z
+UID:event-assignment-554928
+DTSTART;VALUE=DATE;VALUE=DATE:20260325
+CLASS:PUBLIC
+DESCRIPTION:This assignment is to get you started on [Assignment 8: Jerry-T
+ ac-Toe] (https://butler.instructure.com/courses/54110/assignments/530974).
+   \n\n1.  Create a new folder for this assignment.  \n\n2.  Create a
+  class called JerryTacToe.  Create a constructor which displays "Welcome 
+ to Jerry-Tac-Toe!"\n\n3.  Write main in a different file from your class.
+   Make a new JerryTacToe object.  Compile and run your program and make 
+ sure your welcome message from Step 2 is displayed.\n\n4.  Now in main\, 
+ make an array of 10 characters called board as discussed in class.  Initi
+ alize your array.  Cell 0 should contain an 'X' indicating it will be ign
+ ored.  The rest of the cells should contain a '-' indicating no one has p
+ layed yet.  Compile your program.\n\n5.  Write a method in your class ca
+ lled printBoard() which displays your array.  It should take your board a
+ s a parameter.  It should only print cells 1-9\, and it should print cell
+ s 1\, 2\, 3 on the first line\, 4\, 5\, 6 on the second line\, and 7\, 8\,
+  9 on the third line\, like the actual Jerry Tac Toe board.   (Remember 
+ we are ignoring cell 0.)  Call your method from main and compile and run 
+ your program.\n\n6.  Write a method called playerTurn() which takes two p
+ arameters:  your board and an integer indicating the spot the user wants 
+ to play.  Your method should put an 'P' in that spot in the array indicat
+ ing the player has moved there and return the array.   Call this method 
+ from main assuming the player chooses to play in spot 1.  Then print your
+  board to confirm it has been updated.\n\n7.  Write a method called compu
+ terTurn() which takes your board as a parameter.  For now\, the computer 
+ will play in spot 2.  Update your array to put an 'C' in that spot in the
+  array indicating the computer has moved there.  Call this method from ma
+ in\, and then print your board to confirm it has been updated.\n\n8.  Mod
+ ify main so that it asks the user to choose where to play (so now they can
+  choose any spot\, not just spot 1).  Also modify playerTurn() so that if
+  the player tries to play in a spot that has already been taken an error m
+ essage is printed (and the board is unchanged).  Test this.\n\n9.  Modif
+ y computerTurn() so that it finds the first unused spot to play (so that i
+ t is not always playing in spot 2).  Test this by printing your board to 
+ be sure it works.\n\n10.  Now in main\, create a loop that goes around 4 
+ times\, so that the user plays\, then the computer plays\, then the user p
+ lays again\, and then the computer plays again.  Print the board after ea
+ ch turn to be sure it is correct.\n\n11.  In your class\, add a method ca
+ lled checkDraw() which returns a boolean.  It should return true if there
+  are no empty spaces left on the board\, and false otherwise.  (Right now
+  we are not worrying about detecting whether someone has won -we are assum
+ ing that if the board is full\, no one won\, which obviously might not be 
+ true.)  Modify your loop in main to play until there are no more empty sp
+ aces.  To do this\, someone should play\, then check to see if there is a
+  draw\, and if not someone else gets to play\, then check to see if there 
+ is a draw\, etc.\n\n12.  Now\, work on checkWin() which should return tru
+ e if someone has won and false otherwise.  Modify main so that after some
+ one plays\, you now check to see if checkWin() is true.  If it is\, the g
+ ame is over.  If it is not\, check for a draw.  If there is a draw\, the
+  game is over.  Otherwise\, play continues.\n\nPlay your game a lot and b
+ e proud!
+SEQUENCE:0
+SUMMARY:ICA17 [Object-Oriented Programming an]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54110&month=03&year=2026#assignment_554928
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
+ /dp_app.css"><p>This assignment is to get you started on <a title="Assignm
+ ent 8:  Jerry-Tac-Toe" href="https://butler.instructure.com/courses/54110/
+ assignments/530974" data-course-type="assignments" data-published="true" d
+ ata-api-endpoint="https://butler.instructure.com/api/v1/courses/54110/assi
+ gnments/530974" data-api-returntype="Assignment">Assignment 8: Jerry-Tac-T
+ oe</a>.&nbsp\;&nbsp\;</p>\n<p>1.&nbsp\; Create a new folder for this assig
+ nment.&nbsp\;&nbsp\;</p>\n<p>2.&nbsp\; Create a class called JerryTacToe.&
+ nbsp\; Create a constructor which displays "Welcome to Jerry-Tac-Toe!"</p>
+ \n<p>3.&nbsp\; Write main in a different file from your class.&nbsp\; Make
+  a new JerryTacToe object.&nbsp\; Compile and run your program and make su
+ re your welcome message from Step 2 is displayed.</p>\n<p>4.&nbsp\; Now in
+  main\, make an array of 10 characters called board as discussed in class.
+ &nbsp\; Initialize your array.&nbsp\; Cell 0 should contain an 'X' indicat
+ ing it will be ignored.&nbsp\; The rest of the cells should contain a '-' 
+ indicating no one has played yet.&nbsp\; Compile your program.</p>\n<p>5.&
+ nbsp\; Write a method in your class called printBoard() which displays you
+ r array.&nbsp\; It should take your board as a parameter.&nbsp\; It should
+  only print cells 1-9\, and it should print cells 1\, 2\, 3 on the first l
+ ine\, 4\, 5\, 6 on the second line\, and 7\, 8\, 9 on the third line\, lik
+ e the actual Jerry Tac Toe board.&nbsp\; &nbsp\;(Remember we are ignoring 
+ cell 0.)&nbsp\; Call your method from main and compile and run your progra
+ m.</p>\n<p>6.&nbsp\; Write a method called playerTurn() which takes two pa
+ rameters:&nbsp\; your board and an integer indicating the spot the user wa
+ nts to play.&nbsp\; Your method should put an 'P' in that spot in the arra
+ y indicating the player has moved there and return the array.&nbsp\; &nbsp
+ \;Call this method from main assuming the player chooses to play in spot 1
+ .&nbsp\; Then print your board to confirm it has been updated.</p>\n<p>7.&
+ nbsp\; Write a method called computerTurn() which takes your board as a pa
+ rameter.&nbsp\; For now\, the computer will play in spot 2.&nbsp\; Update 
+ your array to put an 'C' in that spot in the array indicating the computer
+  has moved there.&nbsp\; Call this method from main\, and then print your 
+ board to confirm it has been updated.</p>\n<p>8.&nbsp\; Modify main so tha
+ t it asks the user to choose where to play (so now they can choose any spo
+ t\, not just spot 1).&nbsp\; Also modify playerTurn() so that if the playe
+ r tries to play in a spot that has already been taken an error message is 
+ printed (and the board is unchanged).&nbsp\; Test this.</p>\n<p>9.&nbsp\; 
+ Modify computerTurn() so that it finds the first unused spot to play (so t
+ hat it is not always playing in spot 2).&nbsp\; Test this by printing your
+  board to be sure it works.</p>\n<p>10.&nbsp\; Now in main\, create a loop
+  that goes around 4 times\, so that the user plays\, then the computer pla
+ ys\, then the user plays again\, and then the computer plays again.&nbsp\;
+  Print the board after each turn to be sure it is correct.</p>\n<p>11.&nbs
+ p\; In your class\, add a method called checkDraw() which returns a boolea
+ n.&nbsp\; It should return true if there are no empty spaces left on the b
+ oard\, and false otherwise.&nbsp\; (Right now we are not worrying about de
+ tecting whether someone has won -we are assuming that if the board is full
+ \, no one won\, which obviously might not be true.)&nbsp\; Modify your loo
+ p in main to play until there are no more empty spaces.&nbsp\; To do this\
+ , someone should play\, then check to see if there is a draw\, and if not 
+ someone else gets to play\, then check to see if there is a draw\, etc.</p
+ >\n<p>12.&nbsp\; Now\, work on checkWin() which should return true if some
+ one has won and false otherwise.&nbsp\; Modify main so that after someone 
+ plays\, you now check to see if checkWin() is true.&nbsp\; If it is\, the 
+ game is over.&nbsp\; If it is not\, check for a draw.&nbsp\; If there is a
+  draw\, the game is over.&nbsp\; Otherwise\, play continues.</p>\n<p>Play 
+ your game a lot and be proud!</p><script src="https://instructure-uploads.
+ s3.amazonaws.com/account_122580000000000001/attachments/3841300/dp_app.js"
+ ></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260323T191700Z
+UID:event-assignment-554633
+DTSTART;VALUE=DATE;VALUE=DATE:20260325
+CLASS:PUBLIC
+DESCRIPTION:[In Class 3-23.docx] (https://butler.instructure.com/courses/53
+ 940/files/5418966?wrap=1)
+SEQUENCE:0
+SUMMARY:In Class 3-23 [Chemistry in Our Lives]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_53940&month=03&year=2026#assignment_554633
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
+ /dp_app.css"><p><a id="5418966" class="instructure_file_link instructure_s
+ cribd_file inline_disabled" title="Link" href="https://butler.instructure.
+ com/courses/53940/files/5418966?wrap=1" target="_blank" data-canvas-previe
+ wable="true" data-api-endpoint="https://butler.instructure.com/api/v1/cour
+ ses/53940/files/5418966" data-api-returntype="File">In Class 3-23.docx</a>
+ </p><script src="https://instructure-uploads.s3.amazonaws.com/account_1225
+ 80000000000001/attachments/3841300/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260317T052400Z
+UID:event-assignment-539702
+DTSTART;VALUE=DATE;VALUE=DATE:20260326
+CLASS:PUBLIC
+DESCRIPTION:***********\nDescription\n***********\n\nYou have been hired by
+  the National Security Agency (NSA). For your first assignment (classified
+ \, of course) you are to write a program to perform Caesar's Cipher\, a se
+ cret message system designed by Julius Caesar about 2000 years ago. This m
+ ethod essentially "adds 3" to each letter of the message. For example\, th
+ e encrypted version of the message "Hi Mom" would be "Kl Prp".\n\n \n\n 
+ \n\nYour program should ask the user for a message to encrypt\, and then i
+ t should print the encrypted version of that message using Caesar's Cipher
+ .\n\n \n\nSample Run\n\nBelow is an example of what your program may look
+  like. \n\n \n\n      Welcome.  You know what to do.\n\n \n\n    
+   Input ::  Hi Mom\, how are you?\n\n      The encrypted form of you
+ r message is\n\n      Kl Prp\, krz duh brx?\n\n      Thank you for
+  using this classified program.\n\n \n\nNote that spaces and punctuation 
+ are not changed\, and case is preserved.\n\nAt least one function must be 
+ present and used.\n\n \n\nEncrypting Letters\n\nSuppose C is a character 
+ variable that holds one letter of the message. To encrypt C\, you must add
+  3:\n\n    C = C + 3\;\n\n \n\nNote that if C holds an 'x'\, 'y'\, or '
+ z' (or the uppercase equivalent) then you need to perform wraparound\, whi
+ ch you can do by subtracting 23 instead of adding 3. For example\, if you 
+ add 3 to 'y'\, you obtain '|' (the vertical bar). In this case\, you must 
+ subtract 23 instead to obtain 'b'.\n\n \n\n*******\nHand In\n*******\n\nT
+ urn in a listing  of your program\n\nThe program must have at least ONE f
+ unction present to get full credit.\n\n \n\n \n\n \n\n*****************
+ *************\nExtra Credit (up to 14 points)\n***************************
+ ***\n\nHere are several chances to earn extra credit.\n\n \n\n \n\n* Ins
+ tead of reading the message from the user\, have the message come from a f
+ ile whose name is supplied by the user. Also\, write the encrypted version
+  of the message to an output file. Again\, let the user supply the filenam
+ e. You may assume the file holds exactly one line of text. \n(4 points E.
+ C.)\n\n \n\n* Allow the user to choose either encryption or decryption\, 
+ and improve your program so that it can perform either one. \n(2 points E
+ .C.)\n\n \n\n* Allow the user to pick a number other than 3 to add to eac
+ h letter. For instance\, the user may wish to add 5 instead\, or maybe 10.
+  This is sometimes called the encryption key. If you did part 2 above\, y
+ ou must support decryption with a key other than 3 as well. \n(2 points E
+ .C.)\n\n \n\n* This last improvement is more involved. Recall from the Gu
+ essing Game Program that once a seed is chosen\, the "random" numbers are 
+ always the same. We can take advantage of this to make decryption very dif
+ ficult without knowledge of the key.  \n\nThe idea is this. The key is n
+ ow the seed value for the random number generator\; use this seed to gener
+ ate a series of random numbers between 0 and 25\, and use a different numb
+ er to encrypt each letter of the message. (So you'll use srand(key)\; to
+  initialize the generator.)\n\nModify your program to use this method for 
+ encryption and decryption. \n(6 points E.C.)\n\nIf you successfully do th
+ e last extra credit option\, you automatically get credit for parts 2 and 
+ 3\, thereby earning a total of 10 points.\n\n \n\n \n\n \n\n*****\nNote
+ s\n*****\n\n* Please remember to format properly (header in program\, inde
+ nts\, separate lines\, naming\, etc). Remember to indent properly.\n\n* St
+ art early!\n\n* Get the basic program working before trying any of the ext
+ ra credit.\n\n* Must have at least one function in your program\n\n \n\n
+  \n\n 
+SEQUENCE:0
+SUMMARY:Assignment 5 - The Secret Message Program - 55 Points [Intro to Com
+ p. Sci. and Prog.]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54995&month=03&year=2026#assignment_539702
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
+ /dp_app.css"><h1><u>Description</u></h1>\n<p>You have been hired by the Na
+ tional Security Agency (NSA). For your first assignment (classified\, of c
+ ourse) you are to write a program to perform Caesar's Cipher\, a secret me
+ ssage system designed by Julius Caesar about 2000 years ago. This method e
+ ssentially "adds 3" to each letter of the message. For example\, the encry
+ pted version of the message "Hi Mom" would be "Kl Prp".</p>\n<p>&nbsp\;</p
+ >\n<p>&nbsp\;</p>\n<p>Your program should ask the user for a message to en
+ crypt\, and then it should print the encrypted version of that message usi
+ ng Caesar's Cipher.</p>\n<p><span style="color: inherit\; font-family: inh
+ erit\; font-size: 1.2em\;">&nbsp\;</span></p>\n<p><span style="color: inhe
+ rit\; font-family: inherit\; font-size: 1.2em\;"><u>Sample Run</u></span><
+ /p>\n<p>Below is an example of what your program may look like.&nbsp\;</p>
+ \n<p>&nbsp\;</p>\n<p>&nbsp\; &nbsp\; &nbsp\; Welcome.&nbsp\; You know what
+  to do.</p>\n<p>&nbsp\;</p>\n<p>&nbsp\; &nbsp\; &nbsp\; Input ::&nbsp\; Hi
+  Mom\, how are you?</p>\n<p>&nbsp\; &nbsp\; &nbsp\;&nbsp\;The encrypted fo
+ rm of your message is</p>\n<p>&nbsp\; &nbsp\; &nbsp\;&nbsp\;Kl Prp\, krz d
+ uh brx?</p>\n<p>&nbsp\; &nbsp\; &nbsp\;&nbsp\;Thank you for using this cla
+ ssified program.</p>\n<p>&nbsp\;</p>\n<p><br><strong><i>Note that spaces a
+ nd punctuation are not changed\, and case is preserved.</i></strong></p>\n
+ <p><strong><i></i></strong></p>\n<p><strong>At least one function must be 
+ present and used.</strong></p>\n<p><strong>&nbsp\;</strong></p>\n<p><stron
+ g><u>Encrypting Letters</u></strong></p>\n<p>Suppose C is a character vari
+ able that holds one letter of the message. To encrypt C\, you must add 3:<
+ /p>\n<p>&nbsp\; &nbsp\; C = C + 3\;</p>\n<p>&nbsp\;</p>\n<p>Note that if C
+  holds an 'x'\, 'y'\, or 'z' (or the uppercase equivalent) then you need t
+ o perform wraparound\, which you can do by subtracting 23 instead of addin
+ g 3. For example\, if you add 3 to 'y'\, you obtain '|' (the vertical bar)
+ . In this case\, you must subtract 23 instead to obtain 'b'.</p>\n<p>&nbsp
+ \;</p>\n<h1><u>Hand In</u></h1>\n<p>Turn in a listing&nbsp\; of your progr
+ am</p>\n<p>The program must have at least ONE function present to get full
+  credit.</p>\n<p>&nbsp\;</p>\n<p>&nbsp\;</p>\n<p>&nbsp\;</p>\n<h1><u>Extra
+  Credit (up to 14 points)</u></h1>\n<p>Here are several chances to earn ex
+ tra credit.</p>\n<p>&nbsp\;</p>\n<p>&nbsp\;</p>\n<ol>\n<li>Instead of read
+ ing the message from the user\, have the message come from a file whose na
+ me is supplied by the user. Also\, write the encrypted version of the mess
+ age to an output file. Again\, let the user supply the filename. You may a
+ ssume the file holds exactly one line of text.&nbsp\;<br><i>(4 points E.C.
+ )</i>\n<p>&nbsp\;</p>\n</li>\n<li>Allow the user to choose either encrypti
+ on or decryption\, and improve your program so that it can perform either 
+ one.&nbsp\;<br><i>(2 points E.C.)</i>\n<p>&nbsp\;</p>\n</li>\n<li>Allow th
+ e user to pick a number other than 3 to add to each letter. For instance\,
+  the user may wish to add 5 instead\, or maybe 10. This is sometimes calle
+ d the&nbsp\;<i>encryption key</i>. If you did part 2 above\, you must supp
+ ort decryption with a key other than 3 as well.&nbsp\;<br><i>(2 points E.C
+ .)</i>\n<p>&nbsp\;</p>\n</li>\n<li>This last improvement is more involved.
+  Recall from the Guessing Game Program that once a seed is chosen\, the "r
+ andom" numbers are always the same. We can take advantage of this to make 
+ decryption very difficult without knowledge of the key.&nbsp\;&nbsp\;</li>
+ \n</ol>\n<div class="editor-indent" style="margin-left: 30px\;">The idea i
+ s this. The key is now the seed value for the random number generator\; us
+ e this seed to generate a series of random numbers between 0 and 25\, and 
+ use a different number to encrypt each letter of the message. (So you'll u
+ se&nbsp\;srand(key)\;&nbsp\;to initialize the generator.)</div>\n<div clas
+ s="editor-indent" style="margin-left: 30px\;"><br>Modify your program to u
+ se this method for encryption and decryption.&nbsp\;<br><i>(6 points E.C.)
+ </i></div>\n<p><i><br></i>If you successfully do the last extra credit opt
+ ion\, you automatically get credit for parts 2 and 3\, thereby earning a t
+ otal of 10 points.</p>\n<p>&nbsp\;</p>\n<p>&nbsp\;</p>\n<p>&nbsp\;</p>\n<h
+ 1><u>Notes</u></h1>\n<ul>\n<li>Please remember to format properly (header 
+ in program\, indents\, separate lines\, naming\, etc). Remember to indent 
+ properly.</li>\n<li>Start early!</li>\n<li>Get the basic program working b
+ efore trying any of the extra credit.</li>\n<li>Must have at least one fun
+ ction in your program</li>\n</ul>\n<p>&nbsp\;</p>\n<p>&nbsp\;</p>\n<p>&nbs
+ p\;</p><script src="https://instructure-uploads.s3.amazonaws.com/account_1
+ 22580000000000001/attachments/3841300/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260323T000300Z
+UID:event-assignment-530976
+DTSTART:20260327T150000Z
+DTEND:20260327T150000Z
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:Exam 2 [Object-Oriented Programming an]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54110&month=03&year=2026#assignment_530976
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260323T175600Z
+UID:event-assignment-554708
+DTSTART;VALUE=DATE;VALUE=DATE:20260331
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:Personal Statement Workshop: statement submission [Student Advising
+  Page]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_13044&month=03&year=2026#assignment_554708
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260323T191300Z
+UID:event-assignment-530972
+DTSTART;VALUE=DATE;VALUE=DATE:20260403
+CLASS:PUBLIC
+DESCRIPTION:Objective:  To experiment with the running times of sorts\n\n
+  \n\nSubmit:  Please submit:\n\n* Your program (the .java file).  You 
+ do not need to include AllSorts.java \n\n* Your graph\n\n* The data you u
+ sed to create your graph in tabular form\n\n \n\nCollaboration:  You may
+  work alone or with a partner.  If you work with a partner\, only one per
+ son needs to submit your work.  Please make sure both people's names are 
+ clearly indicated with your submission.\n\n \n\nDescription:\n\nAs a new 
+ and eager employee of BUSTInc (Butler University Software Technology Incor
+ porated) you've been asked by your employer to implement a sorting algorit
+ hm for inclusion in a package for a lucrative client. However\, your boss 
+ just wants you to implement one of the simple\, quadratic sorting algorith
+ ms. To prove that this would be a big mistake\, you've decided (on your ow
+ n) to prove to your idiot boss that it's worth the extra effort to imple
+ ment one of the O(n log n) sorting algorithms.\n\nFor this project\, you w
+ ill compare five sorting algorithms: bubble sort\, insertion sort\, select
+ ion sort\, quicksort\, and either mergesort or shellsort. Your main progra
+ m will then do the following:\n\n \n\n1.  Ask the user for the size n of
+  the list they want to sort.\n\n \n\n2.  Create an array of size n and f
+ ill it with random integers between 1 and n.  (Use the built-in Integer c
+ lass (not regular ints)\, which implements the Comparable interface\, to d
+ o this.)\n\n* If n<=100\, display the random array on the screen.\n\n \n\
+ n3.  Run each of your sorts on this array.  You do not need to write the
+  sorts yourself\, use [AllSorts.java] (https://butler.instructure.com/cour
+ ses/54110/pages/allsorts-dot-java) from class.\n\n* You must make a deep 
+ copy of the array before sorting it\, or your second sort will have an ea
+ sy time of it.  This means you need to create a variable to hold the seco
+ nd array\, and then copy each number individually into the second array. 
+  \n\n* Use  the System.currentTimeMillis() function to determine the r
+ unning time of each sort.  This function will return the current system t
+ ime in milliseconds.  Make a call before and after running a sort\, then 
+ subtract to get the elapsed time.  You may need to cast:  (int) System.c
+ urrentTimeMillis()\n\n* If n<=100\, display the sorted arrays on the scree
+ n (they better be the same!).\n\n* Display the time each sort used to sort
+  the array.\n\n \n\n4.  Once you have your program working\, use it to p
+ lot a graph. Have the x axis represent n\, and the y axis the running time
+ . Use n=10000\, 20000\, ...\, 100000. Plot all sorting algorithms on the s
+ ame graph (use different colors or line styles). You may do this by hand (
+ neatly\, on graph paper) or you may use a spreadsheet program (like Excel 
+ or Google Sheets) or some other program to do this for you. (Will your bos
+ s be convinced?)\n\n \n\nExtra Credit:\n\nIn addition to the five sorts m
+ entioned above\, implement a sixth sort\, of your own design\, and time it
+  as well. To make a sort yours\, you should choose a sort covered in class
+  or in the text\, and make modifications to it. For example\, you might us
+ e quicksort\, but change the pivot choosing method\, or perhaps have quick
+ sort call insertion sort to sort very small sections of the array (say\, l
+ ength at most 10).\n\nAgain\, use the Java Integer class\, and use compare
+ To() to compare Integers.\n\nYou get 3 points for adding your own sort\, a
+ nd if it turns out to be faster than the five other sorts\, then you get a
+ n additional 2 points. Note: you will not get the extra credit if you hobb
+ le the existing sorts to make them slower so that your sort becomes faster
+  by comparison!!
+SEQUENCE:0
+SUMMARY:Assignment 6:  Sorting Sorts [Object-Oriented Programming an]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54110&month=04&year=2026#assignment_530972
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
+ /dp_app.css"><p><strong>Objective:&nbsp\;&nbsp\;</strong>To experiment wit
+ h the running times of sorts</p>\n<p>&nbsp\;</p>\n<p><strong>Submit:&nbsp\
+ ;&nbsp\;</strong>Please submit:</p>\n<ul>\n<li>Your program (the .java fil
+ e).&nbsp\; You do not need to include AllSorts.java&nbsp\;</li>\n<li>Your 
+ graph</li>\n<li>The data you used to create your graph in tabular form</li
+ >\n</ul>\n<p>&nbsp\;</p>\n<p><strong>Collaboration: &nbsp\;</strong>You ma
+ y work alone or with a partner.&nbsp\; If you work with a partner\, only o
+ ne person needs to submit your work.&nbsp\; Please make sure both people's
+  names are clearly indicated with your submission.</p>\n<p>&nbsp\;</p>\n<p
+ ><strong>Description:</strong></p>\n<p>As a new and eager employee of BUST
+ Inc (Butler University Software Technology Incorporated) you've been asked
+  by your employer to implement a sorting algorithm for inclusion in a pack
+ age for a lucrative client. However\, your boss just wants you to implemen
+ t one of the simple\, quadratic sorting algorithms. To prove that this wou
+ ld be a big mistake\, you've decided (on your own) to<span>&nbsp\;</span><
+ i>prove</i><span>&nbsp\;</span>to your idiot boss that it's worth the extr
+ a effort to implement one of the O(n log n) sorting algorithms.</p>\n<p>Fo
+ r this project\, you will compare five sorting algorithms: bubble sort\, i
+ nsertion sort\, selection sort\, quicksort\, and either mergesort or shell
+ sort. Your main program will then do the following:</p>\n<p>&nbsp\;</p>\n<
+ p>1.&nbsp\; Ask the user for the size n of the list they want to sort.</p>
+ \n<p>&nbsp\;</p>\n<p>2.&nbsp\; Create an array of size n and fill it with 
+ random integers between 1 and n.&nbsp\; (Use the built-in <span style="fon
+ t-family: 'courier new'\, courier\;">Integer</span> class (not regular int
+ s)\, which implements the Comparable interface\, to do this.)</p>\n<ul>\n<
+ li>If n&lt\;=100\, display the random array on the screen.</li>\n</ul>\n<p
+ >&nbsp\;</p>\n<p>3.&nbsp\; Run each of your sorts on this array.&nbsp\; Yo
+ u do not need to write the sorts yourself\, use <a title="AllSorts.java" h
+ ref="https://butler.instructure.com/courses/54110/pages/allsorts-dot-java"
+  data-course-type="wikiPages" data-published="true" data-api-endpoint="htt
+ ps://butler.instructure.com/api/v1/courses/54110/pages/allsorts-dot-java" 
+ data-api-returntype="Page">AllSorts.java</a> from class.</p>\n<ul>\n<li>Yo
+ u must make a<span>&nbsp\;</span><strong>deep copy</strong><span>&nbsp\;</
+ span>of the array before sorting it\, or your second sort will have an eas
+ y time of it.&nbsp\; This means you need to create a variable to hold the 
+ second array\, and then copy each number individually into the second arra
+ y.&nbsp\;&nbsp\;</li>\n<li>Use&nbsp\; the<span>&nbsp\;</span><span style="
+ font-family: 'courier new'\, courier\;"><tt>System.currentTimeMillis()</tt
+ ></span><span>&nbsp\;</span>function to determine the running time of each
+  sort.&nbsp\; This function will return the current system time in millise
+ conds.&nbsp\; Make a call before and after running a sort\, then subtract 
+ to get the elapsed time.&nbsp\; You may need to cast:&nbsp\; <span style="
+ font-family: 'courier new'\, courier\;">(int) System.currentTimeMillis()</
+ span></li>\n<li>If n&lt\;=100\, display the sorted arrays on the screen (t
+ hey better be the same!).</li>\n<li>Display the time each sort used to sor
+ t the array.</li>\n</ul>\n<p>&nbsp\;</p>\n<p>4.&nbsp\;<strong> </strong>On
+ ce you have your program working\, use it to plot a graph. Have the x axis
+  represent n\, and the y axis the running time. Use n=10000\, 20000\, ...\
+ , 100000. Plot all sorting algorithms on the same graph (use different col
+ ors or line styles). You may do this by hand (neatly\, on graph paper) or 
+ you may use a spreadsheet program (like Excel or Google Sheets) or some ot
+ her program to do this for you. (Will your boss be convinced?)</p>\n<p>&nb
+ sp\;</p>\n<p><strong>Extra Credit:</strong></p>\n<p>In addition to the fiv
+ e sorts mentioned above\, implement a sixth sort\, of your own design\, an
+ d time it as well. To make a sort yours\, you should choose a sort covered
+  in class or in the text\, and make modifications to it. For example\, you
+  might use quicksort\, but change the pivot choosing method\, or perhaps h
+ ave quicksort call insertion sort to sort very small sections of the array
+  (say\, length at most 10).</p>\n<p>Again\, use the Java<span style="font-
+ family: 'courier new'\, courier\;"> Integer</span> class\, and use<span st
+ yle="font-family: 'courier new'\, courier\;"> compareTo()</span> to compar
+ e Integers.</p>\n<p>You get 3 points for adding your own sort\, and if it 
+ turns out to be faster than the five other sorts\, then you get an additio
+ nal 2 points. Note: you will not get the extra credit if you hobble the ex
+ isting sorts to make them slower so that your sort becomes faster by compa
+ rison!!</p><script src="https://instructure-uploads.s3.amazonaws.com/accou
+ nt_122580000000000001/attachments/3841300/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260116T183100Z
+UID:event-assignment-544555
+DTSTART;VALUE=DATE;VALUE=DATE:20260424
+CLASS:PUBLIC
+DESCRIPTION:This journal entry will be after you and your group have connec
+ ted with your teacher. What kind of laboratory are they envisioning for th
+ eir class? What learning goals do they have? How do you think your group w
+ ill work together on implementing this laboratory? What concerns do you ha
+ ve?
+SEQUENCE:0
+SUMMARY:Journal Entry 1 [Chemistry in the Community]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54264&month=04&year=2026#assignment_544555
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
+ /dp_app.css"><p>This journal entry will be after you and your group have c
+ onnected with your teacher. What kind of laboratory are they envisioning f
+ or their class? What learning goals do they have? How do you think your gr
+ oup will work together on implementing this laboratory? What concerns do y
+ ou have?</p><script src="https://instructure-uploads.s3.amazonaws.com/acco
+ unt_122580000000000001/attachments/3841300/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260116T183200Z
+UID:event-assignment-544556
+DTSTART;VALUE=DATE;VALUE=DATE:20260424
+CLASS:PUBLIC
+DESCRIPTION:This should be your first Secondary Execution Journal Entry. Ho
+ w does the group you are assisting differ from yours in presenting to the 
+ high school group? What challenges did they overcome? How did you work as 
+ an "assistant" to the group? What other insights do you have?
+SEQUENCE:0
+SUMMARY:Journal Entry 2 [Chemistry in the Community]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54264&month=04&year=2026#assignment_544556
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
+ /dp_app.css"><p>This should be your first Secondary Execution Journal Entr
+ y. How does the group you are assisting differ from yours in presenting to
+  the high school group? What challenges did they overcome? How did you wor
+ k as an "assistant" to the group? What other insights do you have?</p><scr
+ ipt src="https://instructure-uploads.s3.amazonaws.com/account_122580000000
+ 000001/attachments/3841300/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260116T183300Z
+UID:event-assignment-544557
+DTSTART;VALUE=DATE;VALUE=DATE:20260424
+CLASS:PUBLIC
+DESCRIPTION:This should be your second Secondary Execution Journal Entry. H
+ ow does the group you are assisting differ from yours in presenting to the
+  high school group? What challenges did they overcome? How did you work as
+  an "assistant" to the group? How was this different or the same as your o
+ ther Secondary Execution experience? What other insights do you have?
+SEQUENCE:0
+SUMMARY:Journal Entry 3 [Chemistry in the Community]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54264&month=04&year=2026#assignment_544557
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
+ /dp_app.css"><p>This should be your second Secondary Execution Journal Ent
+ ry. How does the group you are assisting differ from yours in presenting t
+ o the high school group? What challenges did they overcome? How did you wo
+ rk as an "assistant" to the group? How was this different or the same as y
+ our other Secondary Execution experience? What other insights do you have?
+ </p><script src="https://instructure-uploads.s3.amazonaws.com/account_1225
+ 80000000000001/attachments/3841300/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260116T183400Z
+UID:event-assignment-544558
+DTSTART;VALUE=DATE;VALUE=DATE:20260424
+CLASS:PUBLIC
+DESCRIPTION:In helping pull together materials for your colleagues\, what a
+ re you noticing about their preparation? Do you have concerns? What suppor
+ ts did you provide? Do you think that the laboratory will meet the teacher
+ 's objectives? How else did you help?
+SEQUENCE:0
+SUMMARY:Journal Entry 4 [Chemistry in the Community]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54264&month=04&year=2026#assignment_544558
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
+ /dp_app.css"><p>In helping pull together materials for your colleagues\, w
+ hat are you noticing about their preparation? Do you have concerns? What s
+ upports did you provide? Do you think that the laboratory will meet the te
+ acher's objectives? How else did you help?</p><script src="https://instruc
+ ture-uploads.s3.amazonaws.com/account_122580000000000001/attachments/38413
+ 00/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260116T183400Z
+UID:event-assignment-544559
+DTSTART;VALUE=DATE;VALUE=DATE:20260424
+CLASS:PUBLIC
+DESCRIPTION:In helping pull together materials for your colleagues\, what a
+ re you noticing about their preparation? Do you have concerns? What suppor
+ ts did you provide? Do you think that the laboratory will meet the teacher
+ 's objectives? How else did you help? How is this different from the anoth
+ er time you helped prepare a lab?
+SEQUENCE:0
+SUMMARY:Journal Entry 5 [Chemistry in the Community]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54264&month=04&year=2026#assignment_544559
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
+ /dp_app.css"><p>In helping pull together materials for your colleagues\, w
+ hat are you noticing about their preparation? Do you have concerns? What s
+ upports did you provide? Do you think that the laboratory will meet the te
+ acher's objectives? How else did you help? How is this different from the 
+ another time you helped prepare a lab?</p><script src="https://instructure
+ -uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841300/d
+ p_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260116T183500Z
+UID:event-assignment-544560
+DTSTART;VALUE=DATE;VALUE=DATE:20260424
+CLASS:PUBLIC
+DESCRIPTION:In helping pull together materials for your colleagues\, what a
+ re you noticing about their preparation? Do you have concerns? What suppor
+ ts did you provide? Do you think that the laboratory will meet the teacher
+ 's objectives? How else did you help? How was this different from/the same
+  as preparing for other laobratories?
+SEQUENCE:0
+SUMMARY:Journal Entry 6 [Chemistry in the Community]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54264&month=04&year=2026#assignment_544560
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
+ /dp_app.css"><p>In helping pull together materials for your colleagues\, w
+ hat are you noticing about their preparation? Do you have concerns? What s
+ upports did you provide? Do you think that the laboratory will meet the te
+ acher's objectives? How else did you help? How was this different from/the
+  same as preparing for other laobratories?</p><script src="https://instruc
+ ture-uploads.s3.amazonaws.com/account_122580000000000001/attachments/38413
+ 00/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260116T183500Z
+UID:event-assignment-544561
+DTSTART;VALUE=DATE;VALUE=DATE:20260424
+CLASS:PUBLIC
+DESCRIPTION:Now that you are well into the course\, what have you learned a
+ bout yourself? What is your favorite part about doing laboratories with hi
+ gh school students? What do you wish that teachers had done to prepare the
+ ir students? What do you wish you had known before the semester started?
+SEQUENCE:0
+SUMMARY:Journal Entry 7 [Chemistry in the Community]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54264&month=04&year=2026#assignment_544561
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
+ /dp_app.css"><p>Now that you are well into the course\, what have you lear
+ ned about yourself? What is your favorite part about doing laboratories wi
+ th high school students? What do you wish that teachers had done to prepar
+ e their students? What do you wish you had known before the semester start
+ ed?</p><script src="https://instructure-uploads.s3.amazonaws.com/account_1
+ 22580000000000001/attachments/3841300/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260116T183600Z
+UID:event-assignment-544562
+DTSTART;VALUE=DATE;VALUE=DATE:20260424
+CLASS:PUBLIC
+DESCRIPTION:Think critically (but supportively) of all the laboratory imple
+ mentations over the semester. Which were your favorite? Why? What chemist
+ ry have you learned this semester? What have you learned about teaching ot
+ hers how to do chemistry? What could your colleagues have done better (esp
+ ecially with hindsight)?
+SEQUENCE:0
+SUMMARY:Journal Entry 8 [Chemistry in the Community]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54264&month=04&year=2026#assignment_544562
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
+ /dp_app.css"><p>Think critically (but supportively) of all the laboratory 
+ implementations over the semester. Which were your favorite? Why? What&nbs
+ p\;<em>chemistry</em> have you learned this semester? What have you learne
+ d about teaching others how to do chemistry? What could your colleagues ha
+ ve done better (especially with hindsight)?</p><script src="https://instru
+ cture-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841
+ 300/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260116T183600Z
+UID:event-assignment-544563
+DTSTART;VALUE=DATE;VALUE=DATE:20260424
+CLASS:PUBLIC
+DESCRIPTION:This should be your most important journal entry. What did you 
+ learn from working with your teacher\, the young people from your teacher'
+ s school\, and your teammates? What is it like sharing your area of study 
+ with people from other schools? What surprised you? What was fun? What wou
+ ld you do differently if you had the chance? Had *you* done this lab befor
+ e as a student? If yes\, what was it like seeing the "other side?" How imp
+ ortant is it to share the resources of a private University with our priva
+ te school colleagues? Do you feel more engaged in the chemistry community?
+  The Indianapolis community? The education community?
+SEQUENCE:0
+SUMMARY:Journal Entry 9 [Chemistry in the Community]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54264&month=04&year=2026#assignment_544563
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
+ /dp_app.css"><p>This should be your most important journal entry. What did
+  you learn from working with your teacher\, the young people from your tea
+ cher's school\, and your teammates? What is it like sharing your area of s
+ tudy with people from other schools? What surprised you? What was fun? Wha
+ t would you do differently if you had the chance? Had *you* done this lab 
+ before as a student? If yes\, what was it like seeing the "other side?" Ho
+ w important is it to share the resources of a private University with our 
+ private school colleagues? Do you feel more engaged in the chemistry commu
+ nity? The Indianapolis community? The education community?</p><script src=
+ "https://instructure-uploads.s3.amazonaws.com/account_122580000000000001/a
+ ttachments/3841300/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260324T162500Z
+UID:event-assignment-530974
+DTSTART;VALUE=DATE;VALUE=DATE:20260427
+CLASS:PUBLIC
+DESCRIPTION:Note:  The due date for this project is 4/27 (the last day of
+  class) at midnight.  But\, we will hold our tournament during class on 4
+ /27\, so if you want to participate\, you have to have a working version b
+ y class time.\n\n \n\nObjective:  To practice using GUIs and Event-Driv
+ en Programming\n\n \n\nSubmit:  Please submit:\n\n* Your program (the .j
+ ava file). \n\n* A brief description of how your program chooses its move
+ s.\n\nPlease put both of these things in a single document and upload th
+ e document to Canvas. \n\n \n\nCollaboration:  You may work alone\, or
+  in a group of two or three.  If you work with someone make sure everyone
+ 's names are in the comments\, and you may submit one copy of your program
+ .\n\n \n\nDescription:\n\nYou are to write an interactive Java program th
+ at plays Jerry-Tac-Toe with a human user.\n\nThis game is similar to Tic-T
+ ac-Toe. The players\, X and O\, take turns making moves\, and the first to
+  place three of their symbols in a row wins. If neither wins and all place
+ s are filled\, the game is a draw.\n\nThe difference between standard Tic-
+ Tac-Toe and Jerry-Tac-Toe is that the board is different (see pic). Here y
+ ou can get three in a row using 1-2-3\, 1-5-9\, 1-4-8\, 2-4-7\, and so for
+ th. 2-5-8 is not a winning combination (there is no line)\, and neither is
+  2-4-8 (the line is not straight).\n\n \n\n[jtt.jpg] (https://butler.inst
+ ructure.com/courses/54110/files/5423388/preview)\n\n \n\n \n\nSpecifics:
+  \n\n* The user should be allowed to choose whether to go first or second
+ .\n\n* Your program should draw the board on the screen and draw the moves
+  graphically. You can have the user specify moves either by entering the n
+ umbers of the positions (with buttons or a textfield) or by using the mous
+ e.\n\n* When someone has won or all 9 places are filled\, the game should 
+ stop and declare the outcome.\n\n* The user should have the option to star
+ t a new game or quit.\n\nPlease also note that\, to receive full credit on
+  this assignment\, it is not necessary for your program to play well\; it 
+ is sufficient for it to play legally.\n\n \n\nFinal Tournament:\n\nDuring
+  the last day of class\, we will hold a Jerry-Tac-Toe tournament.  The wi
+ nner of the tourney will receive 10 extra credit points. Each program will
+  play each of the other programs twice (moving first and second). The prog
+ ram with the best win-loss record after playing everyone is declared the w
+ inner. (Wins count for 2 points\, ties for 1 point.) If there is a tie\, t
+ he tying programs will play one another two more games\; the winner is the
+  winner of the tourney. If this playoff results in a draw\, the extra cred
+ it points will be divided evenly among the winners.\n\n \n\nBest GUI:\n\n
+ During the tournament\, each person will vote on the program they believe 
+ has the best graphical user interface.  You may not vote for your own pro
+ gram\, and I will break any ties.  The winner of the best GUI award gets 
+ 5 extra credit points.
+SEQUENCE:0
+SUMMARY:Assignment 8:  Jerry-Tac-Toe [Object-Oriented Programming an]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54110&month=04&year=2026#assignment_530974
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
+ /dp_app.css"><p><strong>Note:&nbsp\;&nbsp\;</strong>The due date for this 
+ project is 4/27 (the last day of class) at midnight.&nbsp\; But\, we will 
+ hold our tournament during class on 4/27\, so if you want to participate\,
+  you have to have a working version by class time.</p>\n<p>&nbsp\;</p>\n<p
+ ><strong>Objective:&nbsp\;&nbsp\;</strong>To practice using GUIs and Event
+ -Driven Programming</p>\n<p>&nbsp\;</p>\n<p><strong>Submit:&nbsp\; </stron
+ g>Please submit:</p>\n<ul>\n<li>Your program (the .java file).&nbsp\;</li>
+ \n<li>A brief description of how your program chooses its moves.</li>\n</u
+ l>\n<p><span style="color: var(--ic-brand-font-color-dark)\; font-family: 
+ inherit\; font-size: 1rem\;">Please put both of these things in a</span><s
+ pan style="color: var(--ic-brand-font-color-dark)\; font-family: inherit\;
+  font-size: 1rem\;">&nbsp\;</span><strong style="color: var(--ic-brand-fon
+ t-color-dark)\; font-family: inherit\; font-size: 1rem\;">single</strong><
+ span style="color: var(--ic-brand-font-color-dark)\; font-family: inherit\
+ ; font-size: 1rem\;">&nbsp\;</span><span style="color: var(--ic-brand-font
+ -color-dark)\; font-family: inherit\; font-size: 1rem\;">document and uplo
+ ad the document to Canvas.&nbsp\;</span></p>\n<p>&nbsp\;</p>\n<p><strong>C
+ ollaboration:&nbsp\;&nbsp\;</strong>You may work alone\, or in a group of 
+ two or three.&nbsp\; If you work with someone make sure everyone's names a
+ re in the comments\, and you may submit one copy of your program.</p>\n<p>
+ &nbsp\;</p>\n<p><strong>Description:</strong></p>\n<p>You are to write an 
+ interactive Java program that plays Jerry-Tac-Toe with a human user.</p>\n
+ <p><span>This game is similar to Tic-Tac-Toe. The players\, X and O\, take
+  turns making moves\, and the first to place three of their symbols in a r
+ ow wins. If neither wins and all places are filled\, the game is a draw.</
+ span></p>\n<p>The difference between standard Tic-Tac-Toe and Jerry-Tac-To
+ e is that the board is different (see pic). Here you can get three in a ro
+ w using 1-2-3\, 1-5-9\, 1-4-8\, 2-4-7\, and so forth. 2-5-8 is not a winni
+ ng combination (there is no line)\, and neither is 2-4-8 (the line is not 
+ straight).</p>\n<p>&nbsp\;</p>\n<p><img class="instructure_file_link inlin
+ e_disabled" src="https://butler.instructure.com/courses/54110/files/542338
+ 8/preview" alt="jtt.jpg" loading="lazy" data-api-endpoint="https://butler.
+ instructure.com/api/v1/courses/54110/files/5423388" data-api-returntype="F
+ ile"></p>\n<p>&nbsp\;</p>\n<p>&nbsp\;</p>\n<p>Specifics:&nbsp\;</p>\n<ul>\
+ n<li>The user should be allowed to choose whether to go first or second.</
+ li>\n<li>Your program should draw the board on the screen and draw the mov
+ es graphically. You can have the user specify moves either by entering the
+  numbers of the positions (with buttons or a textfield) or by using the mo
+ use.</li>\n<li>When someone has won or all 9 places are filled\, the game 
+ should stop and declare the outcome.</li>\n<li>The user should have the op
+ tion to start a new game or quit.</li>\n</ul>\n<p>Please also note that\, 
+ to receive full credit on this assignment\, it is not necessary for your p
+ rogram to play well\; it is sufficient for it to play legally.</p>\n<p>&nb
+ sp\;</p>\n<p><strong>Final Tournament:</strong></p>\n<p>During the last da
+ y of class\, we will hold a Jerry-Tac-Toe tournament.&nbsp\; The winner of
+  the tourney will receive 10 extra credit points. Each program will play e
+ ach of the other programs twice (moving first and second). The program wit
+ h the best win-loss record after playing everyone is declared the winner. 
+ (Wins count for 2 points\, ties for 1 point.) If there is a tie\, the tyin
+ g programs will play one another two more games\; the winner is the winner
+  of the tourney. If this playoff results in a draw\, the extra credit poin
+ ts will be divided evenly among the winners.</p>\n<p>&nbsp\;</p>\n<p><stro
+ ng>Best GUI:</strong><strong></strong></p>\n<p>During the tournament\, eac
+ h person will vote on the program they believe has the best graphical user
+  interface.&nbsp\; You may not vote for your own program\, and I will brea
+ k any ties.&nbsp\; The winner of the best GUI award gets 5 extra credit po
+ ints.</p><script src="https://instructure-uploads.s3.amazonaws.com/account
+ _122580000000000001/attachments/3841300/dp_app.js"></script>
+END:VEVENT
+END:VCALENDAR

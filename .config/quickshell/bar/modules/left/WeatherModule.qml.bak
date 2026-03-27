@@ -1,0 +1,80 @@
+import QtQuick
+import Quickshell
+import Quickshell.Io
+import "../../../theme"
+
+// WeatherModule — delegates to your existing weather-read.sh
+// Lives in bar/modules/left/
+Item {
+    implicitWidth:  weatherText.contentWidth + 16
+    implicitHeight: Theme.barHeight
+
+    property string displayText: ""
+    property string tooltipText: ""
+    property bool   hovered:     false
+
+    Process {
+        id: weatherProc
+        command: ["bash", "-lc",
+            "LOCK_WEATHER_PART=json /home/kazuki/.config/weather/weather-read.sh"]
+        running: true
+        stdout: StdioCollector {
+            onStreamFinished: {
+                try {
+                    const j = JSON.parse(text.trim())
+                    displayText = j.text    ?? ""
+                    tooltipText = j.tooltip ?? ""
+                } catch(e) {
+                    displayText = text.trim()
+                }
+            }
+        }
+    }
+
+    Timer {
+        interval: 30000; running: true; repeat: true
+        onTriggered: weatherProc.running = true
+    }
+
+    Text {
+        id: weatherText
+        anchors.centerIn: parent
+        text:  displayText
+        color: Theme.mutedblue
+        font { family: "CaskaydiaCove Nerd Font Mono"; pixelSize: Theme.fontSize }
+    }
+
+    MouseArea {
+        anchors.fill: parent
+        onClicked: Quickshell.execDetached([
+            "xdg-terminal-exec", "--class=org.cachy.tui",
+            "-e", "/home/kazuki/.config/weather/weather-config-tui.sh"
+        ])
+    }
+
+    HoverHandler { onHoveredChanged: hovered = hovered }
+
+    // Tooltip as a proper child item
+    Rectangle {
+        visible:  hovered && tooltipText !== ""
+        parent:   Overlay.overlay   // float above everything
+        x:        weatherText.mapToGlobal(0, 0).x
+        y:        weatherText.mapToGlobal(0, 0).y + Theme.barHeight
+
+        color:        Theme.glassDeep
+        border.color: Theme.borderIdle
+        border.width: 1
+        radius:       6
+
+        implicitWidth:  tipText.implicitWidth  + 24
+        implicitHeight: tipText.implicitHeight + 16
+
+        Text {
+            id: tipText
+            anchors.centerIn: parent
+            text:  tooltipText
+            color: Theme.foreground
+            font { family: Theme.fontFamily; pixelSize: Theme.fontSize }
+        }
+    }
+}
