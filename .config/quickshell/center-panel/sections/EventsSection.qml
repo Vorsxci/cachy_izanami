@@ -49,7 +49,7 @@ Item { implicitWidth: 0; implicitHeight: 0
     // ── ICS fetcher — reads each .conf and curls its ICS_URL ────
     Process {
         id: fetchProc
-        command: ["bash", "/home/kazuki/.config/quickshell/center-panel/fetch-calendars.sh"]
+        command: ["bash", "/home/kazuki/.local/bin/fetch-calendars-quickshell"]
         running: true
     }
 
@@ -139,7 +139,7 @@ Item { implicitWidth: 0; implicitHeight: 0
         } else {
             var placeholder = new Date(y, mo, day, h, min, sec)
             var offMin      = tzOffsetMin(tzid, placeholder)
-            utcDate = new Date(Date.UTC(y, mo, day, h, min, sec) - offMin * 60000)
+            utcDate = new Date(Date.UTC(y, mo, day, h, min, sec) + offMin * 60000)
         }
         return { utcDate: utcDate, rawH: h, rawMin: min, allDay: false, tzid: tzid || "" }
     }
@@ -227,7 +227,7 @@ Item { implicitWidth: 0; implicitHeight: 0
                                          masterDt.rawH, masterDt.rawMin, 0)
                 var offMin    = tzOffsetMin(masterDt.tzid, candLocal)
                 // offMin is negative west of UTC (e.g. -300 EST), so UTC hour = rawH - offMin/60
-                cand.setUTCHours(masterDt.rawH - (offMin / 60), masterDt.rawMin, 0, 0)
+                cand.setUTCHours(masterDt.rawH + (offMin / 60), masterDt.rawMin, 0, 0)
 
                 if (cand < dtstart)        continue
                 if (until && cand > until) continue
@@ -478,16 +478,16 @@ Item { implicitWidth: 0; implicitHeight: 0
     }
 
     function friendlyDate(evt) {
-        var now = new Date()
-        now.setHours(0, 0, 0, 0)
-        var d = new Date(evt.start)
-        d.setHours(0, 0, 0, 0)
-        var diff    = Math.round((d - now) / 86400000)
-        var timeStr = evt.allDay ? "" : (" " + fmtTime(evt.rawH, evt.rawMin))
-        if (diff === 0) return "Today"    + timeStr
-        if (diff === 1) return "Tomorrow" + timeStr
-        if (diff <  7)  return Qt.formatDate(evt.start, "dddd") + timeStr
-        return Qt.formatDate(evt.start, "MMM d") + timeStr
-    }
+    var now = new Date()
+    now.setHours(0, 0, 0, 0)
+    var d = new Date(evt.start)
+    d.setHours(0, 0, 0, 0)
+    var diff    = Math.round((d - now) / 86400000)
+    var timeStr = evt.allDay ? "" : (" " + fmtTime(evt.start.getHours(), evt.start.getMinutes()))
+    if (diff === 0) return "Today"    + timeStr
+    if (diff === 1) return "Tomorrow" + timeStr
+    if (diff <  7)  return Qt.formatDate(evt.start, "dddd") + timeStr
+    return Qt.formatDate(evt.start, "MMM d") + timeStr
+}
 
 }

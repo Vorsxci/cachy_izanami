@@ -6,610 +6,10 @@ METHOD:PUBLISH
 X-WR-CALNAME:Lucas Davis Calendar (Canvas)
 X-WR-CALDESC:Calendar events for the user\, Lucas Davis
 BEGIN:VEVENT
-DTSTAMP:20260303T155100Z
-UID:event-assignment-552011
-DTSTART:20260224T180000Z
-DTEND:20260224T180000Z
-CLASS:PUBLIC
-DESCRIPTION:
-SEQUENCE:0
-SUMMARY:L6 [Elementary Physics 2]
-URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
- se_54926&month=02&year=2026#assignment_552011
-X-ALT-DESC;FMTTYPE=text/html:
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260223T201500Z
-UID:event-assignment-551142
-DTSTART:20260226T043000Z
-DTEND:20260226T043000Z
-CLASS:PUBLIC
-DESCRIPTION:[February 23 assignment.docx] (https://butler.instructure.com/c
- ourses/53940/files/5361475?wrap=1)
-SEQUENCE:0
-SUMMARY:February 23 upload [Chemistry in Our Lives]
-URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
- se_53940&month=02&year=2026#assignment_551142
-X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
- re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
- /dp_app.css"><p><a id="5361475" class="instructure_file_link instructure_s
- cribd_file inline_disabled" title="Link" href="https://butler.instructure.
- com/courses/53940/files/5361475?wrap=1" target="_blank" data-canvas-previe
- wable="true" data-api-endpoint="https://butler.instructure.com/api/v1/cour
- ses/53940/files/5361475" data-api-returntype="File">February 23 assignment
- .docx</a></p><script src="https://instructure-uploads.s3.amazonaws.com/acc
- ount_122580000000000001/attachments/3841300/dp_app.js"></script>
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260225T152200Z
-UID:event-assignment-551399
-DTSTART;VALUE=DATE;VALUE=DATE:20260225
-CLASS:PUBLIC
-DESCRIPTION:[in class Feb 25.docx] (https://butler.instructure.com/courses/
- 53940/files/5370683?wrap=1)
-SEQUENCE:0
-SUMMARY:Feb 25 [Chemistry in Our Lives]
-URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
- se_53940&month=02&year=2026#assignment_551399
-X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
- re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
- /dp_app.css"><p><a id="5370683" class="instructure_file_link instructure_s
- cribd_file inline_disabled" title="Link" href="https://butler.instructure.
- com/courses/53940/files/5370683?wrap=1" target="_blank" data-canvas-previe
- wable="true" data-api-endpoint="https://butler.instructure.com/api/v1/cour
- ses/53940/files/5370683" data-api-returntype="File">in class Feb 25.docx</
- a></p><script src="https://instructure-uploads.s3.amazonaws.com/account_12
- 2580000000000001/attachments/3841300/dp_app.js"></script>
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260302T055000Z
-UID:event-assignment-541306
-DTSTART;VALUE=DATE;VALUE=DATE:20260226
-CLASS:PUBLIC
-DESCRIPTION:Electric potential and conductors
-SEQUENCE:0
-SUMMARY:R7 [Elementary Physics 2]
-URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
- se_55826&month=02&year=2026#assignment_541306
-X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
- re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
- /dp_app.css"><p>Electric potential and conductors</p><script src="https://
- instructure-uploads.s3.amazonaws.com/account_122580000000000001/attachment
- s/3841300/dp_app.js"></script>
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260225T050900Z
-UID:event-assignment-541275
-DTSTART:20260227T140000Z
-DTEND:20260227T140000Z
-CLASS:PUBLIC
-DESCRIPTION:
-SEQUENCE:0
-SUMMARY:Secs. 18.5\, 19.1 [Elementary Physics 2]
-URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
- se_55826&month=02&year=2026#assignment_541275
-X-ALT-DESC;FMTTYPE=text/html:
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260227T194600Z
-UID:event-assignment-530988
-DTSTART:20260227T160000Z
-DTEND:20260227T160000Z
-CLASS:PUBLIC
-DESCRIPTION:
-SEQUENCE:0
-SUMMARY:Quiz 6 [Object-Oriented Programming an]
-URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
- se_54110&month=02&year=2026#assignment_530988
-X-ALT-DESC;FMTTYPE=text/html:
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260304T214100Z
-UID:event-assignment-530970
-DTSTART;VALUE=DATE;VALUE=DATE:20260227
-CLASS:PUBLIC
-DESCRIPTION:Objective:  To practice objects and classes\n\nSubmit:  \n\
- n* Your program (the .java file) and the output of a sample run of your pr
- ogram.  \n\n* If you do extra credit\, be sure to demonstrate that in you
- r sample run(s). \n\n* If you create your own cave layout text file\, ple
- ase upload that too. \n\nPlease put all of these things in a single doc
- ument and upload the document to Canvas.    Be sure to include comments 
- in your program to explain your work.\n\nCollaboration:  You may work al
- one or with a partner.  If you work with a partner\, only one person need
- s to submit your work.  Please make sure both people's names are clearly 
- indicated with your submission.\n\n \n\nDescription:\n\nYou are a mighty 
- warrior\, and armed with your trusty bow and 3 arrows\, you enter The Cave
- s in search of the mighty Wumpus. If you shoot the Wumpus\, you are victor
- ious and the masses will praise you\, but if you stumble upon the Wumpus u
- nawares\, it will eat you! Also\, beware of the webs of the giant poisonou
- s spiders and the bottomless pits!\n\nYour senses of smell and hearing wil
- l aid you on your quest\, for the Wumpus does not bathe and can be smelled
-  one room away. Also\, the clicking mandibles of the poisonous spiders can
-  be heard one room away\, and the foul odor of a bottomless pit can be sme
- lled one room away.\n\n \n\nFor this project\, you will implement a progr
- am that lets the user play Hunt The Wumpus!\n\n \n\nModeling the Caves:\
- n\nThe layout of the cave rooms is specified in a text file that looks lik
- e this (you may use this text file\, but it is not required):\n\n10\n1 2 6
-  10\nA wooden sign reads "Beware of the Wumpus!"\n2 1 3 7\nThere is a blac
- k pool of water in the corner.\n3 2 4 8\nYou see a Tyrannosaurus Rex fossi
- l embedded in the wall.\n4 3 5 9\nThere is an empty Diet Rite can here.\n5
-  4 6 10\nYou almost step on a broken cellular phone.\n6 1 5 7\nA couple of
-  evil rats stare at you from under a pile of rocks.\n7 2 6 8\nYou find a S
- panish doubloon on the floor.\n8 3 7 9\nThe ceiling is very low and you ha
- ve to stoop.\n9 4 8 10\nYou step on a slippery spot\, slip\, and fall on y
- our keester.\n10 1 5 9\nYou get a strong sense of deja vu.\n\nThe first li
- ne of the text file gives the number of rooms in the caves (your program s
- hould handle any number of rooms). Each room is described on two lines: th
- e first gives the room number and the room numbers of the three adjacent r
- ooms (there are always 3)\; the second gives a string that describes the r
- oom.\n\nPut this cave layout (or one in a similar format) into a text file
- . Your program should have two files with a minimum of two classes: one fi
- le/class to represent a single room\, and a second file/class\, with a ma
- in()\, that plays the game and uses an array of room objects to hold the c
- ave layout. \n\nYour program should pick random numbers to figure out whe
- re to place the Wumpus\, the two spider rooms (in two different rooms)\, a
- nd the two bottomless pits (in two different rooms). Make sure nothing end
- s up in room #1\, as that is where the player starts\, and don't put spide
- rs\, the wumpus\, or a pit in the same room together. (That means any cave
-  layout needs at least 6 rooms - room #1\, the wumpus lair\, and four room
- s for obstacles.)\n\nPlaying the Game:\n\nHere is a sample game. Comments 
- in italics are not visible to the player\, but are there to help explain
-  what is happening. The user's input appears in boldface.\n\nWelcome to **
- Hunt The Wumpus!**\n\nYou are in room 1.\nYou have 3 arrows left.\nA woode
- n sign reads "Beware of the Wumpus!"\nThere are tunnels to rooms 2\, 6\, a
- nd 10.\nYou hear a faint clicking noise. (There are spiders in room 6)\n(M
- )ove or (S)hoot?\nM\nWhich room?\n5\nDimwit! You can't get to there from h
- ere.\nThere are tunnels to rooms 2\, 6\, and 10.\n(M)ove or (S)hoot?\nM\nW
- hich room?\n2\n\nYou are in room 2.\nYou have 3 arrows left.\nThere is a b
- lack pool of water in the corner.\nThere are tunnels to rooms 1\, 3\, and 
- 7.\nYou smell a dank odor. (There is a pit in room 3)\nYou smell some nast
- y Wumpus! (The wumpus is in room 7)\n(M)ove or (S)hoot?\nS\nWhich room?\n3
-  (The user picks the wrong room)\nYour arrow goes down the tunnel and is l
- ost. You missed.\n\nYou are in room 2.\nYou have 2 arrows left.\nThere is 
- a black pool of water in the corner.\nThere are tunnels to rooms 1\, 3\, a
- nd 7.\nYou smell a dank odor.\nYou smell some nasty Wumpus!\n(M)ove or (S)
- hoot?\nS\nWhich room?\n7\nYour arrow goes down the tunnel and finds its ma
- rk!\nYou shot the Wumpus! ** You Win! **\n\nEnjoy your fame!\n\nAfter the 
- caves are all set up\, the game proceeds. Have an integer (perhaps called
-  currentRoom) to keep track of which room the warrior/player is in curren
- tly. Your program will then repeat the following loop:\n\n* Display the in
- formation about the current room. Print the room number\, its description\
- , and the list of adjacent rooms. Also check if any of the adjacent rooms 
- have spiders\, a pit\, or the Wumpus and print a smell/hear message as app
- ropriate. (If adjacent to two pits\, only print one smelly message\, and l
- ikewise for spiders.) You should also display the number of remaining arro
- ws.\n\n* Ask the player if they want to move or shoot.  Here's how you le
- t the user input information:  [Program Showing how to do Command Line In
- put ] (https://butler.instructure.com/courses/54110/pages/program-showing-
- how-to-do-command-line-input)\n\n* If the player shoots\, have them pick w
- hich of the adjacent rooms to shoot into. If that room contains the wumpus
- \, the player wins and the game is over. If not\, reduce the number of arr
- ows by one. If the player runs out of arrows\, they lose.\nDO NOT kill off
-  the spiders (there are too many) or create an "arrow bridge" over bottoml
- ess pits (really?) - the obstacles cannot be removed or destroyed with arr
- ows.\n\n* If the player moves\, ask for the room number and change curren
- tRoom. If the new room contains spiders\, a pit\, or the Wumpus\, the game
-  is over.\n\nDo not let the user move or shoot into a room that is not adj
- acent to the current room.\n\n \n\nTo Get Started:\n\n1.   Write your R
- oom class.  What variables does each Room need to have?  Then write main
-  and see if you can create a single Room and print all of its variables.\n
- \n2.  Now edit main so that you are creating an array of rooms.  Write c
- ode that loops through the array and prints all of the information about e
- ach room.  (Note\, you aren't reading anything from the layout file yet.)
- \n\n3.  Once 1 and 2 are working\, write code in main to read in the layo
- ut text file and then print it back to the screen so that you know you're 
- reading it correctly.  At this point you aren't doing anything with the d
- ata\, you are simply reading it in and then printing it out.\n\n4.  Now m
- odify main so that it creates the rooms based on the layout file.  Use yo
- ur code that loops through the array to print out all of the information a
- bout each room to make sure everything is created correctly.  This might 
- help:  [Program Showing how to get Input from a File (Strings and Ints)]
-  (https://butler.instructure.com/courses/54110/pages/program-showing-how-t
- o-get-input-from-a-file-strings-and-ints)\n\n5.   Add code to put the Wu
- mpus\, spiders\, and bottomless pits in appropriate rooms. For now\, just 
- assign the Wumpus\, spiders\, and pits a room yourself. (In other words\, 
- don't choose the rooms randomly.  That will make things harder to debug.)
-   Again\, print all of the information about all of your rooms so you can
-  make sure they are set up correctly.\n\n... Then see if you can take it f
- rom here!\n\n \n\nExtra Credit (up to 9 points):  \n\n* On the first li
- ne of the cave layout file\, after the number of rooms\, have your program
-  accept the number of spider rooms and bottomless pits. Thus\, if the firs
- t line was: \n\n                     25 5 3\n\n      your c
- ave would have 25 rooms\, with 5 of those having poisonous spiders\, and 3
-  rooms with pits. These rooms are still chosen randomly. [3 points]\n\n \
- n\n* Add a supply room that contains arrows. If the player enters this roo
- m\, their arrows are refilled back to 3. Note that if you implement this\,
-  the game does not end if the player runs out of arrows. [2 points]\n\n \
- n\n* Add a room (chosen at random) with giant bats. If the player enters t
- hat room\, the bats pick him/her up and fly to a random room before droppi
- ng the player (unharmed). If the new random room has the wumpus\, a pit\, 
- or spiders\, the game is over. The bats should move the player out of the 
- room they are in. [3 points]\n\n \n\n* Skin the game - choose different w
- ords to describe the exact same objects and functionality to change the 
- feel of the game. For example\, instead of caves\, they are rooms on a spa
- ce station\, with laser charges instead of arrows\, bottomless pits become
-  holes into the vacuum of space\, and the spiders are insane worker robots
- . The wumpus is an evil space alien. You get the idea. Be sure to give me 
- a quick translation guide in your comments for easy grading. Keep it PG-ra
- ted please. [1 point for creativity]\n\n \n\nCredits:\n\nGregory Yob\, "H
- unt the Wumpus"\, Creative Computing\, volume 1\, 1976\, pages 247-250. S
- ee http://www.atariarchives.org/bcc1/showpage.php?page=247
-SEQUENCE:0
-SUMMARY:Assignment 4:  Hunt the Wumpus! [Object-Oriented Programming an]
-URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
- se_54110&month=02&year=2026#assignment_530970
-X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
- re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
- /dp_app.css"><p><strong>Objective:&nbsp\;&nbsp\;</strong>To practice objec
- ts and classes</p>\n<p><strong>Submit:&nbsp\;&nbsp\;</strong></p>\n<ul>\n<
- li>Your program (the .java file) and the output of a sample run of your pr
- ogram. &nbsp\;</li>\n<li><span>If you do extra credit\, be sure to demonst
- rate that in your sample run(s).&nbsp\; </span></li>\n<li><span>If you cre
- ate your own cave layout text file\, please upload that too.&nbsp\; </span
- ></li>\n</ul>\n<p>Please put all of these things in a<span>&nbsp\;</span><
- strong>single</strong><span>&nbsp\;</span>document and upload the document
-  to Canvas.&nbsp\; &nbsp\; Be sure to include comments in your program to 
- explain your work.</p>\n<p><strong>Collaboration:&nbsp\;&nbsp\;</strong>Yo
- u may work alone or with a partner.&nbsp\; If you work with a partner\, on
- ly one person needs to submit your work.&nbsp\; Please make sure both peop
- le's names are clearly indicated with your submission.</p>\n<p>&nbsp\;</p>
- \n<p><strong>Description:</strong></p>\n<p>You are a mighty warrior\, and 
- armed with your trusty bow and 3 arrows\, you enter The Caves in search of
-  the mighty Wumpus. If you shoot the Wumpus\, you are victorious and the m
- asses will praise you\, but if you stumble upon the Wumpus unawares\, it w
- ill eat you! Also\, beware of the webs of the giant poisonous spiders and 
- the bottomless pits!</p>\n<p>Your senses of smell and hearing will aid you
-  on your quest\, for the Wumpus does not bathe and can be smelled one room
-  away. Also\, the clicking mandibles of the poisonous spiders can be heard
-  one room away\, and the foul odor of a bottomless pit can be smelled one 
- room away.</p>\n<p>&nbsp\;</p>\n<p>For this project\, you will implement a
-  program that lets the user play<span>&nbsp\;</span><i>Hunt The Wumpus!</i
- ></p>\n<p>&nbsp\;</p>\n<p><strong>Modeling the Caves:</strong></p>\n<p>The
-  layout of the cave rooms is specified in a text file that looks like this
-  (you may use this text file\, but it is not required):</p>\n<blockquote>\
- n<pre>10\n1 2 6 10\nA wooden sign reads "Beware of the Wumpus!"\n2 1 3 7\n
- There is a black pool of water in the corner.\n3 2 4 8\nYou see a Tyrannos
- aurus Rex fossil embedded in the wall.\n4 3 5 9\nThere is an empty Diet Ri
- te can here.\n5 4 6 10\nYou almost step on a broken cellular phone.\n6 1 5
-  7\nA couple of evil rats stare at you from under a pile of rocks.\n7 2 6 
- 8\nYou find a Spanish doubloon on the floor.\n8 3 7 9\nThe ceiling is very
-  low and you have to stoop.\n9 4 8 10\nYou step on a slippery spot\, slip\
- , and fall on your keester.\n10 1 5 9\nYou get a strong sense of deja vu.\
- n</pre>\n</blockquote>\n<p><span>The first line of the text file gives the
-  number of rooms in the caves (your program should handle any number of ro
- oms). Each room is described on two lines: the first gives the room number
-  and the room numbers of the three adjacent rooms (there are always 3)\; t
- he second gives a string that describes the room.</span></p>\n<p>Put this 
- cave layout (or one in a similar format) into a text file. Your program sh
- ould have two files with a minimum of two classes: one file/class to repre
- sent a single room\, and a second file/class\, with a<span>&nbsp\;</span><
- tt>main()</tt>\, that plays the game and uses an array of room objects to 
- hold the cave layout.&nbsp\;</p>\n<p>Your program should pick random numbe
- rs to figure out where to place the Wumpus\, the two spider rooms (in two 
- different rooms)\, and the two bottomless pits (in two different rooms). M
- ake sure nothing ends up in room #1\, as that is where the player starts\,
-  and don't put spiders\, the wumpus\, or a pit in the same room together. 
- (That means any cave layout needs at least 6 rooms - room #1\, the wumpus 
- lair\, and four rooms for obstacles.)</p>\n<p><strong>Playing the Game:</s
- trong></p>\n<p>Here is a sample game. Comments in italics are<span>&nbsp\;
- </span><i>not</i><span>&nbsp\;</span>visible to the player\, but are there
-  to help explain what is happening. The user's input appears in boldface.<
- /p>\n<blockquote>\n<pre>Welcome to **Hunt The Wumpus!**\n\nYou are in room
-  1.\nYou have 3 arrows left.\nA wooden sign reads "Beware of the Wumpus!"\
- nThere are tunnels to rooms 2\, 6\, and 10.\nYou hear a faint clicking noi
- se. <i>(There are spiders in room 6)</i>\n(M)ove or (S)hoot?\n<strong>M</s
- trong>\nWhich room?\n<strong>5</strong>\nDimwit!  You can't get to there f
- rom here.\nThere are tunnels to rooms 2\, 6\, and 10.\n(M)ove or (S)hoot?\
- n<strong>M</strong>\nWhich room?\n<strong>2</strong>\n\nYou are in room 2.
- \nYou have 3 arrows left.\nThere is a black pool of water in the corner.\n
- There are tunnels to rooms 1\, 3\, and 7.\nYou smell a dank odor. <i>(Ther
- e is a pit in room 3)</i>\nYou smell some nasty Wumpus! <i>(The wumpus is 
- in room 7)</i>\n(M)ove or (S)hoot?\n<strong>S</strong>\nWhich room?\n<stro
- ng>3</strong> <i>(The user picks the wrong room)</i>\nYour arrow goes down
-  the tunnel and is lost.  You missed.\n\nYou are in room 2.\nYou have 2 ar
- rows left.\nThere is a black pool of water in the corner.\nThere are tunne
- ls to rooms 1\, 3\, and 7.\nYou smell a dank odor. \nYou smell some nasty 
- Wumpus! \n(M)ove or (S)hoot?\n<strong>S</strong>\nWhich room?\n<strong>7</
- strong> \nYour arrow goes down the tunnel and finds its mark!\nYou shot th
- e Wumpus!  ** You Win! **\n\nEnjoy your fame!\n</pre>\n</blockquote>\n<p>A
- fter the caves are all set up\, the game proceeds. Have an integer (perhap
- s called&nbsp\;<tt>currentRoom</tt>) to keep track of which room the warri
- or/player is in currently. Your program will then repeat the following loo
- p:</p>\n<ol>\n<li>Display the information about the current room. Print th
- e room number\, its description\, and the list of adjacent rooms. Also che
- ck if any of the adjacent rooms have spiders\, a pit\, or the Wumpus and p
- rint a smell/hear message as appropriate. (If adjacent to two pits\, only 
- print one smelly message\, and likewise for spiders.) You should also disp
- lay the number of remaining arrows.</li>\n<li>Ask the player if they want 
- to move or shoot.&nbsp\; Here's how you let the user input information: &n
- bsp\;<a title="Program Showing how to do Command Line Input " href="https:
- //butler.instructure.com/courses/54110/pages/program-showing-how-to-do-com
- mand-line-input" data-course-type="wikiPages" data-published="true" data-a
- pi-endpoint="https://butler.instructure.com/api/v1/courses/54110/pages/pro
- gram-showing-how-to-do-command-line-input" data-api-returntype="Page">Prog
- ram Showing how to do Command Line Input </a></li>\n<li>If the player shoo
- ts\, have them pick which of the adjacent rooms to shoot into. If that roo
- m contains the wumpus\, the player wins and the game is over. If not\, red
- uce the number of arrows by one. If the player runs out of arrows\, they l
- ose.<br>DO NOT kill off the spiders (there are too many) or create an "arr
- ow bridge" over bottomless pits (really?) - the obstacles cannot be remove
- d or destroyed with arrows.</li>\n<li>If the player moves\, ask for the ro
- om number and change<span>&nbsp\;</span><tt>currentRoom</tt>. If the new r
- oom contains spiders\, a pit\, or the Wumpus\, the game is over.</li>\n</o
- l>\n<p>Do not let the user move or shoot into a room that is not adjacent 
- to the current room.</p>\n<p>&nbsp\;</p>\n<p><strong>To Get Started:</stro
- ng></p>\n<p>1.&nbsp\; &nbsp\;Write your Room class.&nbsp\; What variables 
- does each Room need to have?&nbsp\; Then write main and see if you can cre
- ate a single Room and print all of its variables.</p>\n<p>2.&nbsp\; Now ed
- it main so that you are creating an array of rooms.&nbsp\; Write code that
-  loops through the array and prints all of the information about each room
- .&nbsp\; (Note\, you aren't reading anything from the layout file yet.)</p
- >\n<p>3.&nbsp\; Once 1 and 2 are working\, write code in main to read in t
- he layout text file and then print it back to the screen so that you know 
- you're reading it correctly.&nbsp\; At this point you aren't doing anythin
- g with the data\, you are simply reading it in and then printing it out.</
- p>\n<p>4.&nbsp\; Now modify main so that it creates the rooms based on the
-  layout file.&nbsp\; Use your code that loops through the array to print o
- ut all of the information about each room to make sure everything is creat
- ed correctly. &nbsp\;This might help:&nbsp\;&nbsp\;<a title="Program Showi
- ng how to get Input from a File (Strings and Ints)" href="https://butler.i
- nstructure.com/courses/54110/pages/program-showing-how-to-get-input-from-a
- -file-strings-and-ints" data-course-type="wikiPages" data-published="true"
-  data-api-endpoint="https://butler.instructure.com/api/v1/courses/54110/pa
- ges/program-showing-how-to-get-input-from-a-file-strings-and-ints" data-ap
- i-returntype="Page">Program Showing how to get Input from a File (Strings 
- and Ints)</a></p>\n<p>5.&nbsp\; &nbsp\;Add code to put the Wumpus\, spider
- s\, and bottomless pits in appropriate rooms. For now\, just assign the Wu
- mpus\, spiders\, and pits a room yourself. (In other words\, don't choose 
- the rooms randomly.&nbsp\; That will make things harder to debug.)&nbsp\; 
- Again\, print all of the information about all of your rooms so you can ma
- ke sure they are set up correctly.</p>\n<p>... Then see if you can take it
-  from here!</p>\n<p>&nbsp\;</p>\n<p><strong>Extra Credit (up to 9 points):
- &nbsp\;&nbsp\;</strong></p>\n<ul>\n<li>On the first line of the cave layou
- t file\, after the number of rooms\, have your program accept the number o
- f spider rooms and bottomless pits. Thus\, if the first line was:&nbsp\;</
- li>\n</ul>\n<p>&nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nbsp\; &nb
- sp\; &nbsp\; &nbsp\; &nbsp\;25 5 3</p>\n<p>&nbsp\; &nbsp\; &nbsp\; your ca
- ve would have 25 rooms\, with 5 of those having poisonous spiders\, and 3 
- rooms with pits. These rooms are still chosen randomly. [3 points]</p>\n<p
- >&nbsp\;</p>\n<ul>\n<li>Add a supply room that contains arrows. If the pla
- yer enters this room\, their arrows are refilled back to 3. Note that if y
- ou implement this\, the game does not end if the player runs out of arrows
- . [2 points]</li>\n</ul>\n<p>&nbsp\;</p>\n<ul>\n<li>Add a room (chosen at 
- random) with giant bats. If the player enters that room\, the bats pick hi
- m/her up and fly to a random room before dropping the player (unharmed). I
- f the new random room has the wumpus\, a pit\, or spiders\, the game is ov
- er. The bats should move the player out of the room they are in. [3 points
- ]</li>\n</ul>\n<p>&nbsp\;</p>\n<ul>\n<li>Skin the game - choose different 
- words to describe the<span>&nbsp\;</span><i>exact same objects and functio
- nality</i><span>&nbsp\;</span>to change the feel of the game. For example\
- , instead of caves\, they are rooms on a space station\, with laser charge
- s instead of arrows\, bottomless pits become holes into the vacuum of spac
- e\, and the spiders are insane worker robots. The wumpus is an evil space 
- alien. You get the idea. Be sure to give me a quick translation guide in y
- our comments for easy grading. Keep it PG-rated please. [1 point for creat
- ivity]</li>\n</ul>\n<p>&nbsp\;</p>\n<p><strong>Credits:</strong></p>\n<p>G
- regory Yob\, "Hunt the Wumpus"\,<span>&nbsp\;</span><i>Creative Computing<
- /i>\, volume 1\, 1976\, pages 247-250. See<span>&nbsp\;</span><a href="htt
- p://www.atariarchives.org/bcc1/showpage.php?page=247">http://www.atariarch
- ives.org/bcc1/showpage.php?page=247</a></p><script src="https://instructur
- e-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841300/
- dp_app.js"></script>
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260317T143400Z
-UID:event-assignment-553984
-DTSTART:20260303T000000Z
-DTEND:20260303T000000Z
-CLASS:PUBLIC
-DESCRIPTION:
-SEQUENCE:0
-SUMMARY:H6 [Elementary Physics 2]
-URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
- se_54926&month=03&year=2026#assignment_553984
-X-ALT-DESC;FMTTYPE=text/html:
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260223T060300Z
-UID:event-assignment-551005
-DTSTART;VALUE=DATE;VALUE=DATE:20260302
-CLASS:PUBLIC
-SEQUENCE:0
-SUMMARY:CH 18 HW Sp26 [Elementary Physics 2]
-URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
- se_55826&month=03&year=2026#assignment_551005
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260304T182900Z
-UID:event-assignment-551801
-DTSTART;VALUE=DATE;VALUE=DATE:20260302
-CLASS:PUBLIC
-DESCRIPTION:Today we will create a sorted linked list of integers.\n\nIt wi
- ll contain these methods:  \n\n//resets the ADT to empty\npublic void ma
- keEmpty()\;\n\n//Returns true if the ADT is empty\, false otherwise\npubli
- c boolean isEmpty()\;\n\n//With a linked list\, this should always return 
- false\npublic boolean isFull()\;\n\n//returns the number of elements in th
- e ADT\npublic int size()\;\n\n//Add x to the list in the proper position.\
- n//Be sure to account for three cases:\n//1. Inserting into the beginning 
- of the list\n//2. Inserting into the end of the list\n//3. Inserting into 
- the middle of the list\npublic void insert(int x)\;\n\n//Removes the item 
- from postion pos in the list and returns it. If pos == 0\, returns the fir
- st value in the list.\n//Be sure to account for four cases:\n//1. Removing
-  the first item in the list\n//2. Removing the first item in the list\n//3
- . Removing the first item in the list  \n//4. pos refers to a position th
- at doesn't exist\npublic int delete(int pos)\;\n\n//Checks to see if the l
- ist is empty. If it is\, print a message saying this. If it isn't\, print 
- all of the elements in the list.\npublic void printList()\;\n\n1.  Make a
-  new folder for this assignment.    \n\n2.  Make a new class called So
- rtedLinkedList.java.   Inside this class you will have another class whi
- ch defines a node for your linked list\, like you did with your linked lis
- t stack.\n\n3.  Start with your constructor.  It should print "You made 
- a sorted linked list object!"  Compile this.  Then write main and create
-  a new SortedLinkedList.  Compile and run main to make sure your construc
- tor works.\n\n4.  Work on your class one method at a time\, being sure to
-  test each method in main as you go.
-SEQUENCE:0
-SUMMARY:ICA 13 [Object-Oriented Programming an]
-URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
- se_54110&month=03&year=2026#assignment_551801
-X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
- re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
- /dp_app.css"><p>Today we will create a sorted linked list of integers.</p>
- \n<p>It will contain these methods:&nbsp\;&nbsp\;</p>\n<pre class="a-b-r-L
- a">  //resets the ADT to empty\n  public void makeEmpty()\;<br><br>  //Ret
- urns true if the ADT is empty\, false otherwise\n  public boolean isEmpty(
- )\;<br><br>  //With a linked list\, this should always return false\n  pub
- lic boolean isFull()\;<br><br>  //returns the number of elements in the AD
- T\n  public int size()\;\n</pre>\n<pre class="a-b-r-La"><br>  //Add x to t
- he list in the proper position.<br>  //Be sure to account for three cases:
- <br>  //1.  Inserting into the beginning of the list<br>  //2.  Inserting 
- into the end of the list<br>  //3.  Inserting into the middle of the list\
- n  public void insert(int x)\;<br><br>  //Removes the item from postion po
- s in the list and returns it.  If pos == 0\, returns the first value in th
- e list.<br>  //Be sure to account for four cases:<br>  //1. Removing the f
- irst item in the list<br>  //2. Removing the first item in the list<br>  /
- /3. Removing the first item in the list &nbsp\; <br>  //4. pos refers to a
-  position that doesn't exist<br>  public int delete(int pos)\;<br>  <br><b
- r>  //Checks to see if the list is empty.  If it is\, print a message sayi
- ng this.  If it isn't\, print all of the elements in the list.<br>  public
-  void printList()\;</pre>\n<p>1.&nbsp\; Make a new folder for this assignm
- ent.&nbsp\; &nbsp\;&nbsp\;</p>\n<p>2.&nbsp\; Make a new class called Sorte
- dLinkedList.java.&nbsp\; &nbsp\;Inside this class you will have another cl
- ass which defines a node for your linked list\, like you did with your lin
- ked list stack.</p>\n<p><span style="color: #273540\;">3.&nbsp\; Start wit
- h your constructor.&nbsp\; It should print "You made a sorted linked list 
- object!"&nbsp\; Compile this.&nbsp\; Then write main and create a new Sort
- edLinkedList.&nbsp\; Compile and run main to make sure your constructor wo
- rks.</span></p>\n<p><span style="color: #273540\;">4.&nbsp\; Work on your 
- class one method at a time\, being sure to test each method in main as you
-  go.</span></p><script src="https://instructure-uploads.s3.amazonaws.com/a
- ccount_122580000000000001/attachments/3841300/dp_app.js"></script>
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260317T143300Z
-UID:event-assignment-553983
-DTSTART:20260303T180000Z
-DTEND:20260303T180000Z
-CLASS:PUBLIC
-DESCRIPTION:
-SEQUENCE:0
-SUMMARY:L7 [Elementary Physics 2]
-URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
- se_54926&month=03&year=2026#assignment_553983
-X-ALT-DESC;FMTTYPE=text/html:
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260304T182900Z
-UID:event-assignment-551915
-DTSTART;VALUE=DATE;VALUE=DATE:20260303
-CLASS:PUBLIC
-DESCRIPTION:Today we will get started on:  [Assignment 5: The La Food Rest
- aurant Program] (https://butler.instructure.com/courses/54110/assignments/
- 530971)\n\n1.  Make a new folder for this assignment.    \n\n2.  Writ
- e a class called Party.  What information do we need to store about each 
- party?  Write getters and setters for these variables.  Then write main 
- and test your getters and setters.\n\n3.  Next work on reading input from
-  the file. \n\n* Start by reading the items in the first line of the file
-  in and printing them all out.  To get just a single String (instead of a
-  whole line at once)\, use:  inputFileScanner.next()\;\n\n* Now try to re
- ad the items in the first three lines of the file in and then printing the
- m all out.  \n\n* Now add a loop so that you read lines until you encoun
- ter the Q (for quit).\n\n4.  Copy these files into your folder and compil
- e them.  Then create a new QueueLL object. \n\n* [AbstractDataType.java]
-  (https://butler.instructure.com/courses/54110/pages/abstractdatatype-dot-
- java)\n\n* [Queue.java] (https://butler.instructure.com/courses/54110/page
- s/queue-dot-java)\n\n* [QueueLL.java] (https://butler.instructure.com/cour
- ses/54110/pages/queuell-dot-java)\n\n5.   Next\, modify the code you wro
- te in Step 3\, so that if you read a line that starts with A you create a 
- new Party object using your setters and enqueue it.  Then try dequeue-ing
-  it and printing it using your getters.  Note: When you call dequeue\, i
- t returns a generic Object.  You will need to cast this so that it is of 
- type Party.  \n\n6.  Once that's working\, see if you can enqueue all th
- e parties in the file.  \n\n 
-SEQUENCE:0
-SUMMARY:ICA 14 [Object-Oriented Programming an]
-URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
- se_54110&month=03&year=2026#assignment_551915
-X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
- re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
- /dp_app.css"><p>Today we will get started on: &nbsp\;<a title="Assignment 
- 5:  The La Food Restaurant Program" href="https://butler.instructure.com/c
- ourses/54110/assignments/530971" data-course-type="assignments" data-publi
- shed="false" data-api-endpoint="https://butler.instructure.com/api/v1/cour
- ses/54110/assignments/530971" data-api-returntype="Assignment">Assignment 
- 5: The La Food Restaurant Program</a></p>\n<p>1.&nbsp\; Make a new folder 
- for this assignment.&nbsp\; &nbsp\;&nbsp\;</p>\n<p>2.&nbsp\; Write a class
-  called <span style="font-family: 'courier new'\, courier\;">Party</span>.
- &nbsp\; What information do we need to store about each party?&nbsp\; Writ
- e getters and setters for these variables.&nbsp\; Then write <span style="
- font-family: 'courier new'\, courier\;">main</span> and test your getters 
- and setters.</p>\n<p>3.&nbsp\; Next work on reading input from the file.&n
- bsp\;</p>\n<ul>\n<li>Start by reading the items in the first line of the f
- ile in and printing them all out.&nbsp\; To get just a single String (inst
- ead of a whole line at once)\, use: <span style="font-family: 'courier new
- '\, courier\;">&nbsp\;inputFileScanner.next()\;</span></li>\n<li>Now try t
- o read the items in the first three lines of the file in and then printing
-  them all out.&nbsp\;&nbsp\;</li>\n<li>Now add a loop so that you read lin
- es until you encounter the Q (for quit).</li>\n</ul>\n<p>4.&nbsp\; Copy th
- ese files into your folder and compile them.&nbsp\; Then create a new Queu
- eLL object.&nbsp\;</p>\n<ul>\n<li><a title="AbstractDataType.java" href="h
- ttps://butler.instructure.com/courses/54110/pages/abstractdatatype-dot-jav
- a" data-course-type="wikiPages" data-published="true" data-api-endpoint="h
- ttps://butler.instructure.com/api/v1/courses/54110/pages/abstractdatatype-
- dot-java" data-api-returntype="Page">AbstractDataType.java</a></li>\n<li><
- a title="Queue.java" href="https://butler.instructure.com/courses/54110/pa
- ges/queue-dot-java" data-course-type="wikiPages" data-published="true" dat
- a-api-endpoint="https://butler.instructure.com/api/v1/courses/54110/pages/
- queue-dot-java" data-api-returntype="Page">Queue.java</a></li>\n<li><a tit
- le="QueueLL.java" href="https://butler.instructure.com/courses/54110/pages
- /queuell-dot-java" data-course-type="wikiPages" data-published="true" data
- -api-endpoint="https://butler.instructure.com/api/v1/courses/54110/pages/q
- ueuell-dot-java" data-api-returntype="Page">QueueLL.java</a></li>\n</ul>\n
- <p>5.&nbsp\; &nbsp\;Next\, modify the code you wrote in Step 3\, so that i
- f you read a line that starts with A you create a new <span style="font-fa
- mily: 'courier new'\, courier\;">Party</span> object using your setters an
- d enqueue it.&nbsp\; Then try dequeue-ing it and printing it using your ge
- tters. &nbsp\;<strong>Note:&nbsp\;</strong>When you call <span style="font
- -family: 'courier new'\, courier\;">dequeue</span>\, it returns a generic 
- <span style="font-family: 'courier new'\, courier\;">Object</span>.&nbsp\;
-  You will need to cast this so that it is of type <span style="font-family
- : 'courier new'\, courier\;">Party</span>. &nbsp\;</p>\n<p>6.&nbsp\; Once 
- that's working\, see if you can enqueue all the parties in the file.&nbsp\
- ;&nbsp\;</p>\n<p>&nbsp\;</p><script src="https://instructure-uploads.s3.am
- azonaws.com/account_122580000000000001/attachments/3841300/dp_app.js"></sc
- ript>
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260316T191000Z
-UID:event-assignment-530989
-DTSTART:20260306T160000Z
-DTEND:20260306T160000Z
-CLASS:PUBLIC
-DESCRIPTION:
-SEQUENCE:0
-SUMMARY:Quiz 7 [Object-Oriented Programming an]
-URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
- se_54110&month=03&year=2026#assignment_530989
-X-ALT-DESC;FMTTYPE=text/html:
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260318T065700Z
-UID:event-assignment-554083
-DTSTART:20260306T160000Z
-DTEND:20260306T160000Z
-CLASS:PUBLIC
-DESCRIPTION:
-SEQUENCE:0
-SUMMARY:T2 [Elementary Physics 2]
-URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
- se_55826&month=03&year=2026#assignment_554083
-X-ALT-DESC;FMTTYPE=text/html:
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260324T145600Z
+DTSTAMP:20260331T144900Z
 UID:event-assignment-554897
-DTSTART:20260309T230000Z
-DTEND:20260309T230000Z
+DTSTART:20260316T230000Z
+DTEND:20260316T230000Z
 CLASS:PUBLIC
 DESCRIPTION:
 SEQUENCE:0
@@ -1169,6 +569,19 @@ X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
  01/attachments/3841300/dp_app.js"></script>
 END:VEVENT
 BEGIN:VEVENT
+DTSTAMP:20260331T144900Z
+UID:event-assignment-556255
+DTSTART:20260323T230000Z
+DTEND:20260323T230000Z
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:H8 [Elementary Physics 2]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54926&month=03&year=2026#assignment_556255
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
 DTSTAMP:20260316T043700Z
 UID:event-assignment-541288
 DTSTART;VALUE=DATE;VALUE=DATE:20260323
@@ -1178,6 +591,19 @@ SEQUENCE:0
 SUMMARY:CH 19 HW Sp 26 [Elementary Physics 2]
 URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
  se_55826&month=03&year=2026#assignment_541288
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260331T145800Z
+UID:event-assignment-556254
+DTSTART:20260324T170000Z
+DTEND:20260324T170000Z
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:L9 [Elementary Physics 2]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54926&month=03&year=2026#assignment_556254
 X-ALT-DESC;FMTTYPE=text/html:
 END:VEVENT
 BEGIN:VEVENT
@@ -1194,7 +620,7 @@ URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
 X-ALT-DESC;FMTTYPE=text/html:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260325T192800Z
+DTSTAMP:20260413T164100Z
 UID:event-assignment-554928
 DTSTART;VALUE=DATE;VALUE=DATE:20260325
 CLASS:PUBLIC
@@ -1248,7 +674,7 @@ DESCRIPTION:This assignment is to get you started on [Assignment 8: Jerry-T
   game is over.  Otherwise\, play continues.\n\nPlay your game a lot and b
  e proud!
 SEQUENCE:0
-SUMMARY:ICA17 [Object-Oriented Programming an]
+SUMMARY:ICA 17 [Object-Oriented Programming an]
 URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
  se_54110&month=03&year=2026#assignment_554928
 X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
@@ -1334,7 +760,7 @@ X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
  80000000000001/attachments/3841300/dp_app.js"></script>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260317T052400Z
+DTSTAMP:20260329T043400Z
 UID:event-assignment-539702
 DTSTART;VALUE=DATE;VALUE=DATE:20260326
 CLASS:PUBLIC
@@ -1463,7 +889,7 @@ X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
  22580000000000001/attachments/3841300/dp_app.js"></script>
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260323T000300Z
+DTSTAMP:20260331T142400Z
 UID:event-assignment-530976
 DTSTART:20260327T150000Z
 DTEND:20260327T150000Z
@@ -1476,20 +902,71 @@ URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
 X-ALT-DESC;FMTTYPE=text/html:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260323T175600Z
-UID:event-assignment-554708
-DTSTART;VALUE=DATE;VALUE=DATE:20260331
+DTSTAMP:20260407T145200Z
+UID:event-assignment-557293
+DTSTART:20260330T230000Z
+DTEND:20260330T230000Z
 CLASS:PUBLIC
 DESCRIPTION:
 SEQUENCE:0
-SUMMARY:Personal Statement Workshop: statement submission [Student Advising
-  Page]
+SUMMARY:H9 [Elementary Physics 2]
 URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
- se_13044&month=03&year=2026#assignment_554708
+ se_54926&month=03&year=2026#assignment_557293
 X-ALT-DESC;FMTTYPE=text/html:
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260323T191300Z
+DTSTAMP:20260329T184100Z
+UID:event-assignment-556035
+DTSTART;VALUE=DATE;VALUE=DATE:20260330
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:In Class 3-30 [Chemistry in Our Lives]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_53940&month=03&year=2026#assignment_556035
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260407T144600Z
+UID:event-assignment-557292
+DTSTART:20260331T170000Z
+DTEND:20260331T170000Z
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:L10 [Elementary Physics 2]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54926&month=03&year=2026#assignment_557292
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260330T032000Z
+UID:event-assignment-556059
+DTSTART:20260401T130000Z
+DTEND:20260401T130000Z
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:Sec. 10.7 and 10.8 [Elementary Physics 2]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_55826&month=04&year=2026#assignment_556059
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260403T164300Z
+UID:event-assignment-530991
+DTSTART:20260403T150000Z
+DTEND:20260403T150000Z
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:Quiz 9 [Object-Oriented Programming an]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54110&month=04&year=2026#assignment_530991
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260410T151900Z
 UID:event-assignment-530972
 DTSTART;VALUE=DATE;VALUE=DATE:20260403
 CLASS:PUBLIC
@@ -1617,6 +1094,258 @@ X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
  isting sorts to make them slower so that your sort becomes faster by compa
  rison!!</p><script src="https://instructure-uploads.s3.amazonaws.com/accou
  nt_122580000000000001/attachments/3841300/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260330T012000Z
+UID:event-assignment-541284
+DTSTART;VALUE=DATE;VALUE=DATE:20260406
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:CH 10 HW Sp 26 [Elementary Physics 2]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_55826&month=04&year=2026#assignment_541284
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260409T183500Z
+UID:event-calendar-event-309457
+DTSTART:20260409T204500Z
+DTEND:20260409T221500Z
+CLASS:PUBLIC
+DESCRIPTION:[Click here to join Zoom Meeting: 946 7751 2114] (https://butle
+ ru.zoom.us/j/94677512114)
+LOCATION:Zoom Online Meeting
+SEQUENCE:0
+SUMMARY:CS_142_03_P_1_Spring26: Intro to Comp. Sci. and Prog. [Intro to Com
+ p. Sci. and Prog.]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54995&month=04&year=2026#calendar_event_309457
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
+ /dp_app.css"><p><a href="https://butleru.zoom.us/j/94677512114" target="_b
+ lank">Click here to join Zoom Meeting: 946 7751 2114</a></p><script src="h
+ ttps://instructure-uploads.s3.amazonaws.com/account_122580000000000001/att
+ achments/3841300/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260409T051800Z
+UID:event-assignment-541271
+DTSTART;VALUE=DATE;VALUE=DATE:20260410
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:Sec. 11.2 and 11.7 [Elementary Physics 2]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_55826&month=04&year=2026#assignment_541271
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260413T162500Z
+UID:event-assignment-530982
+DTSTART:20260417T150000Z
+DTEND:20260417T150000Z
+CLASS:PUBLIC
+DESCRIPTION:
+SEQUENCE:0
+SUMMARY:Quiz 10 [Object-Oriented Programming an]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54110&month=04&year=2026#assignment_530982
+X-ALT-DESC;FMTTYPE=text/html:
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260406T114700Z
+UID:event-assignment-530973
+DTSTART;VALUE=DATE;VALUE=DATE:20260417
+CLASS:PUBLIC
+DESCRIPTION:Objective:  To practice using BSTs\n\nSubmit:  Your program
+  (the .java file) and the output of a sample run of your program.  Please
+  put both of these things in a single document and upload the document t
+ o Canvas.  I expect you to use BST.java from class\, which you do not nee
+ d to turn in.\n\nCollaboration:  You must work alone on this assignment.
+   \n\n \n\nDescription:\n\nThe director of Camp Posanivee is frustrated
+ . Campers are enrolling and withdrawing from camp faster than her primitiv
+ e filing system can handle\, and she has turned to you. You have been offe
+ red free meals at the mess hall in return for a program that will help her
+  keep track of who is enrolled for the two-week summer camp.\n\nYour progr
+ am will use a binary search tree ([BST.java) ] (https://butler.instructure
+ .com/courses/54110/pages/bst-dot-java-2)to maintain the set of campers enr
+ olled in Camp Posanivee. Your program should not be case-sensitive.\n\nYou
+ r program will consist of a loop to process commands. The commands should 
+ come from a text file (say\, "camp.txt"). The program quits when the comma
+ nd 'Q' is given. Below is a list of commands your program should support:\
+ n\nH\n\nHelp: print a list of commands\n\nE name age diet\n\nEnroll a new
+  camper (insert)\n\nW name\n\nWithdraw a camper (delete)\n\nD name\n\nDi
+ splay the age and diet of a camper\n\nA\n\nPrint the average age of the ca
+ mpers\n\nL\n\nList all campers names in alphabetical order\n\nV\n\nPrint t
+ he number of vegan campers\n\nP\n\nList all campers names in preorder\n\nQ
+ \n\nQuit\n\n \n\nHere name is a string of at most 20 non-blank characte
+ rs\, age is an integer\, and diet is either A or V\, for anything or v
+ egan. You may assume command arguments are separated by one or more spaces
+ .\n\nBe sure to echo the input\, especially for commands that give no outp
+ ut (like E or W)\, and handle special cases in a clean way (for example\, 
+ computing the average age of an empty tree should not crash your program).
+ \n\n[Camper.java ] (https://butler.instructure.com/courses/54110/pages/cam
+ per-dot-java-skeleton-for-assignment-7)will help you get started.\n\n \n\
+ nExample:\n\nHere is a sample data file. You may use this if you like\, or
+  you can make up your own.\n\nA\nE Kanga 26 V\nE Tigger 28 A\nE Pooh 31 A\
+ nL\nD Tigger\nE Rabbit 30 V\nA\nV\nE Eeyore 36 V\nW Kanga\nP\nQ\n\n \n\nH
+ ere is the corresponding output:\n\nWelcome to Camp Posanivee!!\n\nCommand
+ : A\nThere are no campers.\n\nCommand: E Kanga 26 V\nNew camper added.\n\n
+ Command: E Tigger 28 A\nNew camper added.\n\nCommand: E Pooh 31 A\nNew cam
+ per added.\n\nCommand: L\nAlphabetical List of Campers:\nKanga\nPooh\nTigg
+ er\n\nCommand: D Tigger\nName: Tigger\nAge: 28\nDiet: A\n\nCommand: E Rabb
+ it 30 V\nNew camper added.\n\nCommand: A\nAverage age = 28.75\n\nCommand: 
+ V\nNumber of Vegan campers: 2\n\nCommand: E Eeyore 36 V\nNew camper added.
+ \n\nCommand: W Kanga\nCamper withdrawn.\n\nCommand: P\nPreorder Traversal:
+ \nPooh\nEeyore\nTigger\nRabbit\n\nCommand: Q\nEnd of program.\nBring plent
+ y of calomine!
+SEQUENCE:0
+SUMMARY:Assignment 7:  Camp Posanivee [Object-Oriented Programming an]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54110&month=04&year=2026#assignment_530973
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
+ /dp_app.css"><p><strong>Objective:&nbsp\;&nbsp\;</strong>To practice using
+  BSTs</p>\n<p><strong>Submit:&nbsp\;&nbsp\;</strong>Your program (the .jav
+ a file) and the output of a sample run of your program.&nbsp\; Please put 
+ both of these things in a<span>&nbsp\;</span><strong>single</strong><span>
+ &nbsp\;</span>document and upload the document to Canvas.&nbsp\; I expect 
+ you to use BST.java from class\, which you do not need to turn in.</p>\n<p
+ ><strong>Collaboration:&nbsp\;&nbsp\;</strong>You must work alone on this 
+ assignment.&nbsp\;&nbsp\;</p>\n<p>&nbsp\;</p>\n<p><strong>Description:</st
+ rong></p>\n<p>The director of Camp Posanivee is frustrated. Campers are en
+ rolling and withdrawing from camp faster than her primitive filing system 
+ can handle\, and she has turned to you. You have been offered free meals a
+ t the mess hall in return for a program that will help her keep track of w
+ ho is enrolled for the two-week summer camp.</p>\n<p>Your program will use
+  a binary search tree (<a title="BST.java" href="https://butler.instructur
+ e.com/courses/54110/pages/bst-dot-java-2" data-course-type="wikiPages" dat
+ a-published="true" data-api-endpoint="https://butler.instructure.com/api/v
+ 1/courses/54110/pages/bst-dot-java-2" data-api-returntype="Page">BST.java)
+  </a>to maintain the set of campers enrolled in Camp Posanivee. Your progr
+ am should not be case-sensitive.</p>\n<p>Your program will consist of a lo
+ op to process commands. The commands should come from a text file (say\, "
+ camp.txt"). The program quits when the command 'Q' is given. Below is a li
+ st of commands your program should support:</p>\n<table border="" cellspac
+ ing="0" cellpadding="5">\n<tbody>\n<tr>\n<td>H</td>\n<td>Help: print a lis
+ t of commands</td>\n</tr>\n<tr>\n<td>E<span>&nbsp\;</span><i>name age diet
+ </i></td>\n<td>Enroll a new camper (insert)</td>\n</tr>\n<tr>\n<td>W<span>
+ &nbsp\;</span><i>name</i></td>\n<td>Withdraw a camper (delete)</td>\n</tr>
+ \n<tr>\n<td>D<span>&nbsp\;</span><i>name</i></td>\n<td>Display the age and
+  diet of a camper</td>\n</tr>\n<tr>\n<td>A</td>\n<td>Print the average age
+  of the campers</td>\n</tr>\n<tr>\n<td>L</td>\n<td>List all campers names 
+ in alphabetical order</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Print the number 
+ of vegan campers</td>\n</tr>\n<tr>\n<td>P</td>\n<td>List all campers names
+  in preorder</td>\n</tr>\n<tr>\n<td>Q</td>\n<td>Quit</td>\n</tr>\n</tbody>
+ \n</table>\n<p>&nbsp\;</p>\n<p><span>Here&nbsp\;</span><i>name</i><span>&n
+ bsp\;is a string of at most 20 non-blank characters\,&nbsp\;</span><i>age<
+ /i><span>&nbsp\;is an integer\, and&nbsp\;</span><i>diet</i><span>&nbsp\;i
+ s either A or V\, for anything or vegan. You may assume command arguments 
+ are separated by one or more spaces.</span></p>\n<p>Be sure to echo the in
+ put\, especially for commands that give no output (like E or W)\, and hand
+ le special cases in a clean way (for example\, computing the average age o
+ f an empty tree should not crash your program).</p>\n<p><a title="Camper.j
+ ava (Skeleton for Assignment 7)" href="https://butler.instructure.com/cour
+ ses/54110/pages/camper-dot-java-skeleton-for-assignment-7" data-course-typ
+ e="wikiPages" data-published="false" data-api-endpoint="https://butler.ins
+ tructure.com/api/v1/courses/54110/pages/camper-dot-java-skeleton-for-assig
+ nment-7" data-api-returntype="Page">Camper.java </a>will help you get star
+ ted.</p>\n<p>&nbsp\;</p>\n<p><strong>Example:</strong></p>\n<p>Here is a s
+ ample data file. You may use this if you like\, or you can make up your ow
+ n.</p>\n<pre>  A\n  E Kanga 26 V\n  E Tigger 28 A\n  E Pooh 31 A\n  L\n  D
+  Tigger\n  E Rabbit 30 V\n  A\n  V\n  E Eeyore 36 V\n  W Kanga\n  P\n  Q</
+ pre>\n<p>&nbsp\;</p>\n<p>Here is the corresponding output:</p>\n<pre>Welco
+ me to Camp Posanivee!!\n\nCommand: A\nThere are no campers.\n\nCommand: E 
+ Kanga 26 V\nNew camper added.\n\nCommand: E Tigger 28 A\nNew camper added.
+ \n\nCommand: E Pooh 31 A\nNew camper added.\n\nCommand: L\nAlphabetical Li
+ st of Campers:\nKanga\nPooh\nTigger\n\nCommand: D Tigger\n  Name: Tigger\n
+   Age: 28\n  Diet: A\n\nCommand: E Rabbit 30 V\nNew camper added.\n\nComma
+ nd: A\nAverage age = 28.75\n\nCommand: V\nNumber of Vegan campers: 2\n\nCo
+ mmand: E Eeyore 36 V\nNew camper added.\n\nCommand: W Kanga\nCamper withdr
+ awn.\n\nCommand: P\nPreorder Traversal:\nPooh\nEeyore\nTigger\nRabbit\n\nC
+ ommand: Q\nEnd of program.\nBring plenty of calomine!</pre><script src="ht
+ tps://instructure-uploads.s3.amazonaws.com/account_122580000000000001/atta
+ chments/3841300/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260404T154700Z
+UID:event-assignment-539704
+DTSTART;VALUE=DATE;VALUE=DATE:20260423
+CLASS:PUBLIC
+DESCRIPTION:***********\nDescription\n***********\n\nThere is an easy and w
+ ell-known formula for computing π based on the sum of the reciprocals of 
+ the squares. It is:\n\n       1+1/4+1/9+1/16+1/25+... = π2/6.\n\nThis
+  sum is infinite\, but we can get a good approximation by adding up\, say\
+ , the first 10\,000 terms. If we do that\, we get\n\n \n\n        sum
+  = 1+1/4+1/9+1/16+1/25+...+1/(10000)2\n\nand the estimate π=sqrt(6*sum).\
+ n\n \n\nWrite a parallel program\, using either chunking or striping (you
+ r choice) to compute an estimate for π this way. Allow the user to specif
+ y how far to take the sum.\n\n \n\nSubmit code on-line\n\n \n\n*********
+ ***************\nExtra Credit (10 points)\n************************\n\nThe
+ re are other formulas\, based on numeric integration or summations\, to co
+ mpute π that are more efficient than the one given here.\n\nFor 10 points
+  extra credit\, implement a formula based on using the trapezoid rule or s
+ impson's rule with numeric integration\, or one of the more complex summat
+ ion formulas. (If you are not sure if a particular formula qualifies\, jus
+ t ask me.) Be sure to indicate the formula you are using and where you fou
+ nd it in your comments.\n\n \n\n*****\nNotes\n*****\n\n* If you compute t
+ he sum from the low end first\, ending at 1\, your estimates will be much 
+ better.\n\n* Don't forget to write comments\, and be sure to put your name
+ (s) in the comments at the top of your program. Remember to indent properl
+ y.\n\n* Start early!\n\n* Do this program in stages. First\, get a program
+  to simply print "hello" from each processor. Then\, set up for chunking o
+ r striping and make sure each processor knows what it is supposed to do. P
+ rint out intermediate results to make sure everything is working as you ex
+ pect it to.\n\n* You may use MPI_Send and MPI_Recv\, or you can use mor
+ e advanced functions\, like broadcast and reduce\, as you see fit.\n\n* Ge
+ t the basic program working before trying any of the extra credit\, and wh
+ en you do start working on the extra credit\, save a copy of your basic pr
+ ogram in a separate file\, just in case.\n\n \n\n \n\n \n\n \n\n 
+SEQUENCE:0
+SUMMARY:Assignment 6 - The Pi Program - 55 Points [Intro to Comp. Sci. and 
+ Prog.]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_54995&month=04&year=2026#assignment_539704
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
+ /dp_app.css"><h1>Description</h1>\n<p>There is an easy and well-known form
+ ula for computing π based on the sum of the reciprocals of the squares. I
+ t is:</p>\n<p><span style="font-size: 14px\;">&nbsp\; &nbsp\; &nbsp\; &nbs
+ p\;1+1/4+1/9+1/16+1/25+... = π</span><sup>2</sup><span style="font-size: 
+ 14px\;">/6.</span></p>\n<p>This sum is infinite\, but we can get a good ap
+ proximation by adding up\, say\, the first 10\,000 terms. If we do that\, 
+ we get</p>\n<p>&nbsp\;</p>\n<p><span style="font-size: 14px\;">&nbsp\; &nb
+ sp\; &nbsp\; &nbsp\; sum = 1+1/4+1/9+1/16+1/25+...+1/(10000)</span><sup>2<
+ /sup><br><br></p>\n<p>and the estimate π=sqrt(6*sum).</p>\n<p>&nbsp\;</p>
+ \n<p>Write a parallel program\, using either chunking or striping (your ch
+ oice) to compute an estimate for π this way. Allow the user to specify ho
+ w far to take the sum.</p>\n<p><span style="color: inherit\; font-family: 
+ inherit\; font-size: 1.2em\;">&nbsp\;</span></p>\n<p>Submit code on-line</
+ p>\n<p>&nbsp\;</p>\n<h1>Extra Credit (10 points)</h1>\n<p>There are other 
+ formulas\, based on numeric integration or summations\, to compute π that
+  are more efficient than the one given here.</p>\n<p>For 10 points extra c
+ redit\, implement a formula based on using the trapezoid rule or simpson's
+  rule with numeric integration\, or one of the more complex summation form
+ ulas. (If you are not sure if a particular formula qualifies\, just ask me
+ .) Be sure to indicate the formula you are using and where you found it in
+  your comments.</p>\n<p>&nbsp\;</p>\n<h1>Notes</h1>\n<ul>\n<li>If you comp
+ ute the sum from the low end first\, ending at 1\, your estimates will be 
+ much better.</li>\n<li>Don't forget to write comments\, and be sure to put
+  your name(s) in the comments at the top of your program. Remember to inde
+ nt properly.</li>\n<li>Start early!</li>\n<li>Do this program in stages. F
+ irst\, get a program to simply print "hello" from each processor. Then\, s
+ et up for chunking or striping and make sure each processor knows what it 
+ is supposed to do. Print out intermediate results to make sure everything 
+ is working as you expect it to.</li>\n<li>You may use&nbsp\;MPI_Send&nbsp\
+ ;and&nbsp\;MPI_Recv\, or you can use more advanced functions\, like broadc
+ ast and reduce\, as you see fit.</li>\n<li>Get the basic program working b
+ efore trying any of the extra credit\, and when you do start working on th
+ e extra credit\, save a copy of your basic program in a separate file\, ju
+ st in case.</li>\n</ul>\n<p>&nbsp\;</p>\n<p>&nbsp\;</p>\n<p>&nbsp\;</p>\n<
+ p>&nbsp\;</p>\n<p>&nbsp\;</p><script src="https://instructure-uploads.s3.a
+ mazonaws.com/account_122580000000000001/attachments/3841300/dp_app.js"></s
+ cript>
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260116T183100Z
@@ -1945,5 +1674,40 @@ X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
  k any ties.&nbsp\; The winner of the best GUI award gets 5 extra credit po
  ints.</p><script src="https://instructure-uploads.s3.amazonaws.com/account
  _122580000000000001/attachments/3841300/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260406T161200Z
+UID:event-assignment-557119
+DTSTART;VALUE=DATE;VALUE=DATE:20260427
+CLASS:PUBLIC
+DESCRIPTION:SLO\n\n* Students will be able to demonstrate with chemical ima
+ ges and words how a fine chemical is produced from earth available feedsto
+ cks.\n\nDeliverables\n\n* Students will give a slide show to the class sho
+ wcasing the chemical process. The slide show may not have any words other 
+ than chemical names and terms. For example\, if a reaction was heated to a
+  specific temperature that could be included.\n\n* Students will prepare h
+ alf of a poster and present poster during departmental poster session.\n\n
+ Due dates\n\n* The choice of chemical is due by Wednesday\, April 15.\n\n*
+  Presentations will be Wednesday\, April 22.\n\n* The poster session is Mo
+ nday\, April 27.
+SEQUENCE:0
+SUMMARY:Final Presentation [Chemistry in Our Lives]
+URL;VALUE=URI:https://butler.instructure.com/calendar?include_contexts=cour
+ se_53940&month=04&year=2026#assignment_557119
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_122580000000000001/attachments/3841301
+ /dp_app.css"><p>SLO</p>\n<ul>\n<li>Students will be able to demonstrate wi
+ th chemical images and words how a fine chemical is produced from earth av
+ ailable feedstocks.</li>\n</ul>\n<p>Deliverables</p>\n<ul>\n<li>Students w
+ ill give a slide show to the class showcasing the chemical process. The sl
+ ide show may not have any words other than chemical names and terms. For e
+ xample\, if a reaction was heated to a specific temperature that could be 
+ included.</li>\n<li>Students will prepare half of a poster and present pos
+ ter during departmental poster session.</li>\n</ul>\n<p>Due dates</p>\n<ul
+ >\n<li>The choice of chemical is due by Wednesday\, April 15.</li>\n<li>Pr
+ esentations will be Wednesday\, April 22.</li>\n<li>The poster session is 
+ Monday\, April 27.</li>\n</ul><script src="https://instructure-uploads.s3.
+ amazonaws.com/account_122580000000000001/attachments/3841300/dp_app.js"></
+ script>
 END:VEVENT
 END:VCALENDAR
