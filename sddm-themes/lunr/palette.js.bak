@@ -1,0 +1,56 @@
+// =============================================================
+// palette.js — YoRHa OS color palette
+// Sourced by all QML components. Swap this file per theme.
+// =============================================================
+// To create a new theme: copy this file, change the values,
+// and update the import path in Main.qml.
+
+.pragma library
+
+// ── Core text ─────────────────────────────────────────────────
+var textPrimary   = "#FEFBD0"        // moon glow
+var textDim       = "#B3AF90"        // softened moon glow
+var textAlt       = "#AFC5DA"        // soft blue accent
+
+// ── Backgrounds / glass ───────────────────────────────────────
+var glass         = "#38AFC5DA"      // moonlight blue glass (alpha 0x38)
+var glassBright   = "#55AFC5DA"      // hovered glass
+var fieldBg       = "#8C161822"      // cool charcoal input field
+var imageBacking  = "#F00C0E14"      // deep night logo backing
+var panelBg       = "#CC0D0F18"      // main panel dark bg
+
+// ── Accents ───────────────────────────────────────────────────
+var accent        = "#FFDCA0"        // soft gold
+var accentGlow    = "#4DFFDCA0"      // gold glow (alpha 0x4D)
+var barFill       = "#FFDCA0"        // battery / HP bar fill
+var checkColor    = "#AFC5DA"        // success / auth ok
+var errorColor    = "#D26450"        // fail / error
+
+// ── Borders ───────────────────────────────────────────────────
+var border1       = "#24FEFBD0"      // subtle primary border
+var border2       = "#1AAFC5DA"      // subtle secondary border
+
+// ── Hover / selection ─────────────────────────────────────────
+var hoverBg       = "#44FFDCA0"      // warm gold hover background
+var hoverBorder   = "#CCFFDCA0"      // gold border on hover
+var selectedBg    = "#55AFC5DA"      // selected item background
+var selectedBorder= "#CCAFC5DA"      // selected item border
+
+// ── Typography ────────────────────────────────────────────────
+var fontFamily    = "Google Sans Display"
+var fontFamilyMono= "JetBrains Mono"
+
+// ── Paths ─────────────────────────────────────────────────────
+// Override per theme:
+var backgroundImage = "/usr/share/sddm/themes/lunr/assets/background.png"
+var logoImage       = "/usr/share/sddm/themes/lunr/assets/logo.png"
+
+// ── Scripts ───────────────────────────────────────────────────
+// Absolute paths to your info scripts
+var scriptWeather    = "/home/kazuki/.config/weather/weather-read.sh"
+var scriptNowPlaying = "/home/kazuki/.config/hypr/scripts/lock-nowplaying.sh"
+var scriptBattery    = "/home/kazuki/.config/hypr/scripts/lock-battery.sh"
+
+// ── Power scripts ─────────────────────────────────────────────
+var scriptPowerOff   = "/home/kazuki/.local/bin/cmd-shutdown"
+var scriptReboot     = "/home/kazuki/.local/bin/cmd-reboot"
