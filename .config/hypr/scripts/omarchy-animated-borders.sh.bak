@@ -2,19 +2,25 @@
 set -euo pipefail
 
 # ---- Omarchy current theme bundle ----
-CURRENT_THEME_DIR="$HOME/.config/omarchy/current/theme"
+CURRENT_THEME_DIR="$HOME/.config/themes/current"
 
 # ---- knobs ----
-ANGLE="45deg"             # keep constant; we can auto-parse later if you want
+ANGLE="45deg" # keep constant; we can auto-parse later if you want
 BORDER_ALPHA="ff"
-GLOW_ALPHA="88"           # 66 subtle, 88 nice, aa strong
-SLEEP="0.1"              # slower -> increase (0.12–0.20)
-STEPS_PER_SEGMENT=24      # smoother -> increase (16–48)
-GLOW_EVERY=2              # update glow every N frames
-RELOAD_EVERY=2            # seconds between checking for theme changes
+GLOW_ALPHA="88"      # 66 subtle, 88 nice, aa strong
+SLEEP="0.1"          # slower -> increase (0.12–0.20)
+STEPS_PER_SEGMENT=24 # smoother -> increase (16–48)
+GLOW_EVERY=2         # update glow every N frames
+RELOAD_EVERY=2       # seconds between checking for theme changes
 
-command -v hyprctl >/dev/null || { echo "hyprctl not found"; exit 1; }
-command -v python3 >/dev/null || { echo "python3 not found"; exit 1; }
+command -v hyprctl >/dev/null || {
+  echo "hyprctl not found"
+  exit 1
+}
+command -v python3 >/dev/null || {
+  echo "python3 not found"
+  exit 1
+}
 
 [[ -d "$CURRENT_THEME_DIR" ]] || {
   echo "Current theme dir not found: $CURRENT_THEME_DIR"
@@ -37,7 +43,7 @@ find_active_border_file() {
   # fallback: first file that mentions col.active_border
   local hit
   hit="$(grep -RIl --exclude-dir=.git --exclude='*.png' --exclude='*.jpg' \
-        'col\.active_border' "$CURRENT_THEME_DIR" 2>/dev/null | head -n 1 || true)"
+    'col\.active_border' "$CURRENT_THEME_DIR" 2>/dev/null | head -n 1 || true)"
   [[ -n "$hit" ]] && echo "$hit" && return 0
   return 1
 }
@@ -50,11 +56,11 @@ extract_three_hex6() {
   [[ -n "$line" ]] || return 1
 
   local colors
-  colors="$(echo "$line" \
-    | grep -oE 'rgba\([0-9a-fA-F]{8}\)' \
-    | sed -E 's/rgba\(([0-9a-fA-F]{6}).*\)/\1/' \
-    | tr 'A-F' 'a-f' \
-    | head -n 3)"
+  colors="$(echo "$line" |
+    grep -oE 'rgba\([0-9a-fA-F]{8}\)' |
+    sed -E 's/rgba\(([0-9a-fA-F]{6}).*\)/\1/' |
+    tr 'A-F' 'a-f' |
+    head -n 3)"
 
   local a b c
   a="$(echo "$colors" | sed -n '1p')"
@@ -98,24 +104,35 @@ PY
 }
 
 state=""
-A0="605a80"; A1="afc5da"; A2="fefbd0"   # fallback defaults
+A0="605a80"
+A1="afc5da"
+A2="fefbd0" # fallback defaults
 N=0
 PALETTE=()
 
 refresh_palette() {
   local f
   f="$(find_active_border_file || true)"
-  [[ -n "$f" ]] || { echo "Could not find any file in $CURRENT_THEME_DIR setting col.active_border"; exit 1; }
+  [[ -n "$f" ]] || {
+    echo "Could not find any file in $CURRENT_THEME_DIR setting col.active_border"
+    exit 1
+  }
 
   local anchors
   anchors="$(extract_three_hex6 "$f" || true)"
-  [[ -n "$anchors" ]] || { echo "Could not parse 3 rgba() colors from col.active_border in: $f"; exit 1; }
+  [[ -n "$anchors" ]] || {
+    echo "Could not parse 3 rgba() colors from col.active_border in: $f"
+    exit 1
+  }
 
   read -r A0 A1 A2 <<<"$anchors"
 
   mapfile -t PALETTE < <(build_palette_py "$A0" "$A1" "$A2" "$STEPS_PER_SEGMENT")
   N="${#PALETTE[@]}"
-  [[ "$N" -ge 6 ]] || { echo "Palette build failed (N=$N)"; exit 1; }
+  [[ "$N" -ge 6 ]] || {
+    echo "Palette build failed (N=$N)"
+    exit 1
+  }
 
   # include file mtime so if theme changes in-place, we rebuild
   local mtime
@@ -131,7 +148,7 @@ last_check=0
 
 while true; do
   now="$(date +%s)"
-  if (( now - last_check >= RELOAD_EVERY )); then
+  if ((now - last_check >= RELOAD_EVERY)); then
     last_check="$now"
 
     f="$(find_active_border_file || true)"
@@ -151,32 +168,32 @@ while true; do
   fi
 
   # 7-stop gradient (much smoother + fewer edge pulses)
-  o1=$(( (N*13)/100 ))
-  o2=$(( (N*31)/100 ))
-  o3=$(( (N*47)/100 ))
-  o4=$(( (N*63)/100 ))
-  o5=$(( (N*79)/100 ))
-  o6=$(( (N*91)/100 ))
+  o1=$(((N * 13) / 100))
+  o2=$(((N * 31) / 100))
+  o3=$(((N * 47) / 100))
+  o4=$(((N * 63) / 100))
+  o5=$(((N * 79) / 100))
+  o6=$(((N * 91) / 100))
 
-  c1="${PALETTE[$(( (idx + 0)  % N ))]}"
-  c2="${PALETTE[$(( (idx + o1) % N ))]}"
-  c3="${PALETTE[$(( (idx + o2) % N ))]}"
-  c4="${PALETTE[$(( (idx + o3) % N ))]}"
-  c5="${PALETTE[$(( (idx + o4) % N ))]}"
-  c6="${PALETTE[$(( (idx + o5) % N ))]}"
-  c7="${PALETTE[$(( (idx + o6) % N ))]}"
+  c1="${PALETTE[$(((idx + 0) % N))]}"
+  c2="${PALETTE[$(((idx + o1) % N))]}"
+  c3="${PALETTE[$(((idx + o2) % N))]}"
+  c4="${PALETTE[$(((idx + o3) % N))]}"
+  c5="${PALETTE[$(((idx + o4) % N))]}"
+  c6="${PALETTE[$(((idx + o5) % N))]}"
+  c7="${PALETTE[$(((idx + o6) % N))]}"
 
   # Use the “middle-ish” stop for glow
   GLOW="${c4}"
 
   frame=$((frame + 1))
 
-  if (( frame % GLOW_EVERY == 0 )); then
-      hyprctl --batch "\
+  if ((frame % GLOW_EVERY == 0)); then
+    hyprctl --batch "\
 keyword general:col.active_border rgba(${c1}${BORDER_ALPHA}) rgba(${c2}${BORDER_ALPHA}) rgba(${c3}${BORDER_ALPHA}) rgba(${c4}${BORDER_ALPHA}) rgba(${c5}${BORDER_ALPHA}) rgba(${c6}${BORDER_ALPHA}) rgba(${c7}${BORDER_ALPHA}) ${ANGLE}; \
 keyword decoration:shadow:color rgba(${GLOW}${GLOW_ALPHA}); \
 " >/dev/null 2>&1 || true
-    else
+  else
     hyprctl keyword general:col.active_border \
       "rgba(${c1}${BORDER_ALPHA}) rgba(${c2}${BORDER_ALPHA}) rgba(${c3}${BORDER_ALPHA}) rgba(${c4}${BORDER_ALPHA}) rgba(${c5}${BORDER_ALPHA}) rgba(${c6}${BORDER_ALPHA}) rgba(${c7}${BORDER_ALPHA}) ${ANGLE}" \
       >/dev/null 2>&1 || true
@@ -185,4 +202,3 @@ keyword decoration:shadow:color rgba(${GLOW}${GLOW_ALPHA}); \
   idx=$((idx + 1))
   sleep "$SLEEP"
 done
-

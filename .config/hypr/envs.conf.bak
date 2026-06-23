@@ -1,4 +1,0 @@
-# Extra env variables
-# env = MY_GLOBAL_ENV,setting
-env = XMODIFIERS,@im=fcitx5
-
